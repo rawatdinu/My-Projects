@@ -1,0 +1,49 @@
+D:\Dinesh\WPF Printing Overview\C#\PrintingStuff\bin\Debug\Media\Movie1.wmv
+D:\Dinesh\WPF Printing Overview\C#\PrintingStuff\bin\Debug\PrintingStuff.exe
+D:\Dinesh\WPF Printing Overview\C#\PrintingStuff\bin\Debug\PrintingStuff.pdb
+D:\Dinesh\WPF Printing Overview\C#\PrintingStuff\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Dinesh\WPF Printing Overview\C#\PrintingStuff\obj\x86\Debug\MainWindow.baml
+D:\Dinesh\WPF Printing Overview\C#\PrintingStuff\obj\x86\Debug\Window1.baml
+D:\Dinesh\WPF Printing Overview\C#\PrintingStuff\obj\x86\Debug\Window2.baml
+D:\Dinesh\WPF Printing Overview\C#\PrintingStuff\obj\x86\Debug\Window3.baml
+D:\Dinesh\WPF Printing Overview\C#\PrintingStuff\obj\x86\Debug\Window4.baml
+D:\Dinesh\WPF Printing Overview\C#\PrintingStuff\obj\x86\Debug\Window5.baml
+D:\Dinesh\WPF Printing Overview\C#\PrintingStuff\obj\x86\Debug\MainWindow.g.cs
+D:\Dinesh\WPF Printing Overview\C#\PrintingStuff\obj\x86\Debug\Window1.g.cs
+D:\Dinesh\WPF Printing Overview\C#\PrintingStuff\obj\x86\Debug\Window2.g.cs
+D:\Dinesh\WPF Printing Overview\C#\PrintingStuff\obj\x86\Debug\Window3.g.cs
+D:\Dinesh\WPF Printing Overview\C#\PrintingStuff\obj\x86\Debug\Window4.g.cs
+D:\Dinesh\WPF Printing Overview\C#\PrintingStuff\obj\x86\Debug\Window5.g.cs
+D:\Dinesh\WPF Printing Overview\C#\PrintingStuff\obj\x86\Debug\App.g.cs
+D:\Dinesh\WPF Printing Overview\C#\PrintingStuff\obj\x86\Debug\PrintingStuff_MarkupCompile.cache
+D:\Dinesh\WPF Printing Overview\C#\PrintingStuff\obj\x86\Debug\PrintingStuff.g.resources
+D:\Dinesh\WPF Printing Overview\C#\PrintingStuff\obj\x86\Debug\PrintingStuff.Properties.Resources.resources
+D:\Dinesh\WPF Printing Overview\C#\PrintingStuff\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Dinesh\WPF Printing Overview\C#\PrintingStuff\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\Dinesh\WPF Printing Overview\C#\PrintingStuff\obj\x86\Debug\PrintingStuff.exe
+D:\Dinesh\WPF Printing Overview\C#\PrintingStuff\obj\x86\Debug\PrintingStuff.pdb
+D:\Dinesh\WPF Printing Overview\C#\PrintingStuff\obj\x86\Debug\PrinterSetting.baml
+D:\Dinesh\WPF Printing Overview\C#\PrintingStuff\obj\x86\Debug\PrinterSetting.g.cs
+G:\Dinesh Demo Project\WPF Printing Overview\WPF Printing Overview\C#\PrintingStuff\obj\x86\Debug\PrintingStuff.exe
+G:\Dinesh Demo Project\WPF Printing Overview\WPF Printing Overview\C#\PrintingStuff\obj\x86\Debug\PrintingStuff.pdb
+G:\Dinesh Demo Project\WPF Printing Overview\WPF Printing Overview\C#\PrintingStuff\obj\x86\Debug\ResolveAssemblyReference.cache
+G:\Dinesh Demo Project\WPF Printing Overview\WPF Printing Overview\C#\PrintingStuff\obj\x86\Debug\MainWindow.baml
+G:\Dinesh Demo Project\WPF Printing Overview\WPF Printing Overview\C#\PrintingStuff\obj\x86\Debug\PrinterSetting.baml
+G:\Dinesh Demo Project\WPF Printing Overview\WPF Printing Overview\C#\PrintingStuff\obj\x86\Debug\Window1.baml
+G:\Dinesh Demo Project\WPF Printing Overview\WPF Printing Overview\C#\PrintingStuff\obj\x86\Debug\Window2.baml
+G:\Dinesh Demo Project\WPF Printing Overview\WPF Printing Overview\C#\PrintingStuff\obj\x86\Debug\Window3.baml
+G:\Dinesh Demo Project\WPF Printing Overview\WPF Printing Overview\C#\PrintingStuff\obj\x86\Debug\Window4.baml
+G:\Dinesh Demo Project\WPF Printing Overview\WPF Printing Overview\C#\PrintingStuff\obj\x86\Debug\Window5.baml
+G:\Dinesh Demo Project\WPF Printing Overview\WPF Printing Overview\C#\PrintingStuff\obj\x86\Debug\MainWindow.g.cs
+G:\Dinesh Demo Project\WPF Printing Overview\WPF Printing Overview\C#\PrintingStuff\obj\x86\Debug\PrinterSetting.g.cs
+G:\Dinesh Demo Project\WPF Printing Overview\WPF Printing Overview\C#\PrintingStuff\obj\x86\Debug\Window1.g.cs
+G:\Dinesh Demo Project\WPF Printing Overview\WPF Printing Overview\C#\PrintingStuff\obj\x86\Debug\Window2.g.cs
+G:\Dinesh Demo Project\WPF Printing Overview\WPF Printing Overview\C#\PrintingStuff\obj\x86\Debug\Window3.g.cs
+G:\Dinesh Demo Project\WPF Printing Overview\WPF Printing Overview\C#\PrintingStuff\obj\x86\Debug\Window4.g.cs
+G:\Dinesh Demo Project\WPF Printing Overview\WPF Printing Overview\C#\PrintingStuff\obj\x86\Debug\Window5.g.cs
+G:\Dinesh Demo Project\WPF Printing Overview\WPF Printing Overview\C#\PrintingStuff\obj\x86\Debug\App.g.cs
+G:\Dinesh Demo Project\WPF Printing Overview\WPF Printing Overview\C#\PrintingStuff\obj\x86\Debug\PrintingStuff_MarkupCompile.cache
+G:\Dinesh Demo Project\WPF Printing Overview\WPF Printing Overview\C#\PrintingStuff\obj\x86\Debug\PrintingStuff.g.resources
+G:\Dinesh Demo Project\WPF Printing Overview\WPF Printing Overview\C#\PrintingStuff\obj\x86\Debug\PrintingStuff.Properties.Resources.resources
+G:\Dinesh Demo Project\WPF Printing Overview\WPF Printing Overview\C#\PrintingStuff\obj\x86\Debug\GenerateResource.read.1.tlog
+G:\Dinesh Demo Project\WPF Printing Overview\WPF Printing Overview\C#\PrintingStuff\obj\x86\Debug\GenerateResource.write.1.tlog

@@ -1,0 +1,96 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Drop Down Menu2</title>
+	<link rel="stylesheet" type="text/css" href="stylesheet1.css"/>
+	
+	<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    for (var d = 0; d < dropdowns.length; d++) {
+      var openDropdown = dropdowns[d];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+</head>
+<body>
+
+<div id="container">
+		<div id="header">
+			<h1>My Web Site Design</h1>
+		
+		</div>
+		<div id="Menubar">
+		<ul>
+			<li><a class="active" href="#home">Home</a></li>
+			<li><a href="#news">News</a></li>
+			<li class="dropdown">
+			<a href="javascript:void(0)" class="dropbtn" onclick="myFunction()">Dropdown</a>
+			<div class="dropdown-content" id="myDropdown">
+				<a href="#">Link 1</a>
+				<a href="#">Link 2</a>
+				<a href="#">Link 3</a>
+			</div>
+			</li>
+		</ul>
+		
+		</div>
+			
+		
+		
+		<div id="content">
+		
+			<div id="nav">
+				<h3>Navigation</h3>
+				<ul>
+					<li><a class="selected" href="index.html">Home</a></a></li>
+					<li><a class="" href="AboutUs.html">About</a></li>
+					<li><a class="" href="ContactUs.html">Contact Us</a></li>
+					
+				</ul>
+		
+			</div>
+		
+			<div id="main">
+				<h3>Home Page</h3>
+				<h3>Notepad</h3>
+					<p>Notepad++ offers automatic completion of various sorts of text after you have entered an initial substring (or prefix), which can save you having to type all of a long word (and potentially save you mistyping it). For instance, if you're coding in JavaScript and type "syn", Notepad++ can present "synchronized" (a JavaScript keyword) as a suggestion. You accept the suggestion by typing Enter or Tab, and the word is completed within your buffer as if you'd typed it all out. If the suggested word is not what you want, keep typing.</p>
+					<p>If more than one word in the list of candidate words matches what you've typed, Notepad++ will present a list containing the words; the highlighted word in the list is the one that will be selected on Enter, but you can use the Down- & Up-arrow keys, or PageDown & PageUp, to move through the list; or, type Esc to dismiss the list</p>
+					<p>"Words" are taken from the current file—everywhere in the current file, comments and code. Any word two or more characters long is added to the list. This includes numbers, but numbers with decimal points are split into two different "words.</p>
+				<h3>Description</h3>
+					
+					<p>"Words" are taken from the current file—everywhere in the current file, comments and code. Any word two or more characters long is added to the list. This includes numbers, but numbers with decimal points are split into two different "words.</p>
+				
+		
+			</div>
+			
+			
+		
+		</div>
+		
+		<div id="footer">
+		
+		Copywrite &copy; 2010-2016 Dinesh Singh
+		
+		</div>
+	</div>
+	
+
+
+
+</body>
+</html>

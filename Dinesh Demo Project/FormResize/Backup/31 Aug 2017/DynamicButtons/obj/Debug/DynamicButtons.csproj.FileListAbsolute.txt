@@ -1,0 +1,9 @@
+G:\Dinesh Demo Project\FormResize\DynamicButtons\bin\Debug\DynamicButtons.exe.config
+G:\Dinesh Demo Project\FormResize\DynamicButtons\bin\Debug\DynamicButtons.exe
+G:\Dinesh Demo Project\FormResize\DynamicButtons\bin\Debug\DynamicButtons.pdb
+G:\Dinesh Demo Project\FormResize\DynamicButtons\obj\Debug\DynamicButtons.csprojResolveAssemblyReference.cache
+G:\Dinesh Demo Project\FormResize\DynamicButtons\obj\Debug\DynamicButtons.Form1.resources
+G:\Dinesh Demo Project\FormResize\DynamicButtons\obj\Debug\DynamicButtons.Properties.Resources.resources
+G:\Dinesh Demo Project\FormResize\DynamicButtons\obj\Debug\DynamicButtons.csproj.GenerateResource.Cache
+G:\Dinesh Demo Project\FormResize\DynamicButtons\obj\Debug\DynamicButtons.exe
+G:\Dinesh Demo Project\FormResize\DynamicButtons\obj\Debug\DynamicButtons.pdb

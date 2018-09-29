@@ -1,0 +1,10 @@
+G:\Dinesh Demo Project\MVCFromYouTube\MVCFromYouTube\bin\MVCFromYouTube.dll
+G:\Dinesh Demo Project\MVCFromYouTube\MVCFromYouTube\bin\MVCFromYouTube.pdb
+G:\Dinesh Demo Project\MVCFromYouTube\MVCFromYouTube\obj\Debug\ResolveAssemblyReference.cache
+G:\Dinesh Demo Project\MVCFromYouTube\MVCFromYouTube\obj\Debug\MVCFromYouTube.dll
+G:\Dinesh Demo Project\MVCFromYouTube\MVCFromYouTube\obj\Debug\MVCFromYouTube.pdb
+E:\Dinesh Demo Project\MVCFromYouTube\MVCFromYouTube\bin\MVCFromYouTube.dll
+E:\Dinesh Demo Project\MVCFromYouTube\MVCFromYouTube\bin\MVCFromYouTube.pdb
+E:\Dinesh Demo Project\MVCFromYouTube\MVCFromYouTube\obj\Debug\MVCFromYouTube.csprojResolveAssemblyReference.cache
+E:\Dinesh Demo Project\MVCFromYouTube\MVCFromYouTube\obj\Debug\MVCFromYouTube.dll
+E:\Dinesh Demo Project\MVCFromYouTube\MVCFromYouTube\obj\Debug\MVCFromYouTube.pdb

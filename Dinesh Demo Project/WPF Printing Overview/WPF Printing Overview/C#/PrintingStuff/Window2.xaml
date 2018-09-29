@@ -1,0 +1,46 @@
+﻿<Window x:Class="PrintingStuff.Window2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Printing Flow Documents" Height="Auto" Width="450" WindowStartupLocation="CenterScreen" mc:Ignorable="d" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" d:DesignHeight="518" d:DesignWidth="581" SizeToContent="WidthAndHeight">
+    <Grid  Name="grdMain">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40" />
+            <RowDefinition Height="400"/>
+            <RowDefinition Height="50" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions >
+            <ColumnDefinition Width="400"/>
+        </Grid.ColumnDefinitions>
+        <TextBlock Text="3. Flow documents" FontSize="16" FontWeight="Bold" Margin="5"/>
+        <FlowDocumentReader Grid.Row="1" Width="400" Height="600">
+
+            <FlowDocument x:Name="flowDocument" IsColumnWidthFlexible="True" IsOptimalParagraphEnabled="true" IsHyphenationEnabled="true" PagePadding="Auto" ColumnWidth="500" >
+                <Paragraph TextAlignment="Justify">
+                    I'm still stuck on how to target a specific printer of which I currently only know the name using the
+                    LocalPrintServer class. The application is supposed to print to several machines at once and all prin
+                    tspoolers need to be monitored separately. Can anyone provide me with a code snippet that shows how I 
+                    can instantiate a LocalPrintServer object using only the name of the printer? \n\n                    
+                    </Paragraph>
+                   
+                <Paragraph TextAlignment="Justify">
+             Important Note: GetPrintQueues doesn't return all printers installed from the user's perspective - just those that are 'owned' by the local server.
+             More oddly though, LocalPrintServer.DefaultPrintQueue isn't necessarily contained within GetPrintQueues() even though it comes from the LocalPrintServer object. 
+            If you use
+ </Paragraph>
+                    <Paragraph TextAlignment="Justify">
+
+                        System.Drawing.Printing.PrinterSettings.InstalledPrinters which is a string[] you'll get a list of all printers installed from the user's perspective.
+
+Some of these may be on remote machines if you've installed a remote printer (on a print server). If it's a networked printer accessible by IP then it will still be a local printer:
+                    </Paragraph>
+                   
+              
+            </FlowDocument>
+        </FlowDocumentReader>
+
+        <StackPanel Orientation="Horizontal" Grid.Row="2" Margin="0,0,66,0">
+            <Button Content="Print" Width="100" Click="Print_Click" Margin="5" />
+            <Button Content="Next" Width="100" Click="Button_Click"  Margin="5" />
+        </StackPanel>
+    </Grid>
+</Window>

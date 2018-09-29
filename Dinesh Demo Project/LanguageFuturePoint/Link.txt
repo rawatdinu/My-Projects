@@ -1,0 +1,5 @@
+http://www.csharphelp.com/2007/01/keyboardlayout-and-language-selector/
+InputLanguageManager
+http://msdn.microsoft.com/en-us/magazine/cc163824.aspx
+
+project code f-1836-1

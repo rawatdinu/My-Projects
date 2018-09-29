@@ -1,0 +1,65 @@
+﻿<Window x:Class="WPF_Printing.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="Auto" Width="Auto" WindowStartupLocation="CenterScreen">
+    <Grid  Name="grdMain" Width="490">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto" />
+
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <TextBlock Text="1. Flow documents" FontSize="16" FontWeight="Bold" Margin="5" Grid.Row="0">
+
+        </TextBlock>
+        <StackPanel Grid.Row="1" Width="Auto"  Margin="5" >
+
+            <TextBox Name="txtText"  Height="253" Width="479"  TextWrapping="Wrap" Margin="3" AcceptsReturn="True" VerticalAlignment="Stretch" VerticalScrollBarVisibility="Auto">
+
+            </TextBox>
+        </StackPanel>
+
+        <StackPanel Orientation="Horizontal" Grid.Row="2" Margin="3" >
+            <Button Content="Print" Width="60" Click="Print_Click" Margin="5" />
+            <Button Name="btnNext" Content="Next" Width="60" Margin="5" Click="btnNext_Click" />
+            <Button Content="PageSet Up" Width="85"  Margin="5" Name="btnPgSetup" Click="btnPgSetup_Click" />
+
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" Grid.Row="3" Margin="5" >
+            <Label Margin="10">Paper</Label>
+            <ComboBox Name="cmbType" Width="60" Margin="10">
+                <ComboBoxItem Content="A4" IsSelected="True" />
+                <ComboBoxItem Content="Book" />
+                <ComboBoxItem Content="Pocket" />
+            </ComboBox>
+            <Label Margin="10">Orientation</Label>
+            <ComboBox Name="cmbOrientation" Width="62" Margin="10">
+                <ComboBoxItem Content="Portrait" IsSelected="True" />
+                <ComboBoxItem Content="Landscape" />
+                
+            </ComboBox>
+            <Label Margin="10">Print Size</Label>
+            <ComboBox Name="cmbPrintSide" Width="60" Margin="10">
+                <ComboBoxItem Content="Single" IsSelected="True" />
+                <ComboBoxItem Content="Double" />                
+            </ComboBox>
+
+        </StackPanel>
+
+        <StackPanel Orientation="Horizontal" Grid.Row="4" Margin="3">
+
+            <Label Content="Page Range" Margin="5"></Label>
+            <TextBox Name="txtPageRange" Width="162" AcceptsReturn="True" Margin="5"></TextBox>
+        </StackPanel>
+
+        <StackPanel Orientation="Horizontal" Grid.Row="5" Margin="3"></StackPanel>
+
+    </Grid>
+</Window>

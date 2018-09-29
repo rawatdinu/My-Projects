@@ -1,0 +1,10 @@
+﻿<Window x:Class="WPF_Printing.Printing"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Printing" Height="Auto" Width="Auto" Loaded="Window_Loaded">
+    <Grid Name="grdMain" Width="Auto" Height="Auto">
+        <TextBox Name="txtBox" Width="300" TextWrapping="Wrap"  MinHeight="0" MaxHeight="250" TextAlignment="Justify"  VerticalScrollBarVisibility="Disabled" HorizontalAlignment="Stretch" FontSize="14" Padding="0,0,0,0" BorderThickness="0" FontFamily="LeoPalmEng01">
+            Ward Cunningham and co-author Bo Leuf, in their book The Wiki Way: Quick Collaboration on the Web, described the essence of the Wiki concept as follows:
+        </TextBox>
+    </Grid>
+</Window>

@@ -1,0 +1,35 @@
+G:\Dinesh Demo Project\Shrikant Demo Project\DemoProject\DemoProject\bin\Debug\DemoProject.exe.config
+G:\Dinesh Demo Project\Shrikant Demo Project\DemoProject\DemoProject\obj\Debug\DemoProject.csprojResolveAssemblyReference.cache
+G:\Dinesh Demo Project\Shrikant Demo Project\DemoProject\DemoProject\obj\Debug\DemoProject.Form1.resources
+G:\Dinesh Demo Project\Shrikant Demo Project\DemoProject\DemoProject\obj\Debug\DemoProject.Properties.Resources.resources
+G:\Dinesh Demo Project\Shrikant Demo Project\DemoProject\DemoProject\obj\Debug\DemoProject.csproj.GenerateResource.Cache
+G:\Dinesh Demo Project\Shrikant Demo Project\DemoProject\DemoProject\obj\Debug\DemoProject.MainForm.resources
+G:\Dinesh Demo Project\Shrikant Demo Project\DemoProject\DemoProject\bin\Debug\DemoProject.exe
+G:\Dinesh Demo Project\Shrikant Demo Project\DemoProject\DemoProject\bin\Debug\DemoProject.pdb
+G:\Dinesh Demo Project\Shrikant Demo Project\DemoProject\DemoProject\obj\Debug\DemoProject.exe
+G:\Dinesh Demo Project\Shrikant Demo Project\DemoProject\DemoProject\obj\Debug\DemoProject.pdb
+G:\Dinesh Demo Project\Shrikant Demo Project\DemoProject\DemoProject\obj\Debug\DemoProject.frmClientDetails.resources
+G:\Dinesh Demo Project\Shrikant Demo Project\DemoProject\DemoProject\obj\Debug\DemoProject.frmClientMaster.resources
+G:\Dinesh Demo Project\Shrikant Demo Project\DemoProject\DemoProject\obj\Debug\DemoProject.frmStateDetails.resources
+G:\Dinesh Demo Project\Shrikant Demo Project\DemoProject\DemoProject\obj\Debug\DemoProject.frmStateMaster.resources
+G:\Dinesh Demo Project\Shrikant Demo Project\DemoProject\DemoProject\obj\Debug\DemoProject.frmCityDetail.resources
+G:\Dinesh Demo Project\Shrikant Demo Project\DemoProject\DemoProject\obj\Debug\DemoProject.frmCityMaster.resources
+G:\Dinesh Demo Project\Shrikant Demo Project\DemoProject\DemoProject\obj\Debug\DemoProject.frmIndustryTypeDetails.resources
+G:\Dinesh Demo Project\Shrikant Demo Project\DemoProject\DemoProject\obj\Debug\DemoProject.frmIndustryTypeMaster.resources
+G:\Dinesh Demo Project\Shrikant Demo Project\DemoProject\DemoProject\obj\Debug\DemoProject.frmService.resources
+G:\Dinesh Demo Project\DelightFoods\DemoProject\DemoProject\bin\Debug\DemoProject.exe.config
+G:\Dinesh Demo Project\DelightFoods\DemoProject\DemoProject\obj\Debug\DemoProject.exe
+G:\Dinesh Demo Project\DelightFoods\DemoProject\DemoProject\obj\Debug\DemoProject.pdb
+G:\Dinesh Demo Project\DelightFoods\DemoProject\DemoProject\bin\Debug\DemoProject.exe
+G:\Dinesh Demo Project\DelightFoods\DemoProject\DemoProject\bin\Debug\DemoProject.pdb
+G:\Dinesh Demo Project\DelightFoods\DemoProject\DemoProject\obj\Debug\DemoProject.Form1.resources
+G:\Dinesh Demo Project\DelightFoods\DemoProject\DemoProject\obj\Debug\DemoProject.MainForm.resources
+G:\Dinesh Demo Project\DelightFoods\DemoProject\DemoProject\obj\Debug\DemoProject.Properties.Resources.resources
+G:\Dinesh Demo Project\DelightFoods\DemoProject\DemoProject\obj\Debug\DemoProject.csproj.GenerateResource.Cache
+G:\Dinesh Demo Project\DelightFoods\DemoProject\DemoProject\obj\Debug\DemoProject.frmFoodCategoryMaster.resources
+G:\Dinesh Demo Project\DelightFoods\DemoProject\DemoProject\obj\Debug\DemoProject.frmFoodItemDetails.resources
+G:\Dinesh Demo Project\DelightFoods\DemoProject\DemoProject\obj\Debug\DemoProject.frmFoodItemMaster.resources
+G:\Dinesh Demo Project\DelightFoods\DemoProject\DemoProject\obj\Debug\DemoProject.frmSale.resources
+G:\Dinesh Demo Project\DelightFoods\DemoProject\DemoProject\obj\Debug\DemoProject.csprojResolveAssemblyReference.cache
+G:\Dinesh Demo Project\DelightFoods\DemoProject\DemoProject\obj\Debug\DemoProject.frmBackup.resources
+G:\Dinesh Demo Project\DelightFoods\DemoProject\DemoProject\obj\Debug\DemoProject.frmItemWiseSale.resources

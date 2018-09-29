@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFDemo", "WPFDemo\WPFDemo.csproj", "{D9EA58D4-27C9-4B2F-AE90-11200DD4136A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataGrid", "DataGrid\DataGrid.csproj", "{688EB89E-B3D2-4E6C-B59B-3832650B6318}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataGridListBinding", "DataGridListBinding\DataGridListBinding.csproj", "{204804D4-1F70-4A37-BBB0-6B4B2EC1D06B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShowDialogWindow", "ShowDialogWindow\ShowDialogWindow.csproj", "{E89941D5-A654-448A-A6C7-39F68566819F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TabControl", "TabControl\TabControl.csproj", "{A1349C4D-B5CB-44B1-B45F-1EA5AB4FB0DE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D9EA58D4-27C9-4B2F-AE90-11200DD4136A}.Debug|x86.ActiveCfg = Debug|x86
+		{D9EA58D4-27C9-4B2F-AE90-11200DD4136A}.Debug|x86.Build.0 = Debug|x86
+		{D9EA58D4-27C9-4B2F-AE90-11200DD4136A}.Release|x86.ActiveCfg = Release|x86
+		{D9EA58D4-27C9-4B2F-AE90-11200DD4136A}.Release|x86.Build.0 = Release|x86
+		{688EB89E-B3D2-4E6C-B59B-3832650B6318}.Debug|x86.ActiveCfg = Debug|x86
+		{688EB89E-B3D2-4E6C-B59B-3832650B6318}.Debug|x86.Build.0 = Debug|x86
+		{688EB89E-B3D2-4E6C-B59B-3832650B6318}.Release|x86.ActiveCfg = Release|x86
+		{688EB89E-B3D2-4E6C-B59B-3832650B6318}.Release|x86.Build.0 = Release|x86
+		{204804D4-1F70-4A37-BBB0-6B4B2EC1D06B}.Debug|x86.ActiveCfg = Debug|x86
+		{204804D4-1F70-4A37-BBB0-6B4B2EC1D06B}.Debug|x86.Build.0 = Debug|x86
+		{204804D4-1F70-4A37-BBB0-6B4B2EC1D06B}.Release|x86.ActiveCfg = Release|x86
+		{204804D4-1F70-4A37-BBB0-6B4B2EC1D06B}.Release|x86.Build.0 = Release|x86
+		{E89941D5-A654-448A-A6C7-39F68566819F}.Debug|x86.ActiveCfg = Debug|x86
+		{E89941D5-A654-448A-A6C7-39F68566819F}.Debug|x86.Build.0 = Debug|x86
+		{E89941D5-A654-448A-A6C7-39F68566819F}.Release|x86.ActiveCfg = Release|x86
+		{E89941D5-A654-448A-A6C7-39F68566819F}.Release|x86.Build.0 = Release|x86
+		{A1349C4D-B5CB-44B1-B45F-1EA5AB4FB0DE}.Debug|x86.ActiveCfg = Debug|x86
+		{A1349C4D-B5CB-44B1-B45F-1EA5AB4FB0DE}.Debug|x86.Build.0 = Debug|x86
+		{A1349C4D-B5CB-44B1-B45F-1EA5AB4FB0DE}.Release|x86.ActiveCfg = Release|x86
+		{A1349C4D-B5CB-44B1-B45F-1EA5AB4FB0DE}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

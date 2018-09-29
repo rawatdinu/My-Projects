@@ -1,0 +1,9 @@
+G:\Dinesh Demo Project\DemoStoredProcCSharp\DemoStoredProcCSharp\bin\Debug\DemoStoredProcCSharp.exe
+G:\Dinesh Demo Project\DemoStoredProcCSharp\DemoStoredProcCSharp\bin\Debug\DemoStoredProcCSharp.pdb
+G:\Dinesh Demo Project\DemoStoredProcCSharp\DemoStoredProcCSharp\obj\x86\Debug\ResolveAssemblyReference.cache
+G:\Dinesh Demo Project\DemoStoredProcCSharp\DemoStoredProcCSharp\obj\x86\Debug\DemoStoredProcCSharp.Form1.resources
+G:\Dinesh Demo Project\DemoStoredProcCSharp\DemoStoredProcCSharp\obj\x86\Debug\DemoStoredProcCSharp.Properties.Resources.resources
+G:\Dinesh Demo Project\DemoStoredProcCSharp\DemoStoredProcCSharp\obj\x86\Debug\GenerateResource.read.1.tlog
+G:\Dinesh Demo Project\DemoStoredProcCSharp\DemoStoredProcCSharp\obj\x86\Debug\GenerateResource.write.1.tlog
+G:\Dinesh Demo Project\DemoStoredProcCSharp\DemoStoredProcCSharp\obj\x86\Debug\DemoStoredProcCSharp.exe
+G:\Dinesh Demo Project\DemoStoredProcCSharp\DemoStoredProcCSharp\obj\x86\Debug\DemoStoredProcCSharp.pdb

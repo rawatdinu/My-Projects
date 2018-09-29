@@ -1,0 +1,157 @@
+﻿body
+ {
+     background-color: #5c87b2;
+    font-size: .75em;
+    font-family: Verdana, Helvetica, Sans-Serif;
+    margin: 0;
+    padding: 0;
+    color: #696969;
+  
+ }
+
+#wrap
+{
+	margin:auto;
+	width:1000px;
+	height:auto;
+}
+
+.maintable{	
+	width:1000px;
+	height:auto;
+}
+
+h1
+{
+	text-align:center;
+}
+/*
+.a
+{
+	width:700px; 
+	height:540px;
+	
+	
+}
+*/
+.rightpanel
+{
+	width:300px; 
+	height:583px;
+	}
+
+/*
+.p
+{	
+	margin-top:0px;	
+}
+
+
+#link
+{
+  color:White;
+	}
+.over  
+  { 
+  	background-color:#d0caca; 
+    padding-top: 2px; 
+    padding-bottom:2px;
+  } 
+*/
+
+
+a.out:hover 
+   { 
+	color:Black;
+	padding-top: 2px; 
+	padding-bottom:2px;
+	}
+
+
+a
+{
+	color:#313030;
+}
+/*
+.imagealign
+{
+     margin-right:400px;}
+*/     
+.footer
+{ height:26px;
+  width:1000px;
+  margin:auto;
+ 
+  background-color:#5c87b2;
+}
+
+/* Tab Menu   
+----------------------------------------------------------*/
+ul#menu {
+    clear: both;
+    border-bottom: 1px #855DB3 solid;
+    padding: 4px 0 4px;
+    position: relative;
+    margin: 0;
+    text-align: left;
+}
+
+    ul#menu li {
+        display: inline;
+        list-style: none;
+
+    }
+
+        ul#menu li a {
+            padding: 10px 10px;
+            font-weight: bold;
+            text-decoration: none;
+            line-height: 2.8em;
+            background-color: #ffffff;
+            color:Black;
+            
+            /*CSS3 properties*/
+            border-radius: 4px 4px 0 0;
+            -webkit-border-radius: 4px 4px 0 0;
+            -moz-border-radius: 4px 4px 0 0;
+        }
+
+        ul#menu li a:hover {
+            background-color: #fff;
+            text-decoration: none;
+        }
+
+        ul#menu li a:active {
+            background-color: #a6e2a6;
+            text-decoration: none;
+        }
+
+        ul#menu li.selected a {
+            background-color: #fff;
+            color: #000;
+        }
+/* ----------------------------------------------------------*/
+/*
+#pan
+{
+  height:500px;
+  width:500px;
+  border-style:solid;
+  border-color:Black;
+  margin:auto;
+  border-width:1px;
+}
+.lnkOver
+{
+	background-color:Blue;
+}
+.lnkOut
+{
+	background-color:White;
+}
+/*
+p.vin:hover 
+{
+	background-color:transparent;
+}
+*/

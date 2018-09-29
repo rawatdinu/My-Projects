@@ -1,0 +1,16 @@
+c:\users\kanojia\documents\visual studio 2010\Projects\desktopApp\desktopApp\bin\Debug\desktopApp.exe
+c:\users\kanojia\documents\visual studio 2010\Projects\desktopApp\desktopApp\bin\Debug\desktopApp.pdb
+c:\users\kanojia\documents\visual studio 2010\Projects\desktopApp\desktopApp\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\kanojia\documents\visual studio 2010\Projects\desktopApp\desktopApp\obj\x86\Debug\desktopApp.Properties.Resources.resources
+c:\users\kanojia\documents\visual studio 2010\Projects\desktopApp\desktopApp\obj\x86\Debug\GenerateResource.read.1.tlog
+c:\users\kanojia\documents\visual studio 2010\Projects\desktopApp\desktopApp\obj\x86\Debug\GenerateResource.write.1.tlog
+c:\users\kanojia\documents\visual studio 2010\Projects\desktopApp\desktopApp\obj\x86\Debug\desktopApp.exe
+c:\users\kanojia\documents\visual studio 2010\Projects\desktopApp\desktopApp\obj\x86\Debug\desktopApp.pdb
+c:\users\kanojia\documents\visual studio 2010\Projects\desktopApp\desktopApp\bin\Debug\desktopApp.Common.dll
+c:\users\kanojia\documents\visual studio 2010\Projects\desktopApp\desktopApp\bin\Debug\desktopApp.DAL.dll
+c:\users\kanojia\documents\visual studio 2010\Projects\desktopApp\desktopApp\bin\Debug\desktopApp.Common.pdb
+c:\users\kanojia\documents\visual studio 2010\Projects\desktopApp\desktopApp\bin\Debug\desktopApp.DAL.pdb
+c:\users\kanojia\documents\visual studio 2010\Projects\desktopApp\desktopApp\obj\x86\Debug\desktopApp.Form1.resources
+c:\users\kanojia\documents\visual studio 2010\Projects\desktopApp\desktopApp\obj\x86\Debug\desktopApp.LoginControl.resources
+G:\desktopApp\desktopApp\obj\x86\Debug\desktopApp.exe
+G:\desktopApp\desktopApp\obj\x86\Debug\desktopApp.pdb

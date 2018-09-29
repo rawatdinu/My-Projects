@@ -1,0 +1,13 @@
+E:\Dinesh Demo Project\Library\Library\bin\Debug\Library.exe.config
+E:\Dinesh Demo Project\Library\Library\bin\Debug\Library.exe
+E:\Dinesh Demo Project\Library\Library\bin\Debug\Library.pdb
+E:\Dinesh Demo Project\Library\Library\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Dinesh Demo Project\Library\Library\obj\x86\Debug\Library.frmBooksMaster.resources
+E:\Dinesh Demo Project\Library\Library\obj\x86\Debug\Library.MDIForm.resources
+E:\Dinesh Demo Project\Library\Library\obj\x86\Debug\Library.MDIParent.resources
+E:\Dinesh Demo Project\Library\Library\obj\x86\Debug\Library.Properties.Resources.resources
+E:\Dinesh Demo Project\Library\Library\obj\x86\Debug\Library.frmUserRegistration.resources
+E:\Dinesh Demo Project\Library\Library\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\Dinesh Demo Project\Library\Library\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\Dinesh Demo Project\Library\Library\obj\x86\Debug\Library.exe
+E:\Dinesh Demo Project\Library\Library\obj\x86\Debug\Library.pdb

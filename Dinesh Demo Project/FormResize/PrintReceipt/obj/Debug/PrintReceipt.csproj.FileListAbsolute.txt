@@ -1,0 +1,9 @@
+G:\Dinesh Demo Project\FormResize\PrintReceipt\bin\Debug\PrintReceipt.exe.config
+G:\Dinesh Demo Project\FormResize\PrintReceipt\bin\Debug\PrintReceipt.exe
+G:\Dinesh Demo Project\FormResize\PrintReceipt\bin\Debug\PrintReceipt.pdb
+G:\Dinesh Demo Project\FormResize\PrintReceipt\obj\Debug\PrintReceipt.csprojResolveAssemblyReference.cache
+G:\Dinesh Demo Project\FormResize\PrintReceipt\obj\Debug\PrintReceipt.Form1.resources
+G:\Dinesh Demo Project\FormResize\PrintReceipt\obj\Debug\PrintReceipt.Properties.Resources.resources
+G:\Dinesh Demo Project\FormResize\PrintReceipt\obj\Debug\PrintReceipt.csproj.GenerateResource.Cache
+G:\Dinesh Demo Project\FormResize\PrintReceipt\obj\Debug\PrintReceipt.exe
+G:\Dinesh Demo Project\FormResize\PrintReceipt\obj\Debug\PrintReceipt.pdb

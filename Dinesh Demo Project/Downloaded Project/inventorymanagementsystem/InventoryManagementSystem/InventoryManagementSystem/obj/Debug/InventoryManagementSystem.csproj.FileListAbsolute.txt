@@ -1,0 +1,219 @@
+D:\For CS Project\InventoryManagementSystem\InventoryManagementSystem\bin\Debug\InventoryManagementSystem.exe
+D:\For CS Project\InventoryManagementSystem\InventoryManagementSystem\bin\Debug\InventoryManagementSystem.pdb
+D:\For CS Project\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\ResolveAssemblyReference.cache
+D:\For CS Project\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.Properties.Resources.resources
+D:\For CS Project\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.csproj.GenerateResource.Cache
+D:\For CS Project\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.exe
+D:\For CS Project\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.pdb
+D:\For CS Project\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.MainForm.resources
+D:\For CS Project\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.Items.resources
+D:\For CS Project\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.Locations.resources
+D:\For CS Project\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.ChangeLocation.resources
+D:\For CS Project\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.AddLocation.resources
+D:\For CS Project\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.SupplierDetails.resources
+D:\For CS Project\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.AddNewSupplier.resources
+D:\For CS Project\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.EditSupplierDetail.resources
+D:\For CS Project\InventoryManagementSystem\InventoryManagementSystem\bin\Debug\InventoryManagementSystem.exe.config
+D:\For CS Project\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.NewPurchaseOrder.resources
+D:\For CS Project\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.SellStock.resources
+D:\For CS Project\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.OrdersList.resources
+D:\For CS Project\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.OrdersListDetail.resources
+D:\For CS Project\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.ItemReport.resources
+D:\For CS Project\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\RdlCompile.cache
+D:\For CS Project\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\RdlCompile.compiled
+D:\For CS Project\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.FindItem.resources
+D:\For CS Project\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.ReceiveStock.resources
+D:\For CS Project\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.TransferStock.resources
+D:\For CS Project\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.PurchaseOrderReport.resources
+D:\For CS Project\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.SplashForm.resources
+D:\For CS Project\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.PrintPO.resources
+D:\VB-08 Project Book\Project V\Final\InventoryManagementSystem\InventoryManagementSystem\InventoryManagementSystem\bin\Debug\InventoryManagementSystem.exe.config
+D:\VB-08 Project Book\Project V\Final\InventoryManagementSystem\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.exe
+D:\VB-08 Project Book\Project V\Final\InventoryManagementSystem\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.pdb
+D:\VB-08 Project Book\Project V\Testing\T1\InventoryManagementSystem\InventoryManagementSystem\bin\Debug\InventoryManagementSystem.exe.config
+D:\VB-08 Project Book\Project V\Testing\T1\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.exe
+D:\VB-08 Project Book\Project V\Testing\T1\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.pdb
+D:\VB-08 Project Book\Project V\Testing\T1\InventoryManagementSystem\InventoryManagementSystem\bin\Debug\InventoryManagementSystem.exe
+D:\VB-08 Project Book\Project V\Testing\T1\InventoryManagementSystem\InventoryManagementSystem\bin\Debug\InventoryManagementSystem.pdb
+D:\VB-08 Project Book\Project V\Testing\T1\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\ResolveAssemblyReference.cache
+D:\VB-08 Project Book\Project V\Testing\T1\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.AddLocation.resources
+D:\VB-08 Project Book\Project V\Testing\T1\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.AddNewSupplier.resources
+D:\VB-08 Project Book\Project V\Testing\T1\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.ChangeLocation.resources
+D:\VB-08 Project Book\Project V\Testing\T1\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.EditSupplierDetail.resources
+D:\VB-08 Project Book\Project V\Testing\T1\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.FindItem.resources
+D:\VB-08 Project Book\Project V\Testing\T1\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.ItemReport.resources
+D:\VB-08 Project Book\Project V\Testing\T1\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.Items.resources
+D:\VB-08 Project Book\Project V\Testing\T1\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.Locations.resources
+D:\VB-08 Project Book\Project V\Testing\T1\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.MainForm.resources
+D:\VB-08 Project Book\Project V\Testing\T1\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.NewPurchaseOrder.resources
+D:\VB-08 Project Book\Project V\Testing\T1\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.OrdersList.resources
+D:\VB-08 Project Book\Project V\Testing\T1\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.OrdersListDetail.resources
+D:\VB-08 Project Book\Project V\Testing\T1\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.PrintPO.resources
+D:\VB-08 Project Book\Project V\Testing\T1\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.Properties.Resources.resources
+D:\VB-08 Project Book\Project V\Testing\T1\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.PurchaseOrderReport.resources
+D:\VB-08 Project Book\Project V\Testing\T1\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.ReceiveStock.resources
+D:\VB-08 Project Book\Project V\Testing\T1\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.SellStock.resources
+D:\VB-08 Project Book\Project V\Testing\T1\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.SplashForm.resources
+D:\VB-08 Project Book\Project V\Testing\T1\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.SupplierDetails.resources
+D:\VB-08 Project Book\Project V\Testing\T1\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.TransferStock.resources
+D:\VB-08 Project Book\Project V\Testing\T1\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.csproj.GenerateResource.Cache
+D:\VB-08 Project Book\Project V\Testing\T1\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\RdlCompile.cache
+D:\VB-08 Project Book\Project V\Testing\T1\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\RdlCompile.compiled
+D:\VB-08 Project Book\Project V\Testing\T1\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.StockTransactionsReport.resources
+D:\CSharp 2008 Project Book\Project V\Testing\T1\InventoryManagementSystem\InventoryManagementSystem\bin\Debug\InventoryManagementSystem.exe.config
+D:\CSharp 2008 Project Book\Project V\Testing\T1\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.exe
+D:\CSharp 2008 Project Book\Project V\Testing\T1\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.pdb
+D:\CSharp 2008 Project Book\Project V\Testing\T1\InventoryManagementSystem\InventoryManagementSystem\bin\Debug\InventoryManagementSystem.exe
+D:\CSharp 2008 Project Book\Project V\Testing\T1\InventoryManagementSystem\InventoryManagementSystem\bin\Debug\InventoryManagementSystem.pdb
+D:\CSharp 2008 Project Book\Project V\Testing\T1\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\ResolveAssemblyReference.cache
+D:\CSharp 2008 Project Book\Project V\Testing\T1\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.AddLocation.resources
+D:\CSharp 2008 Project Book\Project V\Testing\T1\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.AddNewSupplier.resources
+D:\CSharp 2008 Project Book\Project V\Testing\T1\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.ChangeLocation.resources
+D:\CSharp 2008 Project Book\Project V\Testing\T1\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.EditSupplierDetail.resources
+D:\CSharp 2008 Project Book\Project V\Testing\T1\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.FindItem.resources
+D:\CSharp 2008 Project Book\Project V\Testing\T1\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.ItemReport.resources
+D:\CSharp 2008 Project Book\Project V\Testing\T1\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.Items.resources
+D:\CSharp 2008 Project Book\Project V\Testing\T1\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.Locations.resources
+D:\CSharp 2008 Project Book\Project V\Testing\T1\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.MainForm.resources
+D:\CSharp 2008 Project Book\Project V\Testing\T1\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.NewPurchaseOrder.resources
+D:\CSharp 2008 Project Book\Project V\Testing\T1\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.OrdersList.resources
+D:\CSharp 2008 Project Book\Project V\Testing\T1\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.OrdersListDetail.resources
+D:\CSharp 2008 Project Book\Project V\Testing\T1\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.PrintPO.resources
+D:\CSharp 2008 Project Book\Project V\Testing\T1\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.Properties.Resources.resources
+D:\CSharp 2008 Project Book\Project V\Testing\T1\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.PurchaseOrderReport.resources
+D:\CSharp 2008 Project Book\Project V\Testing\T1\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.ReceiveStock.resources
+D:\CSharp 2008 Project Book\Project V\Testing\T1\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.SellStock.resources
+D:\CSharp 2008 Project Book\Project V\Testing\T1\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.SplashForm.resources
+D:\CSharp 2008 Project Book\Project V\Testing\T1\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.StockTransactionsReport.resources
+D:\CSharp 2008 Project Book\Project V\Testing\T1\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.SupplierDetails.resources
+D:\CSharp 2008 Project Book\Project V\Testing\T1\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.TransferStock.resources
+D:\CSharp 2008 Project Book\Project V\Testing\T1\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.csproj.GenerateResource.Cache
+D:\CSharp 2008 Project Book\Project V\Testing\T1\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\RdlCompile.cache
+D:\CSharp 2008 Project Book\Project V\Testing\T1\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\RdlCompile.compiled
+E:\Books\ProjectBook\C#2008\Round1\InventoryManagementSystem5\Tech4\InventoryManagementSystem\InventoryManagementSystem\bin\Debug\InventoryManagementSystem.exe.config
+E:\Books\ProjectBook\C#2008\Round1\InventoryManagementSystem5\Tech4\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.exe
+E:\Books\ProjectBook\C#2008\Round1\InventoryManagementSystem5\Tech4\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.pdb
+C:\Users\Raj Sharma\Desktop\New folder\InventoryManagementSystem\InventoryManagementSystem\bin\Debug\InventoryManagementSystem.exe.config
+C:\Users\Raj Sharma\Desktop\New folder\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.exe
+C:\Users\Raj Sharma\Desktop\New folder\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.pdb
+C:\Users\Raj Sharma\Desktop\New folder\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.csprojResolveAssemblyReference.cache
+C:\Users\Raj Sharma\Desktop\New folder\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.AddLocation.resources
+C:\Users\Raj Sharma\Desktop\New folder\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.AddNewSupplier.resources
+C:\Users\Raj Sharma\Desktop\New folder\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.ChangeLocation.resources
+C:\Users\Raj Sharma\Desktop\New folder\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.EditSupplierDetail.resources
+C:\Users\Raj Sharma\Desktop\New folder\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.FindItem.resources
+C:\Users\Raj Sharma\Desktop\New folder\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.ItemReport.resources
+C:\Users\Raj Sharma\Desktop\New folder\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.Items.resources
+C:\Users\Raj Sharma\Desktop\New folder\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.Locations.resources
+C:\Users\Raj Sharma\Desktop\New folder\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.MainForm.resources
+C:\Users\Raj Sharma\Desktop\New folder\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.NewPurchaseOrder.resources
+C:\Users\Raj Sharma\Desktop\New folder\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.OrdersList.resources
+C:\Users\Raj Sharma\Desktop\New folder\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.OrdersListDetail.resources
+C:\Users\Raj Sharma\Desktop\New folder\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.PrintPO.resources
+C:\Users\Raj Sharma\Desktop\New folder\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.Properties.Resources.resources
+C:\Users\Raj Sharma\Desktop\New folder\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.PurchaseOrderReport.resources
+C:\Users\Raj Sharma\Desktop\New folder\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.ReceiveStock.resources
+C:\Users\Raj Sharma\Desktop\New folder\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.SellStock.resources
+C:\Users\Raj Sharma\Desktop\New folder\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.SplashForm.resources
+C:\Users\Raj Sharma\Desktop\New folder\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.StockTransactionsReport.resources
+C:\Users\Raj Sharma\Desktop\New folder\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.SupplierDetails.resources
+C:\Users\Raj Sharma\Desktop\New folder\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.TransferStock.resources
+C:\Users\Raj Sharma\Desktop\New folder\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.csproj.GenerateResource.Cache
+C:\Users\Raj Sharma\Desktop\New folder\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\RdlCompile.cache
+C:\Users\Raj Sharma\Desktop\New folder\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\RdlCompile.compiled
+C:\Users\Raj Sharma\Desktop\New folder\InventoryManagementSystem\InventoryManagementSystem\bin\Debug\InventoryManagementSystem.exe
+C:\Users\Raj Sharma\Desktop\New folder\InventoryManagementSystem\InventoryManagementSystem\bin\Debug\InventoryManagementSystem.pdb
+D:\Projects\InventoryManagementSystem\InventoryManagementSystem\bin\Debug\InventoryManagementSystem.exe.config
+D:\Projects\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.exe
+D:\Projects\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.pdb
+E:\Projects\InventoryManagementSystem\InventoryManagementSystem\bin\Debug\InventoryManagementSystem.exe.config
+E:\Projects\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.exe
+E:\Projects\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.pdb
+E:\Projects\InventoryManagementSystem\InventoryManagementSystem\bin\Debug\InventoryManagementSystem.exe
+E:\Projects\InventoryManagementSystem\InventoryManagementSystem\bin\Debug\InventoryManagementSystem.pdb
+E:\Projects\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.csprojResolveAssemblyReference.cache
+E:\Projects\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.AddLocation.resources
+E:\Projects\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.AddNewSupplier.resources
+E:\Projects\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.ChangeLocation.resources
+E:\Projects\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.EditSupplierDetail.resources
+E:\Projects\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.FindItem.resources
+E:\Projects\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.ItemReport.resources
+E:\Projects\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.Items.resources
+E:\Projects\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.Locations.resources
+E:\Projects\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.MainForm.resources
+E:\Projects\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.NewPurchaseOrder.resources
+E:\Projects\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.OrdersList.resources
+E:\Projects\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.OrdersListDetail.resources
+E:\Projects\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.PrintPO.resources
+E:\Projects\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.Properties.Resources.resources
+E:\Projects\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.PurchaseOrderReport.resources
+E:\Projects\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.ReceiveStock.resources
+E:\Projects\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.SellStock.resources
+E:\Projects\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.SplashForm.resources
+E:\Projects\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.StockTransactionsReport.resources
+E:\Projects\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.SupplierDetails.resources
+E:\Projects\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.TransferStock.resources
+E:\Projects\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.csproj.GenerateResource.Cache
+E:\Projects\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\RdlCompile.cache
+E:\Projects\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\RdlCompile.compiled
+E:\InventoryManagementSystem\InventoryManagementSystem\bin\Debug\InventoryManagementSystem.exe.config
+E:\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.pdb
+E:\InventoryManagementSystem\InventoryManagementSystem\bin\Debug\InventoryManagementSystem.exe
+E:\InventoryManagementSystem\InventoryManagementSystem\bin\Debug\InventoryManagementSystem.pdb
+E:\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.csprojResolveAssemblyReference.cache
+E:\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.AddLocation.resources
+E:\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.AddNewSupplier.resources
+E:\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.ChangeLocation.resources
+E:\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.EditSupplierDetail.resources
+E:\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.FindItem.resources
+E:\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.ItemReport.resources
+E:\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.Items.resources
+E:\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.Locations.resources
+E:\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.MainForm.resources
+E:\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.NewPurchaseOrder.resources
+E:\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.OrdersList.resources
+E:\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.OrdersListDetail.resources
+E:\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.PrintPO.resources
+E:\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.Properties.Resources.resources
+E:\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.PurchaseOrderReport.resources
+E:\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.ReceiveStock.resources
+E:\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.SellStock.resources
+E:\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.SplashForm.resources
+E:\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.StockTransactionsReport.resources
+E:\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.SupplierDetails.resources
+E:\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.TransferStock.resources
+E:\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.csproj.GenerateResource.Cache
+E:\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\RdlCompile.cache
+E:\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\RdlCompile.compiled
+E:\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.exe
+E:\Dinesh Demo Project\Downloaded Project\inventorymanagementsystem\InventoryManagementSystem\InventoryManagementSystem\bin\Debug\InventoryManagementSystem.exe.config
+E:\Dinesh Demo Project\Downloaded Project\inventorymanagementsystem\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.pdb
+E:\Dinesh Demo Project\Downloaded Project\inventorymanagementsystem\InventoryManagementSystem\InventoryManagementSystem\bin\Debug\InventoryManagementSystem.exe
+E:\Dinesh Demo Project\Downloaded Project\inventorymanagementsystem\InventoryManagementSystem\InventoryManagementSystem\bin\Debug\InventoryManagementSystem.pdb
+E:\Dinesh Demo Project\Downloaded Project\inventorymanagementsystem\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\ResolveAssemblyReference.cache
+E:\Dinesh Demo Project\Downloaded Project\inventorymanagementsystem\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.AddLocation.resources
+E:\Dinesh Demo Project\Downloaded Project\inventorymanagementsystem\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.AddNewSupplier.resources
+E:\Dinesh Demo Project\Downloaded Project\inventorymanagementsystem\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.ChangeLocation.resources
+E:\Dinesh Demo Project\Downloaded Project\inventorymanagementsystem\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.EditSupplierDetail.resources
+E:\Dinesh Demo Project\Downloaded Project\inventorymanagementsystem\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.FindItem.resources
+E:\Dinesh Demo Project\Downloaded Project\inventorymanagementsystem\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.ItemReport.resources
+E:\Dinesh Demo Project\Downloaded Project\inventorymanagementsystem\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.Items.resources
+E:\Dinesh Demo Project\Downloaded Project\inventorymanagementsystem\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.Locations.resources
+E:\Dinesh Demo Project\Downloaded Project\inventorymanagementsystem\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.MainForm.resources
+E:\Dinesh Demo Project\Downloaded Project\inventorymanagementsystem\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.NewPurchaseOrder.resources
+E:\Dinesh Demo Project\Downloaded Project\inventorymanagementsystem\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.OrdersList.resources
+E:\Dinesh Demo Project\Downloaded Project\inventorymanagementsystem\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.OrdersListDetail.resources
+E:\Dinesh Demo Project\Downloaded Project\inventorymanagementsystem\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.PrintPO.resources
+E:\Dinesh Demo Project\Downloaded Project\inventorymanagementsystem\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.Properties.Resources.resources
+E:\Dinesh Demo Project\Downloaded Project\inventorymanagementsystem\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.PurchaseOrderReport.resources
+E:\Dinesh Demo Project\Downloaded Project\inventorymanagementsystem\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.ReceiveStock.resources
+E:\Dinesh Demo Project\Downloaded Project\inventorymanagementsystem\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.SellStock.resources
+E:\Dinesh Demo Project\Downloaded Project\inventorymanagementsystem\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.SplashForm.resources
+E:\Dinesh Demo Project\Downloaded Project\inventorymanagementsystem\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.StockTransactionsReport.resources
+E:\Dinesh Demo Project\Downloaded Project\inventorymanagementsystem\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.SupplierDetails.resources
+E:\Dinesh Demo Project\Downloaded Project\inventorymanagementsystem\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.TransferStock.resources
+E:\Dinesh Demo Project\Downloaded Project\inventorymanagementsystem\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\GenerateResource.read.1.tlog
+E:\Dinesh Demo Project\Downloaded Project\inventorymanagementsystem\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\GenerateResource.write.1.tlog
+E:\Dinesh Demo Project\Downloaded Project\inventorymanagementsystem\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\RdlCompile.cache
+E:\Dinesh Demo Project\Downloaded Project\inventorymanagementsystem\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\RdlCompile.compiled
+E:\Dinesh Demo Project\Downloaded Project\inventorymanagementsystem\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.exe

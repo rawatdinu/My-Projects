@@ -1,0 +1,26 @@
+G:\Dinesh Demo Project\LanguageFuturePoint\LanguageFuturePoint\bin\Debug\LanguageFuturePoint.exe
+G:\Dinesh Demo Project\LanguageFuturePoint\LanguageFuturePoint\bin\Debug\LanguageFuturePoint.pdb
+G:\Dinesh Demo Project\LanguageFuturePoint\LanguageFuturePoint\obj\x86\Debug\ResolveAssemblyReference.cache
+G:\Dinesh Demo Project\LanguageFuturePoint\LanguageFuturePoint\obj\x86\Debug\MainWindow.baml
+G:\Dinesh Demo Project\LanguageFuturePoint\LanguageFuturePoint\obj\x86\Debug\MainWindow.g.cs
+G:\Dinesh Demo Project\LanguageFuturePoint\LanguageFuturePoint\obj\x86\Debug\App.g.cs
+G:\Dinesh Demo Project\LanguageFuturePoint\LanguageFuturePoint\obj\x86\Debug\LanguageFuturePoint_MarkupCompile.cache
+G:\Dinesh Demo Project\LanguageFuturePoint\LanguageFuturePoint\obj\x86\Debug\LanguageFuturePoint.g.resources
+G:\Dinesh Demo Project\LanguageFuturePoint\LanguageFuturePoint\obj\x86\Debug\LanguageFuturePoint.Properties.Resources.resources
+G:\Dinesh Demo Project\LanguageFuturePoint\LanguageFuturePoint\obj\x86\Debug\GenerateResource.read.1.tlog
+G:\Dinesh Demo Project\LanguageFuturePoint\LanguageFuturePoint\obj\x86\Debug\GenerateResource.write.1.tlog
+G:\Dinesh Demo Project\LanguageFuturePoint\LanguageFuturePoint\obj\x86\Debug\LanguageFuturePoint.exe
+G:\Dinesh Demo Project\LanguageFuturePoint\LanguageFuturePoint\obj\x86\Debug\LanguageFuturePoint.pdb
+G:\Backup\LanguageFuturePoint\LanguageFuturePoint\obj\x86\Debug\LanguageFuturePoint.exe
+G:\Backup\LanguageFuturePoint\LanguageFuturePoint\obj\x86\Debug\LanguageFuturePoint.pdb
+G:\Backup\LanguageFuturePoint\LanguageFuturePoint\bin\Debug\LanguageFuturePoint.exe
+G:\Backup\LanguageFuturePoint\LanguageFuturePoint\bin\Debug\LanguageFuturePoint.pdb
+G:\Backup\LanguageFuturePoint\LanguageFuturePoint\obj\x86\Debug\ResolveAssemblyReference.cache
+G:\Backup\LanguageFuturePoint\LanguageFuturePoint\obj\x86\Debug\MainWindow.baml
+G:\Backup\LanguageFuturePoint\LanguageFuturePoint\obj\x86\Debug\MainWindow.g.cs
+G:\Backup\LanguageFuturePoint\LanguageFuturePoint\obj\x86\Debug\App.g.cs
+G:\Backup\LanguageFuturePoint\LanguageFuturePoint\obj\x86\Debug\LanguageFuturePoint_MarkupCompile.cache
+G:\Backup\LanguageFuturePoint\LanguageFuturePoint\obj\x86\Debug\LanguageFuturePoint.g.resources
+G:\Backup\LanguageFuturePoint\LanguageFuturePoint\obj\x86\Debug\LanguageFuturePoint.Properties.Resources.resources
+G:\Backup\LanguageFuturePoint\LanguageFuturePoint\obj\x86\Debug\GenerateResource.read.1.tlog
+G:\Backup\LanguageFuturePoint\LanguageFuturePoint\obj\x86\Debug\GenerateResource.write.1.tlog

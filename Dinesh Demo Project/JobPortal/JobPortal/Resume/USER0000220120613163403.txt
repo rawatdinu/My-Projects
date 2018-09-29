@@ -1,0 +1,6 @@
+http://www.c-sharpcorner.com/UploadFile/sushmita_kumari/Logincontrol101312006002845AM/Logincontrol1.aspx?ArticleID=c33d0072-8f7c-4958-a7dc-ca1809737193
+
+
+Authetication and Authorization
+
+http://www.codeproject.com/Articles/13872/Form-authentication-and-authorization-in-ASP-NET

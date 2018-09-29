@@ -1,0 +1,14 @@
+http://msdn.microsoft.com/en-us/library/dd410597.aspx
+
+mvc routing
+
+http://weblogs.asp.net/scottgu/archive/2007/12/03/asp-net-mvc-framework-part-2-url-routing.aspx
+
+
+http://www.codeproject.com/Articles/207797/Learn-MVC-Model-view-controller-Step-by-Step-in-7#Step1:-%20Create%20project
+
+
+
+PRoject Snap shot
+
+http://msdn.microsoft.com/en-us/vs2010trainingcourse_aspnetmvc3fundamentals_topic7

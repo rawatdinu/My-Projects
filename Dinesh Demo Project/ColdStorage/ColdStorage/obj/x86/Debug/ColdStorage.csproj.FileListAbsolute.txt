@@ -1,0 +1,33 @@
+E:\Dinesh Demo Project\ColdStorage\ColdStorage\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Dinesh Demo Project\ColdStorage\ColdStorage\obj\x86\Debug\ColdStorage.frmItemMaster.resources
+E:\Dinesh Demo Project\ColdStorage\ColdStorage\obj\x86\Debug\ColdStorage.frmTransactionIn.resources
+E:\Dinesh Demo Project\ColdStorage\ColdStorage\obj\x86\Debug\ColdStorage.frmTransactionOut.resources
+E:\Dinesh Demo Project\ColdStorage\ColdStorage\obj\x86\Debug\ColdStorage.MDIParent1.resources
+E:\Dinesh Demo Project\ColdStorage\ColdStorage\obj\x86\Debug\ColdStorage.Properties.Resources.resources
+E:\Dinesh Demo Project\ColdStorage\ColdStorage\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\Dinesh Demo Project\ColdStorage\ColdStorage\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\Dinesh Demo Project\ColdStorage\ColdStorage\bin\Debug\ColdStorage.exe.config
+E:\Dinesh Demo Project\ColdStorage\ColdStorage\bin\Debug\ColdStorage.exe
+E:\Dinesh Demo Project\ColdStorage\ColdStorage\bin\Debug\ColdStorage.pdb
+E:\Dinesh Demo Project\ColdStorage\ColdStorage\obj\x86\Debug\ColdStorage.exe
+E:\Dinesh Demo Project\ColdStorage\ColdStorage\obj\x86\Debug\ColdStorage.pdb
+E:\Dinesh Demo Project\ColdStorage\ColdStorage\obj\x86\Debug\RdlCompile.cache
+E:\Dinesh Demo Project\ColdStorage\ColdStorage\obj\x86\Debug\RdlCompile.compiled
+E:\Dinesh Demo Project\ColdStorage\ColdStorage\obj\x86\Debug\ColdStorage.frmReportViewer.resources
+E:\Dinesh Demo Project\ColdStorage\ColdStorage\obj\x86\Debug\ColdStorage.frmPartyMaster.resources
+D:\My Projects\Dinesh Demo Project\ColdStorage\ColdStorage\bin\Debug\ColdStorage.exe.config
+D:\My Projects\Dinesh Demo Project\ColdStorage\ColdStorage\obj\x86\Debug\ColdStorage.exe
+D:\My Projects\Dinesh Demo Project\ColdStorage\ColdStorage\obj\x86\Debug\ColdStorage.pdb
+D:\My Projects\Dinesh Demo Project\ColdStorage\ColdStorage\bin\Debug\ColdStorage.exe
+D:\My Projects\Dinesh Demo Project\ColdStorage\ColdStorage\bin\Debug\ColdStorage.pdb
+D:\My Projects\Dinesh Demo Project\ColdStorage\ColdStorage\obj\x86\Debug\ColdStorage.frmItemMaster.resources
+D:\My Projects\Dinesh Demo Project\ColdStorage\ColdStorage\obj\x86\Debug\ColdStorage.frmPartyMaster.resources
+D:\My Projects\Dinesh Demo Project\ColdStorage\ColdStorage\obj\x86\Debug\ColdStorage.frmReportViewer.resources
+D:\My Projects\Dinesh Demo Project\ColdStorage\ColdStorage\obj\x86\Debug\ColdStorage.frmTransactionIn.resources
+D:\My Projects\Dinesh Demo Project\ColdStorage\ColdStorage\obj\x86\Debug\ColdStorage.frmTransactionOut.resources
+D:\My Projects\Dinesh Demo Project\ColdStorage\ColdStorage\obj\x86\Debug\ColdStorage.MDIParent1.resources
+D:\My Projects\Dinesh Demo Project\ColdStorage\ColdStorage\obj\x86\Debug\ColdStorage.Properties.Resources.resources
+D:\My Projects\Dinesh Demo Project\ColdStorage\ColdStorage\obj\x86\Debug\RdlCompile.cache
+D:\My Projects\Dinesh Demo Project\ColdStorage\ColdStorage\obj\x86\Debug\RdlCompile.compiled
+D:\My Projects\Dinesh Demo Project\ColdStorage\ColdStorage\obj\x86\Debug\ColdStorage.csproj.GenerateResource.Cache
+D:\My Projects\Dinesh Demo Project\ColdStorage\ColdStorage\obj\x86\Debug\ColdStorage.csprojResolveAssemblyReference.cache

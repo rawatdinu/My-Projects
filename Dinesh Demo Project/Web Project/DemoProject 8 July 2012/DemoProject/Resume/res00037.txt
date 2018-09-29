@@ -1,0 +1,31 @@
+CASE Sensitive SQL Comparison for password
+
+DECLARE @CustID char(8), @CustPassword varchar(15)
+
+SET @CustID = 'usa00001'
+SET @CustPassword = 'theunbreakable'
+
+IF EXISTS
+(
+	SELECT 1
+	FROM dbo.Customers
+	WHERE 	CAST(CustID AS varbinary(8)) = CAST(@CustID AS varbinary(8))
+		AND CAST(CustPassword AS varbinary(15)) = CAST(@CustPassword AS varbinary(15))
+)
+BEGIN
+	PRINT 'Customer Found!'
+END
+ELSE
+BEGIN
+	PRINT 'Invalid Customer ID or Password!'
+END
+GO
+
+
+
+Exmaple
+
+
+SELECT     Code, Email, Pwd, FirstName, LastName, Gender, Mobile, Email AS Expr1
+FROM         RegistrationTable
+WHERE     (Email = 'sarthi@gmail.com') AND (CAST(Pwd AS varbinary(15)) = CAST('111' AS varbinary(15)))

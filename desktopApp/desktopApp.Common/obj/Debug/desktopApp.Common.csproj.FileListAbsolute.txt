@@ -1,0 +1,10 @@
+C:\inetpub\wwwroot\dotnetnuke\DesktopModules\desktopApp\desktopApp.Common\bin\Debug\desktopApp.Common.dll
+C:\inetpub\wwwroot\dotnetnuke\DesktopModules\desktopApp\desktopApp.Common\bin\Debug\desktopApp.Common.pdb
+C:\inetpub\wwwroot\dotnetnuke\DesktopModules\desktopApp\desktopApp.Common\obj\Debug\ResolveAssemblyReference.cache
+C:\inetpub\wwwroot\dotnetnuke\DesktopModules\desktopApp\desktopApp.Common\obj\Debug\desktopApp.Common.dll
+C:\inetpub\wwwroot\dotnetnuke\DesktopModules\desktopApp\desktopApp.Common\obj\Debug\desktopApp.Common.pdb
+C:\Users\kanojia\Documents\Visual Studio 2010\Projects\desktopApp\desktopApp.Common\bin\Debug\desktopApp.Common.dll
+C:\Users\kanojia\Documents\Visual Studio 2010\Projects\desktopApp\desktopApp.Common\bin\Debug\desktopApp.Common.pdb
+C:\Users\kanojia\Documents\Visual Studio 2010\Projects\desktopApp\desktopApp.Common\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\kanojia\Documents\Visual Studio 2010\Projects\desktopApp\desktopApp.Common\obj\Debug\desktopApp.Common.dll
+C:\Users\kanojia\Documents\Visual Studio 2010\Projects\desktopApp\desktopApp.Common\obj\Debug\desktopApp.Common.pdb

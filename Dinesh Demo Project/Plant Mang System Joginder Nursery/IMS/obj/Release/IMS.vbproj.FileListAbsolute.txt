@@ -1,0 +1,105 @@
+I:\Current Client Softwares\Joginder Nursery\IMS\bin\Release\IMS.exe
+I:\Current Client Softwares\Joginder Nursery\IMS\bin\Release\IMS.pdb
+I:\Current Client Softwares\Joginder Nursery\IMS\bin\Release\IMS.xml
+I:\Current Client Softwares\Joginder Nursery\IMS\bin\Release\Interop.VSFlex7L.dll
+I:\Current Client Softwares\Joginder Nursery\IMS\bin\Release\AxInterop.VSFlex7L.dll
+I:\Current Client Softwares\Joginder Nursery\IMS\obj\Release\ResolveAssemblyReference.cache
+I:\Current Client Softwares\Joginder Nursery\IMS\obj\Release\Interop.VSFlex7L.dll
+I:\Current Client Softwares\Joginder Nursery\IMS\obj\Release\AxInterop.VSFlex7L.dll
+I:\Current Client Softwares\Joginder Nursery\IMS\obj\Release\IMS.vbproj.ResolveComReference.cache
+I:\Current Client Softwares\Joginder Nursery\IMS\obj\Release\IMS.frmCompanyMaster.resources
+I:\Current Client Softwares\Joginder Nursery\IMS\obj\Release\IMS.frmAccountGroupReport.resources
+I:\Current Client Softwares\Joginder Nursery\IMS\obj\Release\IMS.frmActivityList.resources
+I:\Current Client Softwares\Joginder Nursery\IMS\obj\Release\IMS.frmBackup.resources
+I:\Current Client Softwares\Joginder Nursery\IMS\obj\Release\IMS.frmBankMaster.resources
+I:\Current Client Softwares\Joginder Nursery\IMS\obj\Release\IMS.frmBankVoucher.resources
+I:\Current Client Softwares\Joginder Nursery\IMS\obj\Release\IMS.frmChallanMaster.resources
+I:\Current Client Softwares\Joginder Nursery\IMS\obj\Release\IMS.frmCityMaster.resources
+I:\Current Client Softwares\Joginder Nursery\IMS\obj\Release\IMS.frmCurrencyMaster.resources
+I:\Current Client Softwares\Joginder Nursery\IMS\obj\Release\IMS.frmCustomerAccount.resources
+I:\Current Client Softwares\Joginder Nursery\IMS\obj\Release\IMS.frmCustomerMaster.resources
+I:\Current Client Softwares\Joginder Nursery\IMS\obj\Release\IMS.frmDayBook.resources
+I:\Current Client Softwares\Joginder Nursery\IMS\obj\Release\IMS.frmDescriptionMaster.resources
+I:\Current Client Softwares\Joginder Nursery\IMS\obj\Release\IMS.frmItemAccountStatement.resources
+I:\Current Client Softwares\Joginder Nursery\IMS\obj\Release\IMS.frmItemMaster.resources
+I:\Current Client Softwares\Joginder Nursery\IMS\obj\Release\IMS.frmJournalVoucher.resources
+I:\Current Client Softwares\Joginder Nursery\IMS\obj\Release\IMS.frmLocalityMaster.resources
+I:\Current Client Softwares\Joginder Nursery\IMS\obj\Release\IMS.frmPayment.resources
+I:\Current Client Softwares\Joginder Nursery\IMS\obj\Release\IMS.frmPaymentSearch.resources
+I:\Current Client Softwares\Joginder Nursery\IMS\obj\Release\IMS.frmPaymentTerms.resources
+I:\Current Client Softwares\Joginder Nursery\IMS\obj\Release\IMS.frmPOConfigurationMaster.resources
+I:\Current Client Softwares\Joginder Nursery\IMS\obj\Release\IMS.frmPurchaseInvoice.resources
+I:\Current Client Softwares\Joginder Nursery\IMS\obj\Release\IMS.frmPurchaseReturn.resources
+I:\Current Client Softwares\Joginder Nursery\IMS\obj\Release\IMS.frmPurchaseReturnSearch.resources
+I:\Current Client Softwares\Joginder Nursery\IMS\obj\Release\IMS.frmPurchaseSearch.resources
+I:\Current Client Softwares\Joginder Nursery\IMS\obj\Release\IMS.frmQuotationMaster.resources
+I:\Current Client Softwares\Joginder Nursery\IMS\obj\Release\IMS.frmReceipt.resources
+I:\Current Client Softwares\Joginder Nursery\IMS\obj\Release\IMS.frmReceiptSearch.resources
+I:\Current Client Softwares\Joginder Nursery\IMS\obj\Release\IMS.frmReportViewer.resources
+I:\Current Client Softwares\Joginder Nursery\IMS\obj\Release\IMS.frmSaleInvoice.resources
+I:\Current Client Softwares\Joginder Nursery\IMS\obj\Release\IMS.frmSaleReturn.resources
+I:\Current Client Softwares\Joginder Nursery\IMS\obj\Release\IMS.frmSaleReturnSearch.resources
+I:\Current Client Softwares\Joginder Nursery\IMS\obj\Release\IMS.frmSaleSearch.resources
+I:\Current Client Softwares\Joginder Nursery\IMS\obj\Release\IMS.frmStateMaster.resources
+I:\Current Client Softwares\Joginder Nursery\IMS\obj\Release\IMS.frmSupplierAccount.resources
+I:\Current Client Softwares\Joginder Nursery\IMS\obj\Release\IMS.frmSupplierMaster.resources
+I:\Current Client Softwares\Joginder Nursery\IMS\obj\Release\IMS.frmTaxInvoice.resources
+I:\Current Client Softwares\Joginder Nursery\IMS\obj\Release\IMS.frmTermsAndConditions.resources
+I:\Current Client Softwares\Joginder Nursery\IMS\obj\Release\IMS.LoginForm1.resources
+I:\Current Client Softwares\Joginder Nursery\IMS\obj\Release\IMS.frmMainMenu.resources
+I:\Current Client Softwares\Joginder Nursery\IMS\obj\Release\IMS.Resources.resources
+I:\Current Client Softwares\Joginder Nursery\IMS\obj\Release\IMS.vbproj.GenerateResource.Cache
+I:\Current Client Softwares\Joginder Nursery\IMS\obj\Release\IMS.exe
+I:\Current Client Softwares\Joginder Nursery\IMS\obj\Release\IMS.xml
+I:\Current Client Softwares\Joginder Nursery\IMS\obj\Release\IMS.pdb
+D:\Client softwares\Joginder Nursery\Joginder Nursery Edit\IMS\obj\Release\ResolveAssemblyReference.cache
+D:\Client softwares\Joginder Nursery\Joginder Nursery Edit\IMS\obj\Release\Interop.CrystalActiveXReportViewerLib10.dll
+D:\Client softwares\Joginder Nursery\Joginder Nursery Edit\IMS\obj\Release\Interop.VSFlex7L.dll
+D:\Client softwares\Joginder Nursery\Joginder Nursery Edit\IMS\obj\Release\AxInterop.VSFlex7L.dll
+D:\Client softwares\Joginder Nursery\Joginder Nursery Edit\IMS\obj\Release\IMS.vbproj.ResolveComReference.cache
+D:\Client softwares\Joginder Nursery\Joginder Nursery Edit\IMS\obj\Release\IMS.frmCompanyMaster.resources
+D:\Client softwares\Joginder Nursery\Joginder Nursery Edit\IMS\obj\Release\IMS.frmAccountGroupReport.resources
+D:\Client softwares\Joginder Nursery\Joginder Nursery Edit\IMS\obj\Release\IMS.frmActivityList.resources
+D:\Client softwares\Joginder Nursery\Joginder Nursery Edit\IMS\obj\Release\IMS.frmBackup.resources
+D:\Client softwares\Joginder Nursery\Joginder Nursery Edit\IMS\obj\Release\IMS.frmBankMaster.resources
+D:\Client softwares\Joginder Nursery\Joginder Nursery Edit\IMS\obj\Release\IMS.frmBankVoucher.resources
+D:\Client softwares\Joginder Nursery\Joginder Nursery Edit\IMS\obj\Release\IMS.frmChallanMaster.resources
+D:\Client softwares\Joginder Nursery\Joginder Nursery Edit\IMS\obj\Release\IMS.frmCityMaster.resources
+D:\Client softwares\Joginder Nursery\Joginder Nursery Edit\IMS\obj\Release\IMS.frmCurrencyMaster.resources
+D:\Client softwares\Joginder Nursery\Joginder Nursery Edit\IMS\obj\Release\IMS.frmCustomerAccount.resources
+D:\Client softwares\Joginder Nursery\Joginder Nursery Edit\IMS\obj\Release\IMS.frmCustomerMaster.resources
+D:\Client softwares\Joginder Nursery\Joginder Nursery Edit\IMS\obj\Release\IMS.frmDayBook.resources
+D:\Client softwares\Joginder Nursery\Joginder Nursery Edit\IMS\obj\Release\IMS.frmDescriptionMaster.resources
+D:\Client softwares\Joginder Nursery\Joginder Nursery Edit\IMS\obj\Release\IMS.frmItemAccountStatement.resources
+D:\Client softwares\Joginder Nursery\Joginder Nursery Edit\IMS\obj\Release\IMS.frmItemMaster.resources
+D:\Client softwares\Joginder Nursery\Joginder Nursery Edit\IMS\obj\Release\IMS.frmJournalVoucher.resources
+D:\Client softwares\Joginder Nursery\Joginder Nursery Edit\IMS\obj\Release\IMS.frmLocalityMaster.resources
+D:\Client softwares\Joginder Nursery\Joginder Nursery Edit\IMS\obj\Release\IMS.frmOverHeadMaster.resources
+D:\Client softwares\Joginder Nursery\Joginder Nursery Edit\IMS\obj\Release\IMS.frmPayment.resources
+D:\Client softwares\Joginder Nursery\Joginder Nursery Edit\IMS\obj\Release\IMS.frmPaymentSearch.resources
+D:\Client softwares\Joginder Nursery\Joginder Nursery Edit\IMS\obj\Release\IMS.frmPaymentTerms.resources
+D:\Client softwares\Joginder Nursery\Joginder Nursery Edit\IMS\obj\Release\IMS.frmPOConfigurationMaster.resources
+D:\Client softwares\Joginder Nursery\Joginder Nursery Edit\IMS\obj\Release\IMS.frmPurchaseInvoice.resources
+D:\Client softwares\Joginder Nursery\Joginder Nursery Edit\IMS\obj\Release\IMS.frmPurchaseReturn.resources
+D:\Client softwares\Joginder Nursery\Joginder Nursery Edit\IMS\obj\Release\IMS.frmPurchaseReturnSearch.resources
+D:\Client softwares\Joginder Nursery\Joginder Nursery Edit\IMS\obj\Release\IMS.frmPurchaseSearch.resources
+D:\Client softwares\Joginder Nursery\Joginder Nursery Edit\IMS\obj\Release\IMS.frmQuotationMaster.resources
+D:\Client softwares\Joginder Nursery\Joginder Nursery Edit\IMS\obj\Release\IMS.frmReceipt.resources
+D:\Client softwares\Joginder Nursery\Joginder Nursery Edit\IMS\obj\Release\IMS.frmReceiptSearch.resources
+D:\Client softwares\Joginder Nursery\Joginder Nursery Edit\IMS\obj\Release\IMS.frmReportViewer.resources
+D:\Client softwares\Joginder Nursery\Joginder Nursery Edit\IMS\obj\Release\IMS.frmSaleInvoice.resources
+D:\Client softwares\Joginder Nursery\Joginder Nursery Edit\IMS\obj\Release\IMS.frmSaleReturn.resources
+D:\Client softwares\Joginder Nursery\Joginder Nursery Edit\IMS\obj\Release\IMS.frmSaleReturnSearch.resources
+D:\Client softwares\Joginder Nursery\Joginder Nursery Edit\IMS\obj\Release\IMS.frmSaleSearch.resources
+D:\Client softwares\Joginder Nursery\Joginder Nursery Edit\IMS\obj\Release\IMS.frmStateMaster.resources
+D:\Client softwares\Joginder Nursery\Joginder Nursery Edit\IMS\obj\Release\IMS.frmSupplierAccount.resources
+D:\Client softwares\Joginder Nursery\Joginder Nursery Edit\IMS\obj\Release\IMS.frmSupplierMaster.resources
+D:\Client softwares\Joginder Nursery\Joginder Nursery Edit\IMS\obj\Release\IMS.frmTaxInvoice.resources
+D:\Client softwares\Joginder Nursery\Joginder Nursery Edit\IMS\obj\Release\IMS.frmTermsAndConditions.resources
+D:\Client softwares\Joginder Nursery\Joginder Nursery Edit\IMS\obj\Release\IMS.LoginForm1.resources
+D:\Client softwares\Joginder Nursery\Joginder Nursery Edit\IMS\obj\Release\IMS.frmMainMenu.resources
+D:\Client softwares\Joginder Nursery\Joginder Nursery Edit\IMS\obj\Release\IMS.Resources.resources
+D:\Client softwares\Joginder Nursery\Joginder Nursery Edit\IMS\obj\Release\IMS.vbproj.GenerateResource.Cache
+D:\Client softwares\Joginder Nursery\Joginder Nursery Edit\IMS\obj\Release\IMS.exe
+D:\Client softwares\Joginder Nursery\Joginder Nursery Edit\IMS\obj\Release\IMS.xml
+D:\Client softwares\Joginder Nursery\Joginder Nursery Edit\IMS\obj\Release\IMS.pdb

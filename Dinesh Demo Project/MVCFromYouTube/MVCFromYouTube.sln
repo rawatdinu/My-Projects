@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCFromYouTube", "MVCFromYouTube\MVCFromYouTube.csproj", "{67DA2D63-05F9-46FC-84D4-20E1BA334B10}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Movies", "Movies\Movies.csproj", "{3EADEA17-1659-4F81-8927-6B04AB9401D2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{67DA2D63-05F9-46FC-84D4-20E1BA334B10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67DA2D63-05F9-46FC-84D4-20E1BA334B10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67DA2D63-05F9-46FC-84D4-20E1BA334B10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67DA2D63-05F9-46FC-84D4-20E1BA334B10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EADEA17-1659-4F81-8927-6B04AB9401D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EADEA17-1659-4F81-8927-6B04AB9401D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EADEA17-1659-4F81-8927-6B04AB9401D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EADEA17-1659-4F81-8927-6B04AB9401D2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

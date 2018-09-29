@@ -1,0 +1,51 @@
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:PersistableTipCollection id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Microsoft.VisualStudio.Debugger.DebuggerToolWindows.DataTips.PinnableTips.Persistence/VsDebugPresentationPackage%2C%20Version%3D10.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<Tips href="#ref-3"/>
+</a1:PersistableTipCollection>
+<SOAP-ENC:Array id="ref-3" SOAP-ENC:arrayType="xsd:anyType[2]">
+<item href="#ref-4"/>
+<item href="#ref-5"/>
+</SOAP-ENC:Array>
+<a3:PinnedTip id="ref-4" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Microsoft.VisualStudio.Debugger.DebuggerToolWindows.DataTips.PinnableTips.UI/VsDebugPresentationPackage%2C%20Version%3D10.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<unopenedState href="#ref-6"/>
+<innerTip href="#ref-7"/>
+</a3:PinnedTip>
+<a3:PinnedTip id="ref-5" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Microsoft.VisualStudio.Debugger.DebuggerToolWindows.DataTips.PinnableTips.UI/VsDebugPresentationPackage%2C%20Version%3D10.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<unopenedState href="#ref-8"/>
+<innerTip href="#ref-9"/>
+</a3:PinnedTip>
+<a1:UnopenedTipData id="ref-6" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Microsoft.VisualStudio.Debugger.DebuggerToolWindows.DataTips.PinnableTips.Persistence/VsDebugPresentationPackage%2C%20Version%3D10.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<PinnedPosition>508</PinnedPosition>
+<Length>0</Length>
+<XOffset>305</XOffset>
+<RelativeFileName id="ref-10">Oops Concept\Program.cs</RelativeFileName>
+<AbsoluteFileName id="ref-11">G:\Dinesh Demo Project\Oops Concept\Oops Concept\Program.cs</AbsoluteFileName>
+</a1:UnopenedTipData>
+<a3:Tip id="ref-7" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Microsoft.VisualStudio.Debugger.DebuggerToolWindows.DataTips.PinnableTips.UI/VsDebugPresentationPackage%2C%20Version%3D10.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<identity.Moniker id="ref-12">G:\Dinesh Demo Project\Oops Concept\Oops Concept\Program.cs</identity.Moniker>
+<identity.Position>536</identity.Position>
+<watchItemCount>1</watchItemCount>
+<watchItem0 id="ref-13">i</watchItem0>
+<comments id="ref-14">value of i</comments>
+<showingComments>true</showingComments>
+<uniqueIdentity id="ref-15">{40cf76bd-cf33-4fbb-86b3-cdfb6aceefbb}</uniqueIdentity>
+</a3:Tip>
+<a1:UnopenedTipData id="ref-8" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Microsoft.VisualStudio.Debugger.DebuggerToolWindows.DataTips.PinnableTips.Persistence/VsDebugPresentationPackage%2C%20Version%3D10.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<PinnedPosition>364</PinnedPosition>
+<Length>0</Length>
+<XOffset>306</XOffset>
+<RelativeFileName id="ref-16">Oops Concept\Program.cs</RelativeFileName>
+<AbsoluteFileName href="#ref-11"/>
+</a1:UnopenedTipData>
+<a3:Tip id="ref-9" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Microsoft.VisualStudio.Debugger.DebuggerToolWindows.DataTips.PinnableTips.UI/VsDebugPresentationPackage%2C%20Version%3D10.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<identity.Moniker id="ref-17">G:\Dinesh Demo Project\Oops Concept\Oops Concept\Program.cs</identity.Moniker>
+<identity.Position>457</identity.Position>
+<watchItemCount>1</watchItemCount>
+<watchItem0 id="ref-18">str</watchItem0>
+<comments id="ref-19"></comments>
+<showingComments>true</showingComments>
+<uniqueIdentity id="ref-20">{fd0236d2-c249-4b0a-8a9f-e83f84ba5049}</uniqueIdentity>
+</a3:Tip>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

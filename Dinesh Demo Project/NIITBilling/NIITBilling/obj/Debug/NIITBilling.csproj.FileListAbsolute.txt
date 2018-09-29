@@ -1,0 +1,10 @@
+E:\Dinesh Demo Project\NIITBilling\NIITBilling\bin\NIITBilling.dll
+E:\Dinesh Demo Project\NIITBilling\NIITBilling\bin\NIITBilling.pdb
+E:\Dinesh Demo Project\NIITBilling\NIITBilling\obj\Debug\NIITBilling.dll
+E:\Dinesh Demo Project\NIITBilling\NIITBilling\obj\Debug\NIITBilling.pdb
+D:\Dinesh\DemoProject\NIITBilling\NIITBilling\NIITBilling\obj\Debug\ResolveAssemblyReference.cache
+D:\Dinesh\DemoProject\NIITBilling\NIITBilling\NIITBilling\obj\Debug\NIITBilling.dll
+D:\Dinesh\DemoProject\NIITBilling\NIITBilling\NIITBilling\obj\Debug\NIITBilling.pdb
+D:\Dinesh\DemoProject\NIITBilling\NIITBilling\NIITBilling\bin\NIITBilling.dll
+D:\Dinesh\DemoProject\NIITBilling\NIITBilling\NIITBilling\bin\NIITBilling.pdb
+E:\Dinesh Demo Project\NIITBilling\NIITBilling\obj\Debug\ResolveAssemblyReference.cache

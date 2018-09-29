@@ -1,0 +1,11 @@
+G:\Dinesh Demo Project\DemoVBProject\DemoVBProject\bin\Debug\DemoVBProject.exe
+G:\Dinesh Demo Project\DemoVBProject\DemoVBProject\bin\Debug\DemoVBProject.pdb
+G:\Dinesh Demo Project\DemoVBProject\DemoVBProject\bin\Debug\DemoVBProject.xml
+G:\Dinesh Demo Project\DemoVBProject\DemoVBProject\obj\x86\Debug\ResolveAssemblyReference.cache
+G:\Dinesh Demo Project\DemoVBProject\DemoVBProject\obj\x86\Debug\DemoVBProject.Form1.resources
+G:\Dinesh Demo Project\DemoVBProject\DemoVBProject\obj\x86\Debug\DemoVBProject.Resources.resources
+G:\Dinesh Demo Project\DemoVBProject\DemoVBProject\obj\x86\Debug\GenerateResource.read.1.tlog
+G:\Dinesh Demo Project\DemoVBProject\DemoVBProject\obj\x86\Debug\GenerateResource.write.1.tlog
+G:\Dinesh Demo Project\DemoVBProject\DemoVBProject\obj\x86\Debug\DemoVBProject.exe
+G:\Dinesh Demo Project\DemoVBProject\DemoVBProject\obj\x86\Debug\DemoVBProject.xml
+G:\Dinesh Demo Project\DemoVBProject\DemoVBProject\obj\x86\Debug\DemoVBProject.pdb

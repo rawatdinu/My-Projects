@@ -1,0 +1,17 @@
+G:\Dinesh Demo Project\FormResize\AnchorAndDockProperty\bin\Debug\AnchorAndDockProperty.exe
+G:\Dinesh Demo Project\FormResize\AnchorAndDockProperty\bin\Debug\AnchorAndDockProperty.pdb
+G:\Dinesh Demo Project\FormResize\AnchorAndDockProperty\obj\x86\Debug\AnchorAndDockProperty.Form1.resources
+G:\Dinesh Demo Project\FormResize\AnchorAndDockProperty\obj\x86\Debug\AnchorAndDockProperty.Properties.Resources.resources
+G:\Dinesh Demo Project\FormResize\AnchorAndDockProperty\obj\x86\Debug\AnchorAndDockProperty.exe
+G:\Dinesh Demo Project\FormResize\AnchorAndDockProperty\obj\x86\Debug\AnchorAndDockProperty.pdb
+G:\Dinesh Demo Project\FormResize\AnchorAndDockProperty\obj\x86\Debug\AnchorAndDockProperty.csprojResolveAssemblyReference.cache
+G:\Dinesh Demo Project\FormResize\AnchorAndDockProperty\obj\x86\Debug\AnchorAndDockProperty.csproj.GenerateResource.Cache
+E:\Dinesh Demo Project\FormResize\AnchorAndDockProperty\bin\Debug\AnchorAndDockProperty.exe
+E:\Dinesh Demo Project\FormResize\AnchorAndDockProperty\bin\Debug\AnchorAndDockProperty.pdb
+E:\Dinesh Demo Project\FormResize\AnchorAndDockProperty\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Dinesh Demo Project\FormResize\AnchorAndDockProperty\obj\x86\Debug\AnchorAndDockProperty.Form1.resources
+E:\Dinesh Demo Project\FormResize\AnchorAndDockProperty\obj\x86\Debug\AnchorAndDockProperty.Properties.Resources.resources
+E:\Dinesh Demo Project\FormResize\AnchorAndDockProperty\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\Dinesh Demo Project\FormResize\AnchorAndDockProperty\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\Dinesh Demo Project\FormResize\AnchorAndDockProperty\obj\x86\Debug\AnchorAndDockProperty.exe
+E:\Dinesh Demo Project\FormResize\AnchorAndDockProperty\obj\x86\Debug\AnchorAndDockProperty.pdb

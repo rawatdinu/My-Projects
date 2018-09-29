@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<student>
+  <student id="1">
+    <name>Ram Kumar</name>
+    <address>Delhi </address>
+  </student>
+  <student id="2">
+    <name>Praveen Singh</name>
+    <address>Uttar Pradesh</address>
+  </student>
+  <student id="3">
+    <name>Sumaan Jatt</name>
+    <address>Gurgoan </address>
+  </student>
+  <student id="4">
+    <name>Kuljeet singh</name>
+    <address>Punjab</address>
+  </student>
+  
+</student>

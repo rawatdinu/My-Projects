@@ -1,0 +1,8 @@
+1.Add form
+2. Name
+3. FormBorderStyle
+4. Maxmize Box false
+5. Minimize Box false
+6. Size
+7. start Position
+8. Text

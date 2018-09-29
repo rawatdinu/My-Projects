@@ -1,0 +1,15 @@
+E:\Dinesh Demo Project\WPFDemo\ShowDialogWindow\bin\Debug\ShowDialogWindow.exe
+E:\Dinesh Demo Project\WPFDemo\ShowDialogWindow\bin\Debug\ShowDialogWindow.pdb
+E:\Dinesh Demo Project\WPFDemo\ShowDialogWindow\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Dinesh Demo Project\WPFDemo\ShowDialogWindow\obj\x86\Debug\DialogWindow.baml
+E:\Dinesh Demo Project\WPFDemo\ShowDialogWindow\obj\x86\Debug\MainWindow.baml
+E:\Dinesh Demo Project\WPFDemo\ShowDialogWindow\obj\x86\Debug\DialogWindow.g.cs
+E:\Dinesh Demo Project\WPFDemo\ShowDialogWindow\obj\x86\Debug\MainWindow.g.cs
+E:\Dinesh Demo Project\WPFDemo\ShowDialogWindow\obj\x86\Debug\App.g.cs
+E:\Dinesh Demo Project\WPFDemo\ShowDialogWindow\obj\x86\Debug\ShowDialogWindow_MarkupCompile.cache
+E:\Dinesh Demo Project\WPFDemo\ShowDialogWindow\obj\x86\Debug\ShowDialogWindow.g.resources
+E:\Dinesh Demo Project\WPFDemo\ShowDialogWindow\obj\x86\Debug\ShowDialogWindow.Properties.Resources.resources
+E:\Dinesh Demo Project\WPFDemo\ShowDialogWindow\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\Dinesh Demo Project\WPFDemo\ShowDialogWindow\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\Dinesh Demo Project\WPFDemo\ShowDialogWindow\obj\x86\Debug\ShowDialogWindow.exe
+E:\Dinesh Demo Project\WPFDemo\ShowDialogWindow\obj\x86\Debug\ShowDialogWindow.pdb

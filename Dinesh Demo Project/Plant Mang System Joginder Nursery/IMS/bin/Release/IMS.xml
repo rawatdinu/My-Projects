@@ -1,0 +1,15 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+IMS
+</name>
+</assembly>
+<members>
+<member name="M:IMS.frmPOConfigurationMaster.TrapKeyDown(System.Windows.Forms.Keys)">
+*******Function for Trapping key Down event on the Form****
+*****************Created By Ravi Patap Singh***************
+
+</member>
+</members>
+</doc>

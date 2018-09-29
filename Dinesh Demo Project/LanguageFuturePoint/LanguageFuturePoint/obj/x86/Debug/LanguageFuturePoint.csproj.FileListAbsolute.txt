@@ -1,0 +1,14 @@
+G:\Dinesh Demo Project\LanguageFuturePoint\LanguageFuturePoint\bin\Debug\LanguageFuturePoint.exe
+G:\Dinesh Demo Project\LanguageFuturePoint\LanguageFuturePoint\bin\Debug\LanguageFuturePoint.pdb
+G:\Dinesh Demo Project\LanguageFuturePoint\LanguageFuturePoint\obj\x86\Debug\MainWindow.baml
+G:\Dinesh Demo Project\LanguageFuturePoint\LanguageFuturePoint\obj\x86\Debug\MainWindow.g.cs
+G:\Dinesh Demo Project\LanguageFuturePoint\LanguageFuturePoint\obj\x86\Debug\App.g.cs
+G:\Dinesh Demo Project\LanguageFuturePoint\LanguageFuturePoint\obj\x86\Debug\LanguageFuturePoint_MarkupCompile.cache
+G:\Dinesh Demo Project\LanguageFuturePoint\LanguageFuturePoint\obj\x86\Debug\LanguageFuturePoint.g.resources
+G:\Dinesh Demo Project\LanguageFuturePoint\LanguageFuturePoint\obj\x86\Debug\LanguageFuturePoint.Properties.Resources.resources
+G:\Dinesh Demo Project\LanguageFuturePoint\LanguageFuturePoint\obj\x86\Debug\LanguageFuturePoint.exe
+G:\Dinesh Demo Project\LanguageFuturePoint\LanguageFuturePoint\obj\x86\Debug\LanguageFuturePoint.pdb
+G:\Dinesh Demo Project\LanguageFuturePoint\LanguageFuturePoint\bin\Debug\LanguageSelector.dll
+G:\Dinesh Demo Project\LanguageFuturePoint\LanguageFuturePoint\bin\Debug\LanguageSelector.pdb
+G:\Dinesh Demo Project\LanguageFuturePoint\LanguageFuturePoint\obj\x86\Debug\LanguageFuturePoint.csprojResolveAssemblyReference.cache
+G:\Dinesh Demo Project\LanguageFuturePoint\LanguageFuturePoint\obj\x86\Debug\LanguageFuturePoint.csproj.GenerateResource.Cache

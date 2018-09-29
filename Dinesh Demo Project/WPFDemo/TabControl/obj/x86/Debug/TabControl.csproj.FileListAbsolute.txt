@@ -1,0 +1,13 @@
+E:\Dinesh Demo Project\WPFDemo\TabControl\bin\Debug\TabControl.exe
+E:\Dinesh Demo Project\WPFDemo\TabControl\bin\Debug\TabControl.pdb
+E:\Dinesh Demo Project\WPFDemo\TabControl\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Dinesh Demo Project\WPFDemo\TabControl\obj\x86\Debug\MainWindow.baml
+E:\Dinesh Demo Project\WPFDemo\TabControl\obj\x86\Debug\MainWindow.g.cs
+E:\Dinesh Demo Project\WPFDemo\TabControl\obj\x86\Debug\App.g.cs
+E:\Dinesh Demo Project\WPFDemo\TabControl\obj\x86\Debug\TabControl_MarkupCompile.cache
+E:\Dinesh Demo Project\WPFDemo\TabControl\obj\x86\Debug\TabControl.g.resources
+E:\Dinesh Demo Project\WPFDemo\TabControl\obj\x86\Debug\TabControl.Properties.Resources.resources
+E:\Dinesh Demo Project\WPFDemo\TabControl\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\Dinesh Demo Project\WPFDemo\TabControl\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\Dinesh Demo Project\WPFDemo\TabControl\obj\x86\Debug\TabControl.exe
+E:\Dinesh Demo Project\WPFDemo\TabControl\obj\x86\Debug\TabControl.pdb

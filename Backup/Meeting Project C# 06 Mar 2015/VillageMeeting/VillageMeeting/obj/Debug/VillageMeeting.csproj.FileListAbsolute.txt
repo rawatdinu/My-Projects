@@ -1,0 +1,35 @@
+E:\Meeting Project\Meeting Project C#\VillageMeeting\VillageMeeting\bin\Debug\VillageMeeting.exe
+E:\Meeting Project\Meeting Project C#\VillageMeeting\VillageMeeting\bin\Debug\VillageMeeting.pdb
+E:\Meeting Project\Meeting Project C#\VillageMeeting\VillageMeeting\obj\Debug\ResolveAssemblyReference.cache
+E:\Meeting Project\Meeting Project C#\VillageMeeting\VillageMeeting\obj\Debug\VillageMeeting.Properties.Resources.resources
+E:\Meeting Project\Meeting Project C#\VillageMeeting\VillageMeeting\obj\Debug\VillageMeeting.csproj.GenerateResource.Cache
+E:\Meeting Project\Meeting Project C#\VillageMeeting\VillageMeeting\obj\Debug\VillageMeeting.exe
+E:\Meeting Project\Meeting Project C#\VillageMeeting\VillageMeeting\obj\Debug\VillageMeeting.pdb
+E:\Meeting Project\Meeting Project C#\VillageMeeting\VillageMeeting\obj\Debug\VillageMeeting.Form1.resources
+E:\Meeting Project\Meeting Project C#\VillageMeeting\VillageMeeting\obj\Debug\VillageMeeting.MDIParent1.resources
+E:\Meeting Project\Meeting Project C#\VillageMeeting\VillageMeeting\obj\Debug\VillageMeeting.frmShare.resources
+D:\Meeting Project\Meeting Project C#\VillageMeeting\VillageMeeting\bin\Debug\VillageMeeting.exe
+D:\Meeting Project\Meeting Project C#\VillageMeeting\VillageMeeting\bin\Debug\VillageMeeting.pdb
+D:\Meeting Project\Meeting Project C#\VillageMeeting\VillageMeeting\obj\Debug\ResolveAssemblyReference.cache
+D:\Meeting Project\Meeting Project C#\VillageMeeting\VillageMeeting\obj\Debug\VillageMeeting.Form1.resources
+D:\Meeting Project\Meeting Project C#\VillageMeeting\VillageMeeting\obj\Debug\VillageMeeting.frmShare.resources
+D:\Meeting Project\Meeting Project C#\VillageMeeting\VillageMeeting\obj\Debug\VillageMeeting.MDIParent1.resources
+D:\Meeting Project\Meeting Project C#\VillageMeeting\VillageMeeting\obj\Debug\VillageMeeting.Properties.Resources.resources
+D:\Meeting Project\Meeting Project C#\VillageMeeting\VillageMeeting\obj\Debug\VillageMeeting.exe
+D:\Meeting Project\Meeting Project C#\VillageMeeting\VillageMeeting\obj\Debug\VillageMeeting.pdb
+D:\Meeting Project\Meeting Project C#\VillageMeeting\VillageMeeting\obj\Debug\GenerateResource-ResGen.read.1.tlog
+D:\Meeting Project\Meeting Project C#\VillageMeeting\VillageMeeting\obj\Debug\GenerateResource-ResGen.write.1.tlog
+D:\Meeting Project\Meeting Project C#\VillageMeeting\VillageMeeting\obj\Debug\VillageMeeting.frmCapitalLoanSetting.resources
+G:\Meeting Project C#\VillageMeeting\VillageMeeting\bin\Debug\VillageMeeting.exe
+G:\Meeting Project C#\VillageMeeting\VillageMeeting\bin\Debug\VillageMeeting.pdb
+G:\Meeting Project C#\VillageMeeting\VillageMeeting\obj\Debug\ResolveAssemblyReference.cache
+G:\Meeting Project C#\VillageMeeting\VillageMeeting\obj\Debug\VillageMeeting.Form1.resources
+G:\Meeting Project C#\VillageMeeting\VillageMeeting\obj\Debug\VillageMeeting.Properties.Resources.resources
+G:\Meeting Project C#\VillageMeeting\VillageMeeting\obj\Debug\GenerateResource-ResGen.read.1.tlog
+G:\Meeting Project C#\VillageMeeting\VillageMeeting\obj\Debug\GenerateResource-ResGen.write.1.tlog
+G:\Meeting Project C#\VillageMeeting\VillageMeeting\obj\Debug\VillageMeeting.exe
+G:\Meeting Project C#\VillageMeeting\VillageMeeting\obj\Debug\VillageMeeting.pdb
+G:\Meeting Project C#\VillageMeeting\VillageMeeting\obj\Debug\VillageMeeting.MainForm.resources
+G:\Meeting Project C#\VillageMeeting\VillageMeeting\obj\Debug\VillageMeeting.frmCapitalLoanSetting.resources
+G:\Meeting Project C#\VillageMeeting\VillageMeeting\obj\Debug\VillageMeeting.frmShareManagement.resources
+G:\Meeting Project C#\VillageMeeting\VillageMeeting\obj\Debug\VillageMeeting.frmMeetingFile.resources

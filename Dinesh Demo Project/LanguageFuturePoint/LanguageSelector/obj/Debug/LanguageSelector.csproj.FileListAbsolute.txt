@@ -1,0 +1,5 @@
+G:\Dinesh Demo Project\LanguageFuturePoint\LanguageSelector\bin\Debug\LanguageSelector.dll
+G:\Dinesh Demo Project\LanguageFuturePoint\LanguageSelector\bin\Debug\LanguageSelector.pdb
+G:\Dinesh Demo Project\LanguageFuturePoint\LanguageSelector\obj\Debug\LanguageSelector.dll
+G:\Dinesh Demo Project\LanguageFuturePoint\LanguageSelector\obj\Debug\LanguageSelector.pdb
+G:\Dinesh Demo Project\LanguageFuturePoint\LanguageSelector\obj\Debug\LanguageSelector.csprojResolveAssemblyReference.cache

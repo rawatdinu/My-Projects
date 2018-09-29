@@ -1,0 +1,5 @@
+G:\Dinesh Demo Project\DemoCSharp\DemoCSharp\obj\x86\Debug\ResolveAssemblyReference.cache
+G:\Dinesh Demo Project\DemoCSharp\DemoCSharp\bin\Debug\DemoCSharp.exe
+G:\Dinesh Demo Project\DemoCSharp\DemoCSharp\bin\Debug\DemoCSharp.pdb
+G:\Dinesh Demo Project\DemoCSharp\DemoCSharp\obj\x86\Debug\DemoCSharp.exe
+G:\Dinesh Demo Project\DemoCSharp\DemoCSharp\obj\x86\Debug\DemoCSharp.pdb

@@ -1,0 +1,43 @@
+ Session["EmailId"] 
+Session["FirstName"] 
+
+
+
+Session["FirstName"] = txtFirstName.Text;
+                    Label lblMasterControl = (Label)Master.FindControl("lblUserName");
+                    lblMasterControl.Text = Session["FirstName"].ToString();
+
+
+Back color  #CCCCCC
+
+
+
+<asp:Label ID="lblStatus" runat="server" EnableViewState="False" 
+            ForeColor="Red"></asp:Label>
+
+
+
+footer class
+
+ background:White url('bgs.png') repeat-x 50% bottom;
+
+
+
+regular expression for paswwwor from lenth Min to Max
+
+[\S\s]{Min,Max}
+
+for min 6 character
+
+[\S\s]{6,}
+
+for Max 10 charcter
+
+[\S\s]{,10}
+
+
+
+previous page property
+
+http://www.aspdotnetfaq.com/Faq/How-to-make-Cross-Page-Postback-in-ASP-Net.aspx
+

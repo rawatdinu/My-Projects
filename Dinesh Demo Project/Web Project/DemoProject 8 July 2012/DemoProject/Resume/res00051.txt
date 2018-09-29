@@ -1,0 +1,230 @@
+Cake php
+
+http://book.cakephp.org/1.1/view/307/Introduction-to-CakePHP
+--------------------
+http://cakedc.com/florian_kraemer/2010/01/25/file-uploading-file-storage-and-cakephp-mediaview-class
+
+
+-----------------------------
+$result = mysql_query("UPDATE emp_detail SET emp_id='$row['Emp_id']' WHERE emp_id='$_GET[id]'")or die(mysql_error()); 
+$result = mysql_query("SELECT * FROM emp_detail where id='$_GET[id]'") or die(mysql_error());  
+$row = mysql_fetch_array( $result );
+echo $row['Emp_id'];
+  
+?>
+-------------------------------
+http://www.php-mysql-tutorial.com/wikis/php-tutorial/paging-using-php.aspx
+----------------------
+Pagging:---
+
+Ever use a Search Engine? I'm sure you have, lots of time. When Search Engines found thousands of results for a keyword do they spit out all the result in one page? Nope, they use paging to show the result little by little.
+
+Paging means showing your query result in multiple pages instead of just put them all in one long page. Imagine waiting for five minutes just to load a search page that shows 1000 result. By splitting the result in multiple pages you can save download time plus you don't have much scrolling to do.
+
+To show the result of a query in several pages first you need to know how many rows you have and how many rows per page you want to show. For example if I have 295 rows and I show 30 rows per page that mean I'll have ten pages (rounded up).
+
+ 
+
+For the example I created a table named randoms that store 295 random numbers. Each page shows 20 numbers.
+
+Example: paging.php
+Source code :paging.phps
+
+<?php
+include 'library/config.php';
+include 'library/opendb.php';
+
+// how many rows to show per page
+$rowsPerPage = 20;
+
+// by default we show first page
+$pageNum = 1;
+
+// if $_GET['page'] defined, use it as page number
+if(isset($_GET['page']))
+{
+    $pageNum = $_GET['page'];
+}
+
+// counting the offset
+$offset = ($pageNum - 1) * $rowsPerPage;
+
+$query = " SELECT val FROM randoms " .
+         " LIMIT $offset, $rowsPerPage";
+$result = mysql_query($query) or die('Error, query failed');
+
+// print the random numbers
+while($row = mysql_fetch_array($result))
+{
+   echo $row['val'] . '<br>';
+}
+
+// ... more code here
+?>
+
+Paging is implemented in MySQL using LIMIT that take two arguments. The first argument specifies the offset of the first row to return, the second specifies the maximum number of rows to return. The offset of the first row is 0 ( not 1 ).
+
+When paging.php is called for the first time the value of $_GET['page'] is not set. This caused $pageNum value to remain 1 and the query is :
+
+SELECT val FROM randoms LIMIT 0, 20
+
+which returns the first 20 values from the table. But when paging.php is called like this http://www.php-mysql-tutorial.com/examples/paging/paging.php?page=4
+the value of $pageNum becomes 4 and the query will be :
+
+SELECT val FROM randoms LIMIT 60, 20
+
+this query returns rows 60 to 79.
+
+After showing the values we need to print the links to show any pages we like. But first we have to count the number of pages. This is achieved by dividing the number of total rows by the number of rows to show per page :
+
+$maxPage = ceil($numrows/$rowsPerPage);
+
+<?php
+// ... the previous code
+
+// how many rows we have in database
+$query   = "SELECT COUNT(val) AS numrows FROM randoms";
+$result  = mysql_query($query) or die('Error, query failed');
+$row     = mysql_fetch_array($result, MYSQL_ASSOC);
+$numrows = $row['numrows'];
+
+// how many pages we have when using paging?
+$maxPage = ceil($numrows/$rowsPerPage);
+
+// print the link to access each page
+$self = $_SERVER['PHP_SELF'];
+$nav  = '';
+
+for($page = 1; $page <= $maxPage; $page++)
+{
+   if ($page == $pageNum)
+   {
+      $nav .= " $page "; // no need to create a link to current page
+   }
+   else
+   {
+      $nav .= " <a href=\"$self?page=$page\">$page</a> ";
+   }
+}
+
+// ... still more code coming
+?>
+
+The mathematical function ceil() is used to round up the value of $numrows/$rowsPerPage.
+
+In this case the value of total rows $numrows is 295 and $rowsPerPage is 20 so the result of the division is 14.75 and by using ceil() we get $maxPage = 15
+
+Now that we know how many pages we have we make a loop to print the link. Each link will look something like this:
+
+<a href="paging.php?page=5">5</a>
+
+You see that we use $_SERVER['PHP_SELF'] instead of paging.php when creating the link to point to the paging file. This is done to avoid the trouble of modifying the code in case we want to change the filename.
+ 
+
+We are almost complete. Just need to add a little code to create a 'Previous' and 'Next' link. With these links we can navigate to the previous and next page easily. And while we at it let's also create a 'First page' and 'Last page' link so we can jump straight to the first and last page when we want to.
+
+ 
+
+<?php
+// ... the previous code
+
+// creating previous and next link
+// plus the link to go straight to
+// the first and last page
+
+if ($pageNum > 1)
+{
+   $page  = $pageNum - 1;
+   $prev  = " <a href=\"$self?page=$page\">[Prev]</a> ";
+
+   $first = " <a href=\"$self?page=1\">[First Page]</a> ";
+}
+else
+{
+   $prev  = '&nbsp;'; // we're on page one, don't print previous link
+   $first = '&nbsp;'; // nor the first page link
+}
+
+if ($pageNum < $maxPage)
+{
+   $page = $pageNum + 1;
+   $next = " <a href=\"$self?page=$page\">[Next]</a> ";
+
+   $last = " <a href=\"$self?page=$maxPage\">[Last Page]</a> ";
+}
+else
+{
+   $next = '&nbsp;'; // we're on the last page, don't print next link
+   $last = '&nbsp;'; // nor the last page link
+}
+
+// print the navigation link
+echo $first . $prev . $nav . $next . $last;
+
+// and close the database connection
+include '../library/closedb.php';
+
+// ... and we're done!
+?>
+
+Making these navigation link is actually easier than you may think. When we're on the fifth page we just make the 'Previous' link point to the fourth. The same principle also apply for the 'Next' link, we just need to add one to the page number.
+
+One thing to remember is that we don't need to print the 'Previous' and 'First Page' link when we're already on the first page. Same thing for the 'Next' and 'Last' link. If we do print them that would only confuse the one who click on it. Because we'll be giving them the exact same page.
+
+ 
+We got a problem here...
+
+Take a look at this slightly modified version of paging.php. Instead of showing 20 numbers in a page, I decided to show just three.
+
+See the problem already?
+
+Those page numbers are running across the screen! Yuck!
+
+This call for a little modification to the code. Instead of printing the link to each and every page we will just saying something like "Viewing page 4 of 99 pages".
+
+Than means we havel remove these code :
+
+<?php
+// ... the previous code
+
+$nav  = '';
+
+for($page = 1; $page <= $maxPage; $page++)
+{
+   if ($page == $pageNum)
+   {
+      $nav .= " $page "; // no need to create a link to current page
+   }
+   else
+   {
+      $nav .= " <a href=\"$self?page=$page\">$page</a> ";
+   }
+}
+
+// ... the rest here
+?>
+
+And then modify this one
+
+<?php
+// ...
+
+// print the navigation link
+echo $first . $prev . $nav . $next . $last;
+
+// ...
+?>
+
+ 
+
+Into this
+
+<?php
+// ...
+
+// print the navigation link
+echo $first . $prev .
+" Showing page $pageNum of $maxPage pages " . $next . $last;
+
+// ...
+?>

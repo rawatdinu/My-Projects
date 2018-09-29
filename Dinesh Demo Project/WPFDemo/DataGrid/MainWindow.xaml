@@ -1,0 +1,116 @@
+﻿<Window x:Class="DataGrid.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="600">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="auto" />
+            <ColumnDefinition Width="auto" />
+            <ColumnDefinition Width="auto" />
+        </Grid.ColumnDefinitions>
+        <DataGrid Grid.Row="0" Grid.Column="0" Name="dg">
+            <DataGrid.Columns >
+                <DataGridCheckBoxColumn >
+                    <DataGridCheckBoxColumn.Header>
+                        <CheckBox Name="chkAll" > All
+                            
+                        </CheckBox>
+                    </DataGridCheckBoxColumn.Header>
+
+                </DataGridCheckBoxColumn>
+                <!--<DataGridTextColumn Header="ID" />
+                <DataGridTextColumn Header="Name" />
+                <DataGridTextColumn Header="Age" />-->
+                
+               
+                
+            </DataGrid.Columns>
+        </DataGrid>
+        <StackPanel Grid.Row="1" Grid.Column="0"    Margin="5"  Orientation="Horizontal">
+            <Button Name="btnAdd" Width="100" Content="Load" Click="btnAdd_Click" />
+            <Button Name="btnEdit" Width="100" Content="Get Datatable" Click="btnEdit_Click" />
+
+            <Button Name="btnCell" Width="100" Content="Get Cell" Click="btnCell_Click" />
+
+        </StackPanel>
+
+
+        <DataGrid Grid.Row="0" Grid.Column="1" Name="dg2" AutoGenerateColumns="False" CanUserAddRows="False">
+            <DataGrid.Columns >
+                <DataGridTemplateColumn Width="50">
+                    <DataGridTemplateColumn.Header>
+
+                        <CheckBox Name="chkSelectAll" Margin="17,0,0,0" >
+
+                        </CheckBox>
+
+                    </DataGridTemplateColumn.Header>
+                    <DataGridTemplateColumn.CellTemplate >
+                        <DataTemplate>
+                            <CheckBox x:Name="chkSelectItem"
+                                      HorizontalAlignment="Center"
+                                      HorizontalContentAlignment="Center" IsChecked="{Binding IsSelect}"  />
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTextColumn Header="ID" Binding="{Binding ID}" Width="100"/>
+                <DataGridTextColumn Header="Insured Name" Binding="{Binding Name}" Width="150"/>
+                <DataGridTextColumn Header="Age" Binding="{Binding Age}" Width="80"/>
+
+
+
+            </DataGrid.Columns>
+        </DataGrid>
+        <StackPanel Grid.Row="1" Grid.Column="1"    Margin="5"  Orientation="Horizontal">
+            <Button Name="buttion1" Width="100" Content="buttion1" Click="buttion1_Click" />
+            <Button Name="buttion2" Width="100" Content="buttion2" Click="buttion2_Click" />
+
+            <Button Name="buttion3" Width="100" Content="buttion3"  />
+
+        </StackPanel>
+
+
+        <DataGrid Grid.Row="2" Grid.Column="0" Name="dg3" AutoGenerateColumns="False" CanUserAddRows="False" >
+            <DataGrid.Columns >
+                <DataGridTemplateColumn Width="50">
+                    <DataGridTemplateColumn.Header>
+
+                        <CheckBox Name="chk3" Margin="17,0,0,0" Checked="chk3_Checked" Unchecked="chk3_Unchecked">
+
+                        </CheckBox>
+
+                    </DataGridTemplateColumn.Header>
+                    <DataGridTemplateColumn.CellTemplate >
+                        <DataTemplate>
+                            <CheckBox x:Name="chk3Item"
+                                      HorizontalAlignment="Center"
+                                      HorizontalContentAlignment="Center" IsChecked="{Binding IsSelect}" Checked="chk3Item_Checked" Unchecked="chk3Item_Unchecked" />
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTextColumn Header="Name" Binding="{Binding ProdName}" Width="150"/>
+                <DataGridTextColumn Header="Price" Binding="{Binding Price}" Width="150"/>
+               
+
+
+
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <StackPanel Grid.Row="3" Grid.Column="0"    Margin="5"  Orientation="Horizontal">
+            <Button Name="cmd1" Width="100" Content="buttion1" Click="cmd1_Click" />
+            <Button Name="cmd2" Width="100" Content="buttion2" Click="cmd2_Click" />
+
+            <Button Name="cmd3" Width="100" Content="buttion3" Click="cmd3_Click" />
+
+        </StackPanel>
+
+
+    </Grid>
+</Window>

@@ -1,0 +1,9 @@
+G:\Dinesh Demo Project\FuturePointLanguageWinForm\FuturePointLanguageWinForm\bin\Debug\FuturePointLanguageWinForm.exe
+G:\Dinesh Demo Project\FuturePointLanguageWinForm\FuturePointLanguageWinForm\bin\Debug\FuturePointLanguageWinForm.pdb
+G:\Dinesh Demo Project\FuturePointLanguageWinForm\FuturePointLanguageWinForm\obj\x86\Debug\ResolveAssemblyReference.cache
+G:\Dinesh Demo Project\FuturePointLanguageWinForm\FuturePointLanguageWinForm\obj\x86\Debug\FuturePointLanguageWinForm.Form1.resources
+G:\Dinesh Demo Project\FuturePointLanguageWinForm\FuturePointLanguageWinForm\obj\x86\Debug\FuturePointLanguageWinForm.Properties.Resources.resources
+G:\Dinesh Demo Project\FuturePointLanguageWinForm\FuturePointLanguageWinForm\obj\x86\Debug\GenerateResource.read.1.tlog
+G:\Dinesh Demo Project\FuturePointLanguageWinForm\FuturePointLanguageWinForm\obj\x86\Debug\GenerateResource.write.1.tlog
+G:\Dinesh Demo Project\FuturePointLanguageWinForm\FuturePointLanguageWinForm\obj\x86\Debug\FuturePointLanguageWinForm.exe
+G:\Dinesh Demo Project\FuturePointLanguageWinForm\FuturePointLanguageWinForm\obj\x86\Debug\FuturePointLanguageWinForm.pdb

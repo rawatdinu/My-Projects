@@ -1,0 +1,38 @@
+D:\Dinesh\Demo Project\WPF_Printing\WPF_Printing\bin\Debug\WPF_Printing.exe
+D:\Dinesh\Demo Project\WPF_Printing\WPF_Printing\bin\Debug\WPF_Printing.pdb
+D:\Dinesh\Demo Project\WPF_Printing\WPF_Printing\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Dinesh\Demo Project\WPF_Printing\WPF_Printing\obj\x86\Debug\MainWindow.baml
+D:\Dinesh\Demo Project\WPF_Printing\WPF_Printing\obj\x86\Debug\PageSetup.baml
+D:\Dinesh\Demo Project\WPF_Printing\WPF_Printing\obj\x86\Debug\Printing.baml
+D:\Dinesh\Demo Project\WPF_Printing\WPF_Printing\obj\x86\Debug\WinStringLength.baml
+D:\Dinesh\Demo Project\WPF_Printing\WPF_Printing\obj\x86\Debug\MainWindow.g.cs
+D:\Dinesh\Demo Project\WPF_Printing\WPF_Printing\obj\x86\Debug\PageSetup.g.cs
+D:\Dinesh\Demo Project\WPF_Printing\WPF_Printing\obj\x86\Debug\Printing.g.cs
+D:\Dinesh\Demo Project\WPF_Printing\WPF_Printing\obj\x86\Debug\WinStringLength.g.cs
+D:\Dinesh\Demo Project\WPF_Printing\WPF_Printing\obj\x86\Debug\App.g.cs
+D:\Dinesh\Demo Project\WPF_Printing\WPF_Printing\obj\x86\Debug\WPF_Printing_MarkupCompile.cache
+D:\Dinesh\Demo Project\WPF_Printing\WPF_Printing\obj\x86\Debug\WPF_Printing.g.resources
+D:\Dinesh\Demo Project\WPF_Printing\WPF_Printing\obj\x86\Debug\WPF_Printing.Properties.Resources.resources
+D:\Dinesh\Demo Project\WPF_Printing\WPF_Printing\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Dinesh\Demo Project\WPF_Printing\WPF_Printing\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\Dinesh\Demo Project\WPF_Printing\WPF_Printing\obj\x86\Debug\WPF_Printing.exe
+D:\Dinesh\Demo Project\WPF_Printing\WPF_Printing\obj\x86\Debug\WPF_Printing.pdb
+G:\Dinesh Demo Project\WPF_Printing\WPF_Printing\obj\x86\Debug\WPF_Printing.exe
+G:\Dinesh Demo Project\WPF_Printing\WPF_Printing\obj\x86\Debug\WPF_Printing.pdb
+G:\Dinesh Demo Project\WPF_Printing\WPF_Printing\bin\Debug\WPF_Printing.exe
+G:\Dinesh Demo Project\WPF_Printing\WPF_Printing\bin\Debug\WPF_Printing.pdb
+G:\Dinesh Demo Project\WPF_Printing\WPF_Printing\obj\x86\Debug\ResolveAssemblyReference.cache
+G:\Dinesh Demo Project\WPF_Printing\WPF_Printing\obj\x86\Debug\MainWindow.baml
+G:\Dinesh Demo Project\WPF_Printing\WPF_Printing\obj\x86\Debug\PageSetup.baml
+G:\Dinesh Demo Project\WPF_Printing\WPF_Printing\obj\x86\Debug\Printing.baml
+G:\Dinesh Demo Project\WPF_Printing\WPF_Printing\obj\x86\Debug\WinStringLength.baml
+G:\Dinesh Demo Project\WPF_Printing\WPF_Printing\obj\x86\Debug\MainWindow.g.cs
+G:\Dinesh Demo Project\WPF_Printing\WPF_Printing\obj\x86\Debug\PageSetup.g.cs
+G:\Dinesh Demo Project\WPF_Printing\WPF_Printing\obj\x86\Debug\Printing.g.cs
+G:\Dinesh Demo Project\WPF_Printing\WPF_Printing\obj\x86\Debug\WinStringLength.g.cs
+G:\Dinesh Demo Project\WPF_Printing\WPF_Printing\obj\x86\Debug\App.g.cs
+G:\Dinesh Demo Project\WPF_Printing\WPF_Printing\obj\x86\Debug\WPF_Printing_MarkupCompile.cache
+G:\Dinesh Demo Project\WPF_Printing\WPF_Printing\obj\x86\Debug\WPF_Printing.g.resources
+G:\Dinesh Demo Project\WPF_Printing\WPF_Printing\obj\x86\Debug\WPF_Printing.Properties.Resources.resources
+G:\Dinesh Demo Project\WPF_Printing\WPF_Printing\obj\x86\Debug\GenerateResource.read.1.tlog
+G:\Dinesh Demo Project\WPF_Printing\WPF_Printing\obj\x86\Debug\GenerateResource.write.1.tlog

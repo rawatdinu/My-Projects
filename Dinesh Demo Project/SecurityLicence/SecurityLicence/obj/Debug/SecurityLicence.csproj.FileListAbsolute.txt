@@ -1,0 +1,9 @@
+G:\Dinesh Demo Project\SecurityLicence\SecurityLicence\bin\Debug\SecurityLicence.exe.config
+G:\Dinesh Demo Project\SecurityLicence\SecurityLicence\bin\Debug\SecurityLicence.exe
+G:\Dinesh Demo Project\SecurityLicence\SecurityLicence\bin\Debug\SecurityLicence.pdb
+G:\Dinesh Demo Project\SecurityLicence\SecurityLicence\obj\Debug\SecurityLicence.csprojResolveAssemblyReference.cache
+G:\Dinesh Demo Project\SecurityLicence\SecurityLicence\obj\Debug\SecurityLicence.Form1.resources
+G:\Dinesh Demo Project\SecurityLicence\SecurityLicence\obj\Debug\SecurityLicence.Properties.Resources.resources
+G:\Dinesh Demo Project\SecurityLicence\SecurityLicence\obj\Debug\SecurityLicence.csproj.GenerateResource.Cache
+G:\Dinesh Demo Project\SecurityLicence\SecurityLicence\obj\Debug\SecurityLicence.exe
+G:\Dinesh Demo Project\SecurityLicence\SecurityLicence\obj\Debug\SecurityLicence.pdb

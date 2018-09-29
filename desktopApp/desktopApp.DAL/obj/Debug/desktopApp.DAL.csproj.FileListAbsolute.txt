@@ -1,0 +1,12 @@
+C:\inetpub\wwwroot\dotnetnuke\DesktopModules\desktopApp.DAL\bin\Debug\desktopApp.DAL.dll.config
+C:\inetpub\wwwroot\dotnetnuke\DesktopModules\desktopApp.DAL\bin\Debug\desktopApp.DAL.dll
+C:\inetpub\wwwroot\dotnetnuke\DesktopModules\desktopApp.DAL\bin\Debug\desktopApp.DAL.pdb
+C:\inetpub\wwwroot\dotnetnuke\DesktopModules\desktopApp.DAL\obj\Debug\ResolveAssemblyReference.cache
+C:\inetpub\wwwroot\dotnetnuke\DesktopModules\desktopApp.DAL\obj\Debug\desktopApp.DAL.dll
+C:\inetpub\wwwroot\dotnetnuke\DesktopModules\desktopApp.DAL\obj\Debug\desktopApp.DAL.pdb
+C:\Users\kanojia\Documents\Visual Studio 2010\Projects\desktopApp\desktopApp.DAL\bin\Debug\desktopApp.DAL.dll.config
+C:\Users\kanojia\Documents\Visual Studio 2010\Projects\desktopApp\desktopApp.DAL\bin\Debug\desktopApp.DAL.dll
+C:\Users\kanojia\Documents\Visual Studio 2010\Projects\desktopApp\desktopApp.DAL\bin\Debug\desktopApp.DAL.pdb
+C:\Users\kanojia\Documents\Visual Studio 2010\Projects\desktopApp\desktopApp.DAL\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\kanojia\Documents\Visual Studio 2010\Projects\desktopApp\desktopApp.DAL\obj\Debug\desktopApp.DAL.dll
+C:\Users\kanojia\Documents\Visual Studio 2010\Projects\desktopApp\desktopApp.DAL\obj\Debug\desktopApp.DAL.pdb

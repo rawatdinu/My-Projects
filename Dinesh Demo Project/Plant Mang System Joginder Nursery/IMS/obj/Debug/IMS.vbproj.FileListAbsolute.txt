@@ -1,0 +1,696 @@
+D:\latest Client Sotware\IMS\IMS\bin\Debug\IMS.exe
+D:\latest Client Sotware\IMS\IMS\bin\Debug\IMS.pdb
+D:\latest Client Sotware\IMS\IMS\bin\Debug\IMS.xml
+D:\latest Client Sotware\IMS\IMS\bin\Debug\Interop.CRVIEWERLib.dll
+D:\latest Client Sotware\IMS\IMS\bin\Debug\Interop.Crystal.dll
+D:\latest Client Sotware\IMS\IMS\bin\Debug\Interop.VSFlex7L.dll
+D:\latest Client Sotware\IMS\IMS\bin\Debug\AxInterop.CRVIEWERLib.dll
+D:\latest Client Sotware\IMS\IMS\bin\Debug\AxInterop.Crystal.dll
+D:\latest Client Sotware\IMS\IMS\bin\Debug\AxInterop.VSFlex7L.dll
+D:\latest Client Sotware\IMS\IMS\obj\Debug\ResolveAssemblyReference.cache
+D:\latest Client Sotware\IMS\IMS\obj\Debug\Interop.CRVIEWERLib.dll
+D:\latest Client Sotware\IMS\IMS\obj\Debug\Interop.Crystal.dll
+D:\latest Client Sotware\IMS\IMS\obj\Debug\Interop.VSFlex7L.dll
+D:\latest Client Sotware\IMS\IMS\obj\Debug\AxInterop.CRVIEWERLib.dll
+D:\latest Client Sotware\IMS\IMS\obj\Debug\AxInterop.Crystal.dll
+D:\latest Client Sotware\IMS\IMS\obj\Debug\AxInterop.VSFlex7L.dll
+D:\latest Client Sotware\IMS\IMS\obj\Debug\IMS.vbproj.ResolveComReference.cache
+D:\latest Client Sotware\IMS\IMS\obj\Debug\IMS.frmCompanyMaster.resources
+D:\latest Client Sotware\IMS\IMS\obj\Debug\IMS.Form2.resources
+D:\latest Client Sotware\IMS\IMS\obj\Debug\IMS.frmAccountGroupReport.resources
+D:\latest Client Sotware\IMS\IMS\obj\Debug\IMS.frmBankMaster.resources
+D:\latest Client Sotware\IMS\IMS\obj\Debug\IMS.frmBankVoucher.resources
+D:\latest Client Sotware\IMS\IMS\obj\Debug\IMS.frmCityMaster.resources
+D:\latest Client Sotware\IMS\IMS\obj\Debug\IMS.frmCustomerAccount.resources
+D:\latest Client Sotware\IMS\IMS\obj\Debug\IMS.frmCustomerMaster.resources
+D:\latest Client Sotware\IMS\IMS\obj\Debug\IMS.frmItemAccountStatement.resources
+D:\latest Client Sotware\IMS\IMS\obj\Debug\IMS.frmItemMaster.resources
+D:\latest Client Sotware\IMS\IMS\obj\Debug\IMS.frmLocalityMaster.resources
+D:\latest Client Sotware\IMS\IMS\obj\Debug\IMS.frmPayment.resources
+D:\latest Client Sotware\IMS\IMS\obj\Debug\IMS.frmPaymentSearch.resources
+D:\latest Client Sotware\IMS\IMS\obj\Debug\IMS.frmPOConfigurationMaster.resources
+D:\latest Client Sotware\IMS\IMS\obj\Debug\IMS.frmPurchaseInvoice.resources
+D:\latest Client Sotware\IMS\IMS\obj\Debug\IMS.frmPurchaseReturn.resources
+D:\latest Client Sotware\IMS\IMS\obj\Debug\IMS.frmPurchaseReturnSearch.resources
+D:\latest Client Sotware\IMS\IMS\obj\Debug\IMS.frmPurchaseSearch.resources
+D:\latest Client Sotware\IMS\IMS\obj\Debug\IMS.frmReceipt.resources
+D:\latest Client Sotware\IMS\IMS\obj\Debug\IMS.frmReceiptSearch.resources
+D:\latest Client Sotware\IMS\IMS\obj\Debug\IMS.frmReportViewer.resources
+D:\latest Client Sotware\IMS\IMS\obj\Debug\IMS.frmSaleInvoice.resources
+D:\latest Client Sotware\IMS\IMS\obj\Debug\IMS.frmSaleReturn.resources
+D:\latest Client Sotware\IMS\IMS\obj\Debug\IMS.frmSaleReturnSearch.resources
+D:\latest Client Sotware\IMS\IMS\obj\Debug\IMS.frmSaleSearch.resources
+D:\latest Client Sotware\IMS\IMS\obj\Debug\IMS.frmStateMaster.resources
+D:\latest Client Sotware\IMS\IMS\obj\Debug\IMS.frmSupplierAccount.resources
+D:\latest Client Sotware\IMS\IMS\obj\Debug\IMS.frmSupplierMaster.resources
+D:\latest Client Sotware\IMS\IMS\obj\Debug\IMS.LoginForm1.resources
+D:\latest Client Sotware\IMS\IMS\obj\Debug\IMS.frmMainMenu.resources
+D:\latest Client Sotware\IMS\IMS\obj\Debug\IMS.Resources.resources
+D:\latest Client Sotware\IMS\IMS\obj\Debug\IMS.vbproj.GenerateResource.Cache
+D:\latest Client Sotware\IMS\IMS\obj\Debug\IMS.exe
+D:\latest Client Sotware\IMS\IMS\obj\Debug\IMS.xml
+D:\latest Client Sotware\IMS\IMS\obj\Debug\IMS.pdb
+D:\latest Client Sotware\IMS_Nitin\IMS\bin\Debug\IMS.exe
+D:\latest Client Sotware\IMS_Nitin\IMS\bin\Debug\IMS.pdb
+D:\latest Client Sotware\IMS_Nitin\IMS\bin\Debug\IMS.xml
+D:\latest Client Sotware\IMS_Nitin\IMS\bin\Debug\Interop.CRVIEWERLib.dll
+D:\latest Client Sotware\IMS_Nitin\IMS\bin\Debug\Interop.Crystal.dll
+D:\latest Client Sotware\IMS_Nitin\IMS\bin\Debug\Interop.VSFlex7L.dll
+D:\latest Client Sotware\IMS_Nitin\IMS\bin\Debug\AxInterop.CRVIEWERLib.dll
+D:\latest Client Sotware\IMS_Nitin\IMS\bin\Debug\AxInterop.Crystal.dll
+D:\latest Client Sotware\IMS_Nitin\IMS\bin\Debug\AxInterop.VSFlex7L.dll
+D:\latest Client Sotware\IMS_Nitin\IMS\obj\Debug\ResolveAssemblyReference.cache
+D:\latest Client Sotware\IMS_Nitin\IMS\obj\Debug\Interop.CRVIEWERLib.dll
+D:\latest Client Sotware\IMS_Nitin\IMS\obj\Debug\Interop.Crystal.dll
+D:\latest Client Sotware\IMS_Nitin\IMS\obj\Debug\Interop.VSFlex7L.dll
+D:\latest Client Sotware\IMS_Nitin\IMS\obj\Debug\AxInterop.CRVIEWERLib.dll
+D:\latest Client Sotware\IMS_Nitin\IMS\obj\Debug\AxInterop.Crystal.dll
+D:\latest Client Sotware\IMS_Nitin\IMS\obj\Debug\AxInterop.VSFlex7L.dll
+D:\latest Client Sotware\IMS_Nitin\IMS\obj\Debug\IMS.vbproj.ResolveComReference.cache
+D:\latest Client Sotware\IMS_Nitin\IMS\obj\Debug\IMS.frmCompanyMaster.resources
+D:\latest Client Sotware\IMS_Nitin\IMS\obj\Debug\IMS.Form2.resources
+D:\latest Client Sotware\IMS_Nitin\IMS\obj\Debug\IMS.frmAccountGroupReport.resources
+D:\latest Client Sotware\IMS_Nitin\IMS\obj\Debug\IMS.frmBankMaster.resources
+D:\latest Client Sotware\IMS_Nitin\IMS\obj\Debug\IMS.frmBankVoucher.resources
+D:\latest Client Sotware\IMS_Nitin\IMS\obj\Debug\IMS.frmCityMaster.resources
+D:\latest Client Sotware\IMS_Nitin\IMS\obj\Debug\IMS.frmCustomerAccount.resources
+D:\latest Client Sotware\IMS_Nitin\IMS\obj\Debug\IMS.frmCustomerMaster.resources
+D:\latest Client Sotware\IMS_Nitin\IMS\obj\Debug\IMS.frmItemAccountStatement.resources
+D:\latest Client Sotware\IMS_Nitin\IMS\obj\Debug\IMS.frmItemMaster.resources
+D:\latest Client Sotware\IMS_Nitin\IMS\obj\Debug\IMS.frmLocalityMaster.resources
+D:\latest Client Sotware\IMS_Nitin\IMS\obj\Debug\IMS.frmPayment.resources
+D:\latest Client Sotware\IMS_Nitin\IMS\obj\Debug\IMS.frmPaymentSearch.resources
+D:\latest Client Sotware\IMS_Nitin\IMS\obj\Debug\IMS.frmPOConfigurationMaster.resources
+D:\latest Client Sotware\IMS_Nitin\IMS\obj\Debug\IMS.frmPurchaseInvoice.resources
+D:\latest Client Sotware\IMS_Nitin\IMS\obj\Debug\IMS.frmPurchaseReturn.resources
+D:\latest Client Sotware\IMS_Nitin\IMS\obj\Debug\IMS.frmPurchaseReturnSearch.resources
+D:\latest Client Sotware\IMS_Nitin\IMS\obj\Debug\IMS.frmPurchaseSearch.resources
+D:\latest Client Sotware\IMS_Nitin\IMS\obj\Debug\IMS.frmReceipt.resources
+D:\latest Client Sotware\IMS_Nitin\IMS\obj\Debug\IMS.frmReceiptSearch.resources
+D:\latest Client Sotware\IMS_Nitin\IMS\obj\Debug\IMS.frmReportViewer.resources
+D:\latest Client Sotware\IMS_Nitin\IMS\obj\Debug\IMS.frmSaleInvoice.resources
+D:\latest Client Sotware\IMS_Nitin\IMS\obj\Debug\IMS.frmSaleReturn.resources
+D:\latest Client Sotware\IMS_Nitin\IMS\obj\Debug\IMS.frmSaleReturnSearch.resources
+D:\latest Client Sotware\IMS_Nitin\IMS\obj\Debug\IMS.frmSaleSearch.resources
+D:\latest Client Sotware\IMS_Nitin\IMS\obj\Debug\IMS.frmStateMaster.resources
+D:\latest Client Sotware\IMS_Nitin\IMS\obj\Debug\IMS.frmSupplierAccount.resources
+D:\latest Client Sotware\IMS_Nitin\IMS\obj\Debug\IMS.frmSupplierMaster.resources
+D:\latest Client Sotware\IMS_Nitin\IMS\obj\Debug\IMS.LoginForm1.resources
+D:\latest Client Sotware\IMS_Nitin\IMS\obj\Debug\IMS.frmMainMenu.resources
+D:\latest Client Sotware\IMS_Nitin\IMS\obj\Debug\IMS.Resources.resources
+D:\latest Client Sotware\IMS_Nitin\IMS\obj\Debug\IMS.vbproj.GenerateResource.Cache
+D:\latest Client Sotware\IMS_Nitin\IMS\obj\Debug\IMS.exe
+D:\latest Client Sotware\IMS_Nitin\IMS\obj\Debug\IMS.xml
+D:\latest Client Sotware\IMS_Nitin\IMS\obj\Debug\IMS.pdb
+D:\latest Client Sotware\IMS_Nitin\IMS\obj\Debug\IMS.frmJournalVoucher.resources
+D:\latest Client Sotware\IMS_Nitin\IMS\obj\Debug\IMS.frmTaxInvoice.resources
+D:\Current Client Softwares\IMS_Nitin\IMS\bin\Debug\IMS.exe
+D:\Current Client Softwares\IMS_Nitin\IMS\bin\Debug\IMS.pdb
+D:\Current Client Softwares\IMS_Nitin\IMS\bin\Debug\IMS.xml
+D:\Current Client Softwares\IMS_Nitin\IMS\bin\Debug\Interop.CRVIEWERLib.dll
+D:\Current Client Softwares\IMS_Nitin\IMS\bin\Debug\Interop.VSFlex7L.dll
+D:\Current Client Softwares\IMS_Nitin\IMS\bin\Debug\AxInterop.CRVIEWERLib.dll
+D:\Current Client Softwares\IMS_Nitin\IMS\bin\Debug\AxInterop.VSFlex7L.dll
+D:\Current Client Softwares\IMS_Nitin\IMS\obj\Debug\ResolveAssemblyReference.cache
+D:\Current Client Softwares\IMS_Nitin\IMS\obj\Debug\Interop.CRVIEWERLib.dll
+D:\Current Client Softwares\IMS_Nitin\IMS\obj\Debug\Interop.VSFlex7L.dll
+D:\Current Client Softwares\IMS_Nitin\IMS\obj\Debug\AxInterop.CRVIEWERLib.dll
+D:\Current Client Softwares\IMS_Nitin\IMS\obj\Debug\AxInterop.VSFlex7L.dll
+D:\Current Client Softwares\IMS_Nitin\IMS\obj\Debug\IMS.vbproj.ResolveComReference.cache
+D:\Current Client Softwares\IMS_Nitin\IMS\obj\Debug\IMS.frmCompanyMaster.resources
+D:\Current Client Softwares\IMS_Nitin\IMS\obj\Debug\IMS.frmAccountGroupReport.resources
+D:\Current Client Softwares\IMS_Nitin\IMS\obj\Debug\IMS.frmBankMaster.resources
+D:\Current Client Softwares\IMS_Nitin\IMS\obj\Debug\IMS.frmBankVoucher.resources
+D:\Current Client Softwares\IMS_Nitin\IMS\obj\Debug\IMS.frmCityMaster.resources
+D:\Current Client Softwares\IMS_Nitin\IMS\obj\Debug\IMS.frmCustomerAccount.resources
+D:\Current Client Softwares\IMS_Nitin\IMS\obj\Debug\IMS.frmCustomerMaster.resources
+D:\Current Client Softwares\IMS_Nitin\IMS\obj\Debug\IMS.frmDayBook.resources
+D:\Current Client Softwares\IMS_Nitin\IMS\obj\Debug\IMS.frmItemAccountStatement.resources
+D:\Current Client Softwares\IMS_Nitin\IMS\obj\Debug\IMS.frmItemMaster.resources
+D:\Current Client Softwares\IMS_Nitin\IMS\obj\Debug\IMS.frmJournalVoucher.resources
+D:\Current Client Softwares\IMS_Nitin\IMS\obj\Debug\IMS.frmLocalityMaster.resources
+D:\Current Client Softwares\IMS_Nitin\IMS\obj\Debug\IMS.frmPayment.resources
+D:\Current Client Softwares\IMS_Nitin\IMS\obj\Debug\IMS.frmPaymentSearch.resources
+D:\Current Client Softwares\IMS_Nitin\IMS\obj\Debug\IMS.frmPOConfigurationMaster.resources
+D:\Current Client Softwares\IMS_Nitin\IMS\obj\Debug\IMS.frmPurchaseInvoice.resources
+D:\Current Client Softwares\IMS_Nitin\IMS\obj\Debug\IMS.frmPurchaseReturn.resources
+D:\Current Client Softwares\IMS_Nitin\IMS\obj\Debug\IMS.frmPurchaseReturnSearch.resources
+D:\Current Client Softwares\IMS_Nitin\IMS\obj\Debug\IMS.frmPurchaseSearch.resources
+D:\Current Client Softwares\IMS_Nitin\IMS\obj\Debug\IMS.frmReceipt.resources
+D:\Current Client Softwares\IMS_Nitin\IMS\obj\Debug\IMS.frmReceiptSearch.resources
+D:\Current Client Softwares\IMS_Nitin\IMS\obj\Debug\IMS.frmReportViewer.resources
+D:\Current Client Softwares\IMS_Nitin\IMS\obj\Debug\IMS.frmSaleInvoice.resources
+D:\Current Client Softwares\IMS_Nitin\IMS\obj\Debug\IMS.frmSaleReturn.resources
+D:\Current Client Softwares\IMS_Nitin\IMS\obj\Debug\IMS.frmSaleReturnSearch.resources
+D:\Current Client Softwares\IMS_Nitin\IMS\obj\Debug\IMS.frmSaleSearch.resources
+D:\Current Client Softwares\IMS_Nitin\IMS\obj\Debug\IMS.frmStateMaster.resources
+D:\Current Client Softwares\IMS_Nitin\IMS\obj\Debug\IMS.frmSupplierAccount.resources
+D:\Current Client Softwares\IMS_Nitin\IMS\obj\Debug\IMS.frmSupplierMaster.resources
+D:\Current Client Softwares\IMS_Nitin\IMS\obj\Debug\IMS.frmTaxInvoice.resources
+D:\Current Client Softwares\IMS_Nitin\IMS\obj\Debug\IMS.LoginForm1.resources
+D:\Current Client Softwares\IMS_Nitin\IMS\obj\Debug\IMS.frmMainMenu.resources
+D:\Current Client Softwares\IMS_Nitin\IMS\obj\Debug\IMS.Resources.resources
+D:\Current Client Softwares\IMS_Nitin\IMS\obj\Debug\IMS.vbproj.GenerateResource.Cache
+D:\Current Client Softwares\IMS_Nitin\IMS\obj\Debug\IMS.exe
+D:\Current Client Softwares\IMS_Nitin\IMS\obj\Debug\IMS.xml
+D:\Current Client Softwares\IMS_Nitin\IMS\obj\Debug\IMS.pdb
+D:\Current Client Softwares\Yogi Nursery\IMS\obj\Debug\ResolveAssemblyReference.cache
+D:\Current Client Softwares\Yogi Nursery\IMS\obj\Debug\Interop.VSFlex7L.dll
+D:\Current Client Softwares\Yogi Nursery\IMS\obj\Debug\AxInterop.VSFlex7L.dll
+D:\Current Client Softwares\Yogi Nursery\IMS\obj\Debug\IMS.vbproj.ResolveComReference.cache
+D:\Current Client Softwares\Yogi Nursery\IMS\obj\Debug\IMS.frmCompanyMaster.resources
+D:\Current Client Softwares\Yogi Nursery\IMS\obj\Debug\IMS.frmAccountGroupReport.resources
+D:\Current Client Softwares\Yogi Nursery\IMS\obj\Debug\IMS.frmBackup.resources
+D:\Current Client Softwares\Yogi Nursery\IMS\obj\Debug\IMS.frmBankMaster.resources
+D:\Current Client Softwares\Yogi Nursery\IMS\obj\Debug\IMS.frmBankVoucher.resources
+D:\Current Client Softwares\Yogi Nursery\IMS\obj\Debug\IMS.frmCityMaster.resources
+D:\Current Client Softwares\Yogi Nursery\IMS\obj\Debug\IMS.frmCustomerAccount.resources
+D:\Current Client Softwares\Yogi Nursery\IMS\obj\Debug\IMS.frmCustomerMaster.resources
+D:\Current Client Softwares\Yogi Nursery\IMS\obj\Debug\IMS.frmDayBook.resources
+D:\Current Client Softwares\Yogi Nursery\IMS\obj\Debug\IMS.frmItemAccountStatement.resources
+D:\Current Client Softwares\Yogi Nursery\IMS\obj\Debug\IMS.frmItemMaster.resources
+D:\Current Client Softwares\Yogi Nursery\IMS\obj\Debug\IMS.frmJournalVoucher.resources
+D:\Current Client Softwares\Yogi Nursery\IMS\obj\Debug\IMS.frmLocalityMaster.resources
+D:\Current Client Softwares\Yogi Nursery\IMS\obj\Debug\IMS.frmPayment.resources
+D:\Current Client Softwares\Yogi Nursery\IMS\obj\Debug\IMS.frmPaymentSearch.resources
+D:\Current Client Softwares\Yogi Nursery\IMS\obj\Debug\IMS.frmPOConfigurationMaster.resources
+D:\Current Client Softwares\Yogi Nursery\IMS\obj\Debug\IMS.frmPurchaseInvoice.resources
+D:\Current Client Softwares\Yogi Nursery\IMS\obj\Debug\IMS.frmPurchaseReturn.resources
+D:\Current Client Softwares\Yogi Nursery\IMS\obj\Debug\IMS.frmPurchaseReturnSearch.resources
+D:\Current Client Softwares\Yogi Nursery\IMS\obj\Debug\IMS.frmPurchaseSearch.resources
+D:\Current Client Softwares\Yogi Nursery\IMS\obj\Debug\IMS.frmReceipt.resources
+D:\Current Client Softwares\Yogi Nursery\IMS\obj\Debug\IMS.frmReceiptSearch.resources
+D:\Current Client Softwares\Yogi Nursery\IMS\obj\Debug\IMS.frmReportViewer.resources
+D:\Current Client Softwares\Yogi Nursery\IMS\obj\Debug\IMS.frmSaleInvoice.resources
+D:\Current Client Softwares\Yogi Nursery\IMS\obj\Debug\IMS.frmSaleReturn.resources
+D:\Current Client Softwares\Yogi Nursery\IMS\obj\Debug\IMS.frmSaleReturnSearch.resources
+D:\Current Client Softwares\Yogi Nursery\IMS\obj\Debug\IMS.frmSaleSearch.resources
+D:\Current Client Softwares\Yogi Nursery\IMS\obj\Debug\IMS.frmStateMaster.resources
+D:\Current Client Softwares\Yogi Nursery\IMS\obj\Debug\IMS.frmSupplierAccount.resources
+D:\Current Client Softwares\Yogi Nursery\IMS\obj\Debug\IMS.frmSupplierMaster.resources
+D:\Current Client Softwares\Yogi Nursery\IMS\obj\Debug\IMS.frmTaxInvoice.resources
+D:\Current Client Softwares\Yogi Nursery\IMS\obj\Debug\IMS.LoginForm1.resources
+D:\Current Client Softwares\Yogi Nursery\IMS\obj\Debug\IMS.frmMainMenu.resources
+D:\Current Client Softwares\Yogi Nursery\IMS\obj\Debug\IMS.Resources.resources
+D:\Current Client Softwares\Yogi Nursery\IMS\obj\Debug\IMS.vbproj.GenerateResource.Cache
+D:\Current Client Softwares\Yogi Nursery\IMS\bin\Debug\IMS.exe
+D:\Current Client Softwares\Yogi Nursery\IMS\bin\Debug\IMS.pdb
+D:\Current Client Softwares\Yogi Nursery\IMS\bin\Debug\IMS.xml
+D:\Current Client Softwares\Yogi Nursery\IMS\bin\Debug\Interop.VSFlex7L.dll
+D:\Current Client Softwares\Yogi Nursery\IMS\bin\Debug\AxInterop.VSFlex7L.dll
+D:\Current Client Softwares\Yogi Nursery\IMS\obj\Debug\IMS.exe
+D:\Current Client Softwares\Yogi Nursery\IMS\obj\Debug\IMS.xml
+D:\Current Client Softwares\Yogi Nursery\IMS\obj\Debug\IMS.pdb
+D:\Current Client Softwares\Yogi Nursery\IMS\bin\Debug\Interop.CrystalActiveXReportViewerLib10.dll
+D:\Current Client Softwares\Yogi Nursery\IMS\obj\Debug\Interop.CrystalActiveXReportViewerLib10.dll
+D:\Current Client Softwares\Yogi Nursery\IMS\obj\Debug\IMS.frmDescriptionMaster.resources
+I:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\Interop.VSFlex7L.dll
+I:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\AxInterop.VSFlex7L.dll
+I:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.vbproj.ResolveComReference.cache
+I:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.xml
+I:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.pdb
+I:\Current Client Softwares\Joginder Nursery\IMS\bin\Debug\IMS.exe
+I:\Current Client Softwares\Joginder Nursery\IMS\bin\Debug\IMS.pdb
+I:\Current Client Softwares\Joginder Nursery\IMS\bin\Debug\IMS.xml
+I:\Current Client Softwares\Joginder Nursery\IMS\bin\Debug\Interop.VSFlex7L.dll
+I:\Current Client Softwares\Joginder Nursery\IMS\bin\Debug\AxInterop.VSFlex7L.dll
+I:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\ResolveAssemblyReference.cache
+I:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmCompanyMaster.resources
+I:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmAccountGroupReport.resources
+I:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmActivityList.resources
+I:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmBackup.resources
+I:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmBankMaster.resources
+I:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmBankVoucher.resources
+I:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmChallanMaster.resources
+I:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmCityMaster.resources
+I:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmCurrencyMaster.resources
+I:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmCustomerAccount.resources
+I:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmCustomerMaster.resources
+I:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmDayBook.resources
+I:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmDescriptionMaster.resources
+I:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmItemAccountStatement.resources
+I:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmItemMaster.resources
+I:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmJournalVoucher.resources
+I:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmLocalityMaster.resources
+I:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmPayment.resources
+I:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmPaymentSearch.resources
+I:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmPaymentTerms.resources
+I:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmPOConfigurationMaster.resources
+I:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmPurchaseInvoice.resources
+I:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmPurchaseReturn.resources
+I:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmPurchaseReturnSearch.resources
+I:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmPurchaseSearch.resources
+I:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmQuotationMaster.resources
+I:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmReceipt.resources
+I:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmReceiptSearch.resources
+I:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmReportViewer.resources
+I:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmSaleInvoice.resources
+I:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmSaleReturn.resources
+I:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmSaleReturnSearch.resources
+I:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmSaleSearch.resources
+I:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmStateMaster.resources
+I:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmSupplierAccount.resources
+I:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmSupplierMaster.resources
+I:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmTaxInvoice.resources
+I:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmTermsAndConditions.resources
+I:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.LoginForm1.resources
+I:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmMainMenu.resources
+I:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.Resources.resources
+I:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.vbproj.GenerateResource.Cache
+I:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.exe
+D:\Current Client Softwares\Joginder Nursery\IMS\bin\Debug\IMS.exe
+D:\Current Client Softwares\Joginder Nursery\IMS\bin\Debug\IMS.pdb
+D:\Current Client Softwares\Joginder Nursery\IMS\bin\Debug\IMS.xml
+D:\Current Client Softwares\Joginder Nursery\IMS\bin\Debug\Interop.CRVIEWERLib.dll
+D:\Current Client Softwares\Joginder Nursery\IMS\bin\Debug\Interop.Crystal.dll
+D:\Current Client Softwares\Joginder Nursery\IMS\bin\Debug\Interop.CrystalActiveXReportViewerLib10.dll
+D:\Current Client Softwares\Joginder Nursery\IMS\bin\Debug\Interop.VSFlex7L.dll
+D:\Current Client Softwares\Joginder Nursery\IMS\bin\Debug\AxInterop.CRVIEWERLib.dll
+D:\Current Client Softwares\Joginder Nursery\IMS\bin\Debug\AxInterop.Crystal.dll
+D:\Current Client Softwares\Joginder Nursery\IMS\bin\Debug\AxInterop.VSFlex7L.dll
+D:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\ResolveAssemblyReference.cache
+D:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\Interop.CRVIEWERLib.dll
+D:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\Interop.Crystal.dll
+D:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\Interop.CrystalActiveXReportViewerLib10.dll
+D:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\Interop.VSFlex7L.dll
+D:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\AxInterop.CRVIEWERLib.dll
+D:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\AxInterop.Crystal.dll
+D:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\AxInterop.VSFlex7L.dll
+D:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.vbproj.ResolveComReference.cache
+D:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmCompanyMaster.resources
+D:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmAccountGroupReport.resources
+D:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmActivityList.resources
+D:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmBackup.resources
+D:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmBankMaster.resources
+D:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmBankVoucher.resources
+D:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmChallanMaster.resources
+D:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmCityMaster.resources
+D:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmCurrencyMaster.resources
+D:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmCustomerAccount.resources
+D:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmCustomerMaster.resources
+D:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmDayBook.resources
+D:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmDescriptionMaster.resources
+D:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmItemAccountStatement.resources
+D:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmItemMaster.resources
+D:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmJournalVoucher.resources
+D:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmLocalityMaster.resources
+D:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmPayment.resources
+D:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmPaymentSearch.resources
+D:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmPaymentTerms.resources
+D:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmPOConfigurationMaster.resources
+D:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmPurchaseInvoice.resources
+D:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmPurchaseReturn.resources
+D:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmPurchaseReturnSearch.resources
+D:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmPurchaseSearch.resources
+D:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmQuotationMaster.resources
+D:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmReceipt.resources
+D:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmReceiptSearch.resources
+D:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmReportViewer.resources
+D:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmSaleInvoice.resources
+D:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmSaleReturn.resources
+D:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmSaleReturnSearch.resources
+D:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmSaleSearch.resources
+D:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmStateMaster.resources
+D:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmSupplierAccount.resources
+D:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmSupplierMaster.resources
+D:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmTaxInvoice.resources
+D:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmTermsAndConditions.resources
+D:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.LoginForm1.resources
+D:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmMainMenu.resources
+D:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.Resources.resources
+D:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.vbproj.GenerateResource.Cache
+D:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.exe
+D:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.xml
+D:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.pdb
+E:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\Interop.VSFlex7L.dll
+E:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\AxInterop.VSFlex7L.dll
+E:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.vbproj.ResolveComReference.cache
+E:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.exe
+E:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.xml
+E:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.pdb
+E:\Current Client Softwares\Joginder Nursery\IMS\bin\Debug\IMS.exe
+E:\Current Client Softwares\Joginder Nursery\IMS\bin\Debug\IMS.pdb
+E:\Current Client Softwares\Joginder Nursery\IMS\bin\Debug\IMS.xml
+E:\Current Client Softwares\Joginder Nursery\IMS\bin\Debug\Interop.VSFlex7L.dll
+E:\Current Client Softwares\Joginder Nursery\IMS\bin\Debug\AxInterop.VSFlex7L.dll
+E:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\ResolveAssemblyReference.cache
+E:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmCompanyMaster.resources
+E:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmAccountGroupReport.resources
+E:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmActivityList.resources
+E:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmBackup.resources
+E:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmBankMaster.resources
+E:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmBankVoucher.resources
+E:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmChallanMaster.resources
+E:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmCityMaster.resources
+E:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmCurrencyMaster.resources
+E:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmCustomerAccount.resources
+E:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmCustomerMaster.resources
+E:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmDayBook.resources
+E:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmDescriptionMaster.resources
+E:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmItemAccountStatement.resources
+E:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmItemMaster.resources
+E:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmJournalVoucher.resources
+E:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmLocalityMaster.resources
+E:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmPayment.resources
+E:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmPaymentSearch.resources
+E:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmPaymentTerms.resources
+E:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmPOConfigurationMaster.resources
+E:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmPurchaseInvoice.resources
+E:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmPurchaseReturn.resources
+E:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmPurchaseReturnSearch.resources
+E:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmPurchaseSearch.resources
+E:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmQuotationMaster.resources
+E:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmReceipt.resources
+E:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmReceiptSearch.resources
+E:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmReportViewer.resources
+E:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmSaleInvoice.resources
+E:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmSaleReturn.resources
+E:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmSaleReturnSearch.resources
+E:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmSaleSearch.resources
+E:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmStateMaster.resources
+E:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmSupplierAccount.resources
+E:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmSupplierMaster.resources
+E:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmTaxInvoice.resources
+E:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmTermsAndConditions.resources
+E:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.LoginForm1.resources
+E:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmMainMenu.resources
+E:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.Resources.resources
+E:\Current Client Softwares\Joginder Nursery\IMS\obj\Debug\IMS.vbproj.GenerateResource.Cache
+D:\Client softwares\Joginder Nursery\IMS\obj\Debug\Interop.CrystalActiveXReportViewerLib10.dll
+D:\Client softwares\Joginder Nursery\IMS\obj\Debug\Interop.VSFlex7L.dll
+D:\Client softwares\Joginder Nursery\IMS\obj\Debug\AxInterop.VSFlex7L.dll
+D:\Client softwares\Joginder Nursery\IMS\obj\Debug\IMS.vbproj.ResolveComReference.cache
+D:\Client softwares\Joginder Nursery\IMS\obj\Debug\IMS.xml
+D:\Client softwares\Joginder Nursery\IMS\obj\Debug\IMS.pdb
+D:\Client softwares\Joginder Nursery\IMS\bin\Debug\IMS.exe
+D:\Client softwares\Joginder Nursery\IMS\bin\Debug\IMS.pdb
+D:\Client softwares\Joginder Nursery\IMS\bin\Debug\IMS.xml
+D:\Client softwares\Joginder Nursery\IMS\bin\Debug\Interop.CrystalActiveXReportViewerLib10.dll
+D:\Client softwares\Joginder Nursery\IMS\bin\Debug\Interop.VSFlex7L.dll
+D:\Client softwares\Joginder Nursery\IMS\bin\Debug\AxInterop.VSFlex7L.dll
+D:\Client softwares\Joginder Nursery\IMS\obj\Debug\ResolveAssemblyReference.cache
+D:\Client softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmCompanyMaster.resources
+D:\Client softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmAccountGroupReport.resources
+D:\Client softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmActivityList.resources
+D:\Client softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmBackup.resources
+D:\Client softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmBankMaster.resources
+D:\Client softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmBankVoucher.resources
+D:\Client softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmChallanMaster.resources
+D:\Client softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmCityMaster.resources
+D:\Client softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmCurrencyMaster.resources
+D:\Client softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmCustomerAccount.resources
+D:\Client softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmCustomerMaster.resources
+D:\Client softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmDayBook.resources
+D:\Client softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmDescriptionMaster.resources
+D:\Client softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmItemAccountStatement.resources
+D:\Client softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmItemMaster.resources
+D:\Client softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmJournalVoucher.resources
+D:\Client softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmLocalityMaster.resources
+D:\Client softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmPayment.resources
+D:\Client softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmPaymentSearch.resources
+D:\Client softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmPaymentTerms.resources
+D:\Client softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmPOConfigurationMaster.resources
+D:\Client softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmPurchaseInvoice.resources
+D:\Client softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmPurchaseReturn.resources
+D:\Client softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmPurchaseReturnSearch.resources
+D:\Client softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmPurchaseSearch.resources
+D:\Client softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmQuotationMaster.resources
+D:\Client softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmReceipt.resources
+D:\Client softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmReceiptSearch.resources
+D:\Client softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmReportViewer.resources
+D:\Client softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmSaleInvoice.resources
+D:\Client softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmSaleReturn.resources
+D:\Client softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmSaleReturnSearch.resources
+D:\Client softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmSaleSearch.resources
+D:\Client softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmStateMaster.resources
+D:\Client softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmSupplierAccount.resources
+D:\Client softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmSupplierMaster.resources
+D:\Client softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmTaxInvoice.resources
+D:\Client softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmTermsAndConditions.resources
+D:\Client softwares\Joginder Nursery\IMS\obj\Debug\IMS.LoginForm1.resources
+D:\Client softwares\Joginder Nursery\IMS\obj\Debug\IMS.frmMainMenu.resources
+D:\Client softwares\Joginder Nursery\IMS\obj\Debug\IMS.Resources.resources
+D:\Client softwares\Joginder Nursery\IMS\obj\Debug\IMS.vbproj.GenerateResource.Cache
+D:\Client softwares\Joginder Nursery\IMS\obj\Debug\IMS.exe
+D:\Client softwares\Joginder Nursery\Joginder Nursery Edit\IMS\obj\Debug\Interop.CrystalActiveXReportViewerLib10.dll
+D:\Client softwares\Joginder Nursery\Joginder Nursery Edit\IMS\obj\Debug\Interop.VSFlex7L.dll
+D:\Client softwares\Joginder Nursery\Joginder Nursery Edit\IMS\obj\Debug\AxInterop.VSFlex7L.dll
+D:\Client softwares\Joginder Nursery\Joginder Nursery Edit\IMS\obj\Debug\IMS.vbproj.ResolveComReference.cache
+D:\Client softwares\Joginder Nursery\Joginder Nursery Edit\IMS\obj\Debug\IMS.exe
+D:\Client softwares\Joginder Nursery\Joginder Nursery Edit\IMS\obj\Debug\IMS.xml
+D:\Client softwares\Joginder Nursery\Joginder Nursery Edit\IMS\obj\Debug\IMS.pdb
+D:\Client softwares\Joginder Nursery\Joginder Nursery Edit\IMS\bin\Debug\IMS.exe
+D:\Client softwares\Joginder Nursery\Joginder Nursery Edit\IMS\bin\Debug\IMS.pdb
+D:\Client softwares\Joginder Nursery\Joginder Nursery Edit\IMS\bin\Debug\IMS.xml
+D:\Client softwares\Joginder Nursery\Joginder Nursery Edit\IMS\bin\Debug\Interop.CrystalActiveXReportViewerLib10.dll
+D:\Client softwares\Joginder Nursery\Joginder Nursery Edit\IMS\bin\Debug\Interop.VSFlex7L.dll
+D:\Client softwares\Joginder Nursery\Joginder Nursery Edit\IMS\bin\Debug\AxInterop.VSFlex7L.dll
+D:\Client softwares\Joginder Nursery\Joginder Nursery Edit\IMS\obj\Debug\ResolveAssemblyReference.cache
+D:\Client softwares\Joginder Nursery\Joginder Nursery Edit\IMS\obj\Debug\IMS.frmCompanyMaster.resources
+D:\Client softwares\Joginder Nursery\Joginder Nursery Edit\IMS\obj\Debug\IMS.frmAccountGroupReport.resources
+D:\Client softwares\Joginder Nursery\Joginder Nursery Edit\IMS\obj\Debug\IMS.frmActivityList.resources
+D:\Client softwares\Joginder Nursery\Joginder Nursery Edit\IMS\obj\Debug\IMS.frmBackup.resources
+D:\Client softwares\Joginder Nursery\Joginder Nursery Edit\IMS\obj\Debug\IMS.frmBankMaster.resources
+D:\Client softwares\Joginder Nursery\Joginder Nursery Edit\IMS\obj\Debug\IMS.frmBankVoucher.resources
+D:\Client softwares\Joginder Nursery\Joginder Nursery Edit\IMS\obj\Debug\IMS.frmChallanMaster.resources
+D:\Client softwares\Joginder Nursery\Joginder Nursery Edit\IMS\obj\Debug\IMS.frmCityMaster.resources
+D:\Client softwares\Joginder Nursery\Joginder Nursery Edit\IMS\obj\Debug\IMS.frmCurrencyMaster.resources
+D:\Client softwares\Joginder Nursery\Joginder Nursery Edit\IMS\obj\Debug\IMS.frmCustomerAccount.resources
+D:\Client softwares\Joginder Nursery\Joginder Nursery Edit\IMS\obj\Debug\IMS.frmCustomerMaster.resources
+D:\Client softwares\Joginder Nursery\Joginder Nursery Edit\IMS\obj\Debug\IMS.frmDayBook.resources
+D:\Client softwares\Joginder Nursery\Joginder Nursery Edit\IMS\obj\Debug\IMS.frmDescriptionMaster.resources
+D:\Client softwares\Joginder Nursery\Joginder Nursery Edit\IMS\obj\Debug\IMS.frmItemAccountStatement.resources
+D:\Client softwares\Joginder Nursery\Joginder Nursery Edit\IMS\obj\Debug\IMS.frmItemMaster.resources
+D:\Client softwares\Joginder Nursery\Joginder Nursery Edit\IMS\obj\Debug\IMS.frmJournalVoucher.resources
+D:\Client softwares\Joginder Nursery\Joginder Nursery Edit\IMS\obj\Debug\IMS.frmLocalityMaster.resources
+D:\Client softwares\Joginder Nursery\Joginder Nursery Edit\IMS\obj\Debug\IMS.frmPayment.resources
+D:\Client softwares\Joginder Nursery\Joginder Nursery Edit\IMS\obj\Debug\IMS.frmPaymentSearch.resources
+D:\Client softwares\Joginder Nursery\Joginder Nursery Edit\IMS\obj\Debug\IMS.frmPaymentTerms.resources
+D:\Client softwares\Joginder Nursery\Joginder Nursery Edit\IMS\obj\Debug\IMS.frmPOConfigurationMaster.resources
+D:\Client softwares\Joginder Nursery\Joginder Nursery Edit\IMS\obj\Debug\IMS.frmPurchaseInvoice.resources
+D:\Client softwares\Joginder Nursery\Joginder Nursery Edit\IMS\obj\Debug\IMS.frmPurchaseReturn.resources
+D:\Client softwares\Joginder Nursery\Joginder Nursery Edit\IMS\obj\Debug\IMS.frmPurchaseReturnSearch.resources
+D:\Client softwares\Joginder Nursery\Joginder Nursery Edit\IMS\obj\Debug\IMS.frmPurchaseSearch.resources
+D:\Client softwares\Joginder Nursery\Joginder Nursery Edit\IMS\obj\Debug\IMS.frmQuotationMaster.resources
+D:\Client softwares\Joginder Nursery\Joginder Nursery Edit\IMS\obj\Debug\IMS.frmReceipt.resources
+D:\Client softwares\Joginder Nursery\Joginder Nursery Edit\IMS\obj\Debug\IMS.frmReceiptSearch.resources
+D:\Client softwares\Joginder Nursery\Joginder Nursery Edit\IMS\obj\Debug\IMS.frmReportViewer.resources
+D:\Client softwares\Joginder Nursery\Joginder Nursery Edit\IMS\obj\Debug\IMS.frmSaleInvoice.resources
+D:\Client softwares\Joginder Nursery\Joginder Nursery Edit\IMS\obj\Debug\IMS.frmSaleReturn.resources
+D:\Client softwares\Joginder Nursery\Joginder Nursery Edit\IMS\obj\Debug\IMS.frmSaleReturnSearch.resources
+D:\Client softwares\Joginder Nursery\Joginder Nursery Edit\IMS\obj\Debug\IMS.frmSaleSearch.resources
+D:\Client softwares\Joginder Nursery\Joginder Nursery Edit\IMS\obj\Debug\IMS.frmStateMaster.resources
+D:\Client softwares\Joginder Nursery\Joginder Nursery Edit\IMS\obj\Debug\IMS.frmSupplierAccount.resources
+D:\Client softwares\Joginder Nursery\Joginder Nursery Edit\IMS\obj\Debug\IMS.frmSupplierMaster.resources
+D:\Client softwares\Joginder Nursery\Joginder Nursery Edit\IMS\obj\Debug\IMS.frmTaxInvoice.resources
+D:\Client softwares\Joginder Nursery\Joginder Nursery Edit\IMS\obj\Debug\IMS.frmTermsAndConditions.resources
+D:\Client softwares\Joginder Nursery\Joginder Nursery Edit\IMS\obj\Debug\IMS.LoginForm1.resources
+D:\Client softwares\Joginder Nursery\Joginder Nursery Edit\IMS\obj\Debug\IMS.frmMainMenu.resources
+D:\Client softwares\Joginder Nursery\Joginder Nursery Edit\IMS\obj\Debug\IMS.Resources.resources
+D:\Client softwares\Joginder Nursery\Joginder Nursery Edit\IMS\obj\Debug\IMS.vbproj.GenerateResource.Cache
+D:\Client softwares\Joginder Nursery\Joginder Nursery Edit\IMS\obj\Debug\IMS.frmOverHeadMaster.resources
+D:\Client softwares\Joginder Nursery\Joginder Nursery Edit\IMS\obj\Debug\IMS.frmQuotationMaster2.resources
+D:\Client softwares\Joginder Nursery\Joginder Nursery With DataGrid\IMS\obj\Debug\Interop.CrystalActiveXReportViewerLib10.dll
+D:\Client softwares\Joginder Nursery\Joginder Nursery With DataGrid\IMS\obj\Debug\Interop.VSFlex7L.dll
+D:\Client softwares\Joginder Nursery\Joginder Nursery With DataGrid\IMS\obj\Debug\AxInterop.VSFlex7L.dll
+D:\Client softwares\Joginder Nursery\Joginder Nursery With DataGrid\IMS\obj\Debug\IMS.vbproj.ResolveComReference.cache
+D:\Client softwares\Joginder Nursery\Joginder Nursery With DataGrid\IMS\obj\Debug\IMS.exe
+D:\Client softwares\Joginder Nursery\Joginder Nursery With DataGrid\IMS\obj\Debug\IMS.xml
+D:\Client softwares\Joginder Nursery\Joginder Nursery With DataGrid\IMS\obj\Debug\IMS.pdb
+D:\Client softwares\Joginder Nursery\Joginder Nursery With DataGrid\IMS\obj\Debug\ResolveAssemblyReference.cache
+D:\Client softwares\Joginder Nursery\Joginder Nursery With DataGrid\IMS\obj\Debug\IMS.frmCompanyMaster.resources
+D:\Client softwares\Joginder Nursery\Joginder Nursery With DataGrid\IMS\obj\Debug\IMS.frmAccountGroupReport.resources
+D:\Client softwares\Joginder Nursery\Joginder Nursery With DataGrid\IMS\obj\Debug\IMS.frmActivityList.resources
+D:\Client softwares\Joginder Nursery\Joginder Nursery With DataGrid\IMS\obj\Debug\IMS.frmBackup.resources
+D:\Client softwares\Joginder Nursery\Joginder Nursery With DataGrid\IMS\obj\Debug\IMS.frmBankMaster.resources
+D:\Client softwares\Joginder Nursery\Joginder Nursery With DataGrid\IMS\obj\Debug\IMS.frmBankVoucher.resources
+D:\Client softwares\Joginder Nursery\Joginder Nursery With DataGrid\IMS\obj\Debug\IMS.frmChallanMaster.resources
+D:\Client softwares\Joginder Nursery\Joginder Nursery With DataGrid\IMS\obj\Debug\IMS.frmCityMaster.resources
+D:\Client softwares\Joginder Nursery\Joginder Nursery With DataGrid\IMS\obj\Debug\IMS.frmCurrencyMaster.resources
+D:\Client softwares\Joginder Nursery\Joginder Nursery With DataGrid\IMS\obj\Debug\IMS.frmCustomerAccount.resources
+D:\Client softwares\Joginder Nursery\Joginder Nursery With DataGrid\IMS\obj\Debug\IMS.frmCustomerMaster.resources
+D:\Client softwares\Joginder Nursery\Joginder Nursery With DataGrid\IMS\obj\Debug\IMS.frmDayBook.resources
+D:\Client softwares\Joginder Nursery\Joginder Nursery With DataGrid\IMS\obj\Debug\IMS.frmDescriptionMaster.resources
+D:\Client softwares\Joginder Nursery\Joginder Nursery With DataGrid\IMS\obj\Debug\IMS.frmItemAccountStatement.resources
+D:\Client softwares\Joginder Nursery\Joginder Nursery With DataGrid\IMS\obj\Debug\IMS.frmItemMaster.resources
+D:\Client softwares\Joginder Nursery\Joginder Nursery With DataGrid\IMS\obj\Debug\IMS.frmJournalVoucher.resources
+D:\Client softwares\Joginder Nursery\Joginder Nursery With DataGrid\IMS\obj\Debug\IMS.frmLocalityMaster.resources
+D:\Client softwares\Joginder Nursery\Joginder Nursery With DataGrid\IMS\obj\Debug\IMS.frmOverHeadMaster.resources
+D:\Client softwares\Joginder Nursery\Joginder Nursery With DataGrid\IMS\obj\Debug\IMS.frmPayment.resources
+D:\Client softwares\Joginder Nursery\Joginder Nursery With DataGrid\IMS\obj\Debug\IMS.frmPaymentSearch.resources
+D:\Client softwares\Joginder Nursery\Joginder Nursery With DataGrid\IMS\obj\Debug\IMS.frmPaymentTerms.resources
+D:\Client softwares\Joginder Nursery\Joginder Nursery With DataGrid\IMS\obj\Debug\IMS.frmPOConfigurationMaster.resources
+D:\Client softwares\Joginder Nursery\Joginder Nursery With DataGrid\IMS\obj\Debug\IMS.frmPurchaseInvoice.resources
+D:\Client softwares\Joginder Nursery\Joginder Nursery With DataGrid\IMS\obj\Debug\IMS.frmPurchaseReturn.resources
+D:\Client softwares\Joginder Nursery\Joginder Nursery With DataGrid\IMS\obj\Debug\IMS.frmPurchaseReturnSearch.resources
+D:\Client softwares\Joginder Nursery\Joginder Nursery With DataGrid\IMS\obj\Debug\IMS.frmPurchaseSearch.resources
+D:\Client softwares\Joginder Nursery\Joginder Nursery With DataGrid\IMS\obj\Debug\IMS.frmQuotationMaster.resources
+D:\Client softwares\Joginder Nursery\Joginder Nursery With DataGrid\IMS\obj\Debug\IMS.frmQuotationMaster2.resources
+D:\Client softwares\Joginder Nursery\Joginder Nursery With DataGrid\IMS\obj\Debug\IMS.frmReceipt.resources
+D:\Client softwares\Joginder Nursery\Joginder Nursery With DataGrid\IMS\obj\Debug\IMS.frmReceiptSearch.resources
+D:\Client softwares\Joginder Nursery\Joginder Nursery With DataGrid\IMS\obj\Debug\IMS.frmReportViewer.resources
+D:\Client softwares\Joginder Nursery\Joginder Nursery With DataGrid\IMS\obj\Debug\IMS.frmSaleInvoice.resources
+D:\Client softwares\Joginder Nursery\Joginder Nursery With DataGrid\IMS\obj\Debug\IMS.frmSaleReturn.resources
+D:\Client softwares\Joginder Nursery\Joginder Nursery With DataGrid\IMS\obj\Debug\IMS.frmSaleReturnSearch.resources
+D:\Client softwares\Joginder Nursery\Joginder Nursery With DataGrid\IMS\obj\Debug\IMS.frmSaleSearch.resources
+D:\Client softwares\Joginder Nursery\Joginder Nursery With DataGrid\IMS\obj\Debug\IMS.frmStateMaster.resources
+D:\Client softwares\Joginder Nursery\Joginder Nursery With DataGrid\IMS\obj\Debug\IMS.frmSupplierAccount.resources
+D:\Client softwares\Joginder Nursery\Joginder Nursery With DataGrid\IMS\obj\Debug\IMS.frmSupplierMaster.resources
+D:\Client softwares\Joginder Nursery\Joginder Nursery With DataGrid\IMS\obj\Debug\IMS.frmTaxInvoice.resources
+D:\Client softwares\Joginder Nursery\Joginder Nursery With DataGrid\IMS\obj\Debug\IMS.frmTermsAndConditions.resources
+D:\Client softwares\Joginder Nursery\Joginder Nursery With DataGrid\IMS\obj\Debug\IMS.LoginForm1.resources
+D:\Client softwares\Joginder Nursery\Joginder Nursery With DataGrid\IMS\obj\Debug\IMS.frmMainMenu.resources
+D:\Client softwares\Joginder Nursery\Joginder Nursery With DataGrid\IMS\obj\Debug\IMS.Resources.resources
+D:\Client softwares\Joginder Nursery\Joginder Nursery With DataGrid\IMS\obj\Debug\IMS.vbproj.GenerateResource.Cache
+D:\Client softwares\Joginder Nursery\Joginder Nursery With DataGrid\IMS\bin\Debug\IMS.exe
+D:\Client softwares\Joginder Nursery\Joginder Nursery With DataGrid\IMS\bin\Debug\IMS.pdb
+D:\Client softwares\Joginder Nursery\Joginder Nursery With DataGrid\IMS\bin\Debug\IMS.xml
+D:\Client softwares\Joginder Nursery\Joginder Nursery With DataGrid\IMS\bin\Debug\Interop.CrystalActiveXReportViewerLib10.dll
+D:\Client softwares\Joginder Nursery\Joginder Nursery With DataGrid\IMS\bin\Debug\Interop.VSFlex7L.dll
+D:\Client softwares\Joginder Nursery\Joginder Nursery With DataGrid\IMS\bin\Debug\AxInterop.VSFlex7L.dll
+D:\Client softwares\Joginder Nursery\Joginder Nursery With DataGrid\IMS\obj\Debug\IMS.frmJournalVoucher1.resources
+D:\Client softwares\Joginder Nursery\Joginder Nursery With DataGrid\IMS\obj\Debug\IMS.frmPurchaseInvoice1.resources
+D:\Client softwares\Joginder Nursery\Joginder Nursery With DataGrid\IMS\obj\Debug\IMS.frmSaleInvoice1.resources
+E:\Joginder Nursery With DataGrid\IMS\obj\Debug\Interop.CrystalActiveXReportViewerLib10.dll
+E:\Joginder Nursery With DataGrid\IMS\obj\Debug\Interop.VSFlex7L.dll
+E:\Joginder Nursery With DataGrid\IMS\obj\Debug\AxInterop.VSFlex7L.dll
+E:\Joginder Nursery With DataGrid\IMS\obj\Debug\IMS.vbproj.ResolveComReference.cache
+E:\Joginder Nursery With DataGrid\IMS\obj\Debug\IMS.exe
+E:\Joginder Nursery With DataGrid\IMS\obj\Debug\IMS.xml
+E:\Joginder Nursery With DataGrid\IMS\obj\Debug\IMS.pdb
+E:\Office Project\Dec 2011\Joginder Nursery With DataGrid\IMS\obj\Debug\IMS.vbproj.ResolveComReference.cache
+E:\Office Project\Dec 2011\Joginder Nursery With DataGrid\IMS\obj\Debug\IMS.exe
+E:\Office Project\Dec 2011\Joginder Nursery With DataGrid\IMS\obj\Debug\IMS.xml
+E:\Office Project\Dec 2011\Joginder Nursery With DataGrid\IMS\obj\Debug\IMS.pdb
+E:\Office Project\Dec 2011\Joginder Nursery With DataGrid\IMS\obj\Debug\ResolveAssemblyReference.cache
+E:\Office Project\Dec 2011\Joginder Nursery With DataGrid\IMS\obj\Debug\IMS.frmCompanyMaster.resources
+E:\Office Project\Dec 2011\Joginder Nursery With DataGrid\IMS\obj\Debug\IMS.frmAccountGroupReport.resources
+E:\Office Project\Dec 2011\Joginder Nursery With DataGrid\IMS\obj\Debug\IMS.frmActivityList.resources
+E:\Office Project\Dec 2011\Joginder Nursery With DataGrid\IMS\obj\Debug\IMS.frmBackup.resources
+E:\Office Project\Dec 2011\Joginder Nursery With DataGrid\IMS\obj\Debug\IMS.frmBankMaster.resources
+E:\Office Project\Dec 2011\Joginder Nursery With DataGrid\IMS\obj\Debug\IMS.frmBankVoucher.resources
+E:\Office Project\Dec 2011\Joginder Nursery With DataGrid\IMS\obj\Debug\IMS.frmChallanMaster.resources
+E:\Office Project\Dec 2011\Joginder Nursery With DataGrid\IMS\obj\Debug\IMS.frmCityMaster.resources
+E:\Office Project\Dec 2011\Joginder Nursery With DataGrid\IMS\obj\Debug\IMS.frmCurrencyMaster.resources
+E:\Office Project\Dec 2011\Joginder Nursery With DataGrid\IMS\obj\Debug\IMS.frmCustomerAccount.resources
+E:\Office Project\Dec 2011\Joginder Nursery With DataGrid\IMS\obj\Debug\IMS.frmCustomerMaster.resources
+E:\Office Project\Dec 2011\Joginder Nursery With DataGrid\IMS\obj\Debug\IMS.frmDayBook.resources
+E:\Office Project\Dec 2011\Joginder Nursery With DataGrid\IMS\obj\Debug\IMS.frmDescriptionMaster.resources
+E:\Office Project\Dec 2011\Joginder Nursery With DataGrid\IMS\obj\Debug\IMS.frmItemAccountStatement.resources
+E:\Office Project\Dec 2011\Joginder Nursery With DataGrid\IMS\obj\Debug\IMS.frmItemMaster.resources
+E:\Office Project\Dec 2011\Joginder Nursery With DataGrid\IMS\obj\Debug\IMS.frmJournalVoucher1.resources
+E:\Office Project\Dec 2011\Joginder Nursery With DataGrid\IMS\obj\Debug\IMS.frmLocalityMaster.resources
+E:\Office Project\Dec 2011\Joginder Nursery With DataGrid\IMS\obj\Debug\IMS.frmOverHeadMaster.resources
+E:\Office Project\Dec 2011\Joginder Nursery With DataGrid\IMS\obj\Debug\IMS.frmPayment.resources
+E:\Office Project\Dec 2011\Joginder Nursery With DataGrid\IMS\obj\Debug\IMS.frmPaymentSearch.resources
+E:\Office Project\Dec 2011\Joginder Nursery With DataGrid\IMS\obj\Debug\IMS.frmPaymentTerms.resources
+E:\Office Project\Dec 2011\Joginder Nursery With DataGrid\IMS\obj\Debug\IMS.frmPurchaseInvoice1.resources
+E:\Office Project\Dec 2011\Joginder Nursery With DataGrid\IMS\obj\Debug\IMS.frmPurchaseSearch.resources
+E:\Office Project\Dec 2011\Joginder Nursery With DataGrid\IMS\obj\Debug\IMS.frmQuotationMaster2.resources
+E:\Office Project\Dec 2011\Joginder Nursery With DataGrid\IMS\obj\Debug\IMS.frmReceipt.resources
+E:\Office Project\Dec 2011\Joginder Nursery With DataGrid\IMS\obj\Debug\IMS.frmReceiptSearch.resources
+E:\Office Project\Dec 2011\Joginder Nursery With DataGrid\IMS\obj\Debug\IMS.frmReportViewer.resources
+E:\Office Project\Dec 2011\Joginder Nursery With DataGrid\IMS\obj\Debug\IMS.frmSaleInvoice1.resources
+E:\Office Project\Dec 2011\Joginder Nursery With DataGrid\IMS\obj\Debug\IMS.frmSaleSearch.resources
+E:\Office Project\Dec 2011\Joginder Nursery With DataGrid\IMS\obj\Debug\IMS.frmStateMaster.resources
+E:\Office Project\Dec 2011\Joginder Nursery With DataGrid\IMS\obj\Debug\IMS.frmSupplierAccount.resources
+E:\Office Project\Dec 2011\Joginder Nursery With DataGrid\IMS\obj\Debug\IMS.frmSupplierMaster.resources
+E:\Office Project\Dec 2011\Joginder Nursery With DataGrid\IMS\obj\Debug\IMS.frmTermsAndConditions.resources
+E:\Office Project\Dec 2011\Joginder Nursery With DataGrid\IMS\obj\Debug\IMS.LoginForm1.resources
+E:\Office Project\Dec 2011\Joginder Nursery With DataGrid\IMS\obj\Debug\IMS.frmMainMenu.resources
+E:\Office Project\Dec 2011\Joginder Nursery With DataGrid\IMS\obj\Debug\IMS.Resources.resources
+E:\Office Project\Dec 2011\Joginder Nursery With DataGrid\IMS\obj\Debug\IMS.vbproj.GenerateResource.Cache
+E:\Office Project\Dec 2011\Joginder Nursery With DataGrid\IMS\bin\Debug\IMS.exe
+E:\Office Project\Dec 2011\Joginder Nursery With DataGrid\IMS\bin\Debug\IMS.pdb
+E:\Office Project\Dec 2011\Joginder Nursery With DataGrid\IMS\bin\Debug\IMS.xml
+F:\Joginder Nursery With DataGrid\IMS\obj\Debug\IMS.vbproj.ResolveComReference.cache
+F:\Joginder Nursery With DataGrid\IMS\obj\Debug\IMS.exe
+F:\Joginder Nursery With DataGrid\IMS\obj\Debug\IMS.xml
+F:\Joginder Nursery With DataGrid\IMS\obj\Debug\IMS.pdb
+F:\Joginder Nursery With DataGrid\IMS\bin\Debug\IMS.exe
+F:\Joginder Nursery With DataGrid\IMS\bin\Debug\IMS.pdb
+F:\Joginder Nursery With DataGrid\IMS\bin\Debug\IMS.xml
+F:\Joginder Nursery With DataGrid\IMS\obj\Debug\ResolveAssemblyReference.cache
+F:\Joginder Nursery With DataGrid\IMS\obj\Debug\IMS.frmCompanyMaster.resources
+F:\Joginder Nursery With DataGrid\IMS\obj\Debug\IMS.frmAccountGroupReport.resources
+F:\Joginder Nursery With DataGrid\IMS\obj\Debug\IMS.frmActivityList.resources
+F:\Joginder Nursery With DataGrid\IMS\obj\Debug\IMS.frmBackup.resources
+F:\Joginder Nursery With DataGrid\IMS\obj\Debug\IMS.frmBankMaster.resources
+F:\Joginder Nursery With DataGrid\IMS\obj\Debug\IMS.frmBankVoucher.resources
+F:\Joginder Nursery With DataGrid\IMS\obj\Debug\IMS.frmChallanMaster.resources
+F:\Joginder Nursery With DataGrid\IMS\obj\Debug\IMS.frmCityMaster.resources
+F:\Joginder Nursery With DataGrid\IMS\obj\Debug\IMS.frmCurrencyMaster.resources
+F:\Joginder Nursery With DataGrid\IMS\obj\Debug\IMS.frmCustomerAccount.resources
+F:\Joginder Nursery With DataGrid\IMS\obj\Debug\IMS.frmCustomerMaster.resources
+F:\Joginder Nursery With DataGrid\IMS\obj\Debug\IMS.frmDayBook.resources
+F:\Joginder Nursery With DataGrid\IMS\obj\Debug\IMS.frmDescriptionMaster.resources
+F:\Joginder Nursery With DataGrid\IMS\obj\Debug\IMS.frmItemAccountStatement.resources
+F:\Joginder Nursery With DataGrid\IMS\obj\Debug\IMS.frmItemMaster.resources
+F:\Joginder Nursery With DataGrid\IMS\obj\Debug\IMS.frmJournalVoucher1.resources
+F:\Joginder Nursery With DataGrid\IMS\obj\Debug\IMS.frmLocalityMaster.resources
+F:\Joginder Nursery With DataGrid\IMS\obj\Debug\IMS.frmOverHeadMaster.resources
+F:\Joginder Nursery With DataGrid\IMS\obj\Debug\IMS.frmPayment.resources
+F:\Joginder Nursery With DataGrid\IMS\obj\Debug\IMS.frmPaymentSearch.resources
+F:\Joginder Nursery With DataGrid\IMS\obj\Debug\IMS.frmPaymentTerms.resources
+F:\Joginder Nursery With DataGrid\IMS\obj\Debug\IMS.frmPurchaseInvoice1.resources
+F:\Joginder Nursery With DataGrid\IMS\obj\Debug\IMS.frmPurchaseSearch.resources
+F:\Joginder Nursery With DataGrid\IMS\obj\Debug\IMS.frmQuotationMaster2.resources
+F:\Joginder Nursery With DataGrid\IMS\obj\Debug\IMS.frmReceipt.resources
+F:\Joginder Nursery With DataGrid\IMS\obj\Debug\IMS.frmReceiptSearch.resources
+F:\Joginder Nursery With DataGrid\IMS\obj\Debug\IMS.frmReportViewer.resources
+F:\Joginder Nursery With DataGrid\IMS\obj\Debug\IMS.frmSaleInvoice1.resources
+F:\Joginder Nursery With DataGrid\IMS\obj\Debug\IMS.frmSaleSearch.resources
+F:\Joginder Nursery With DataGrid\IMS\obj\Debug\IMS.frmStateMaster.resources
+F:\Joginder Nursery With DataGrid\IMS\obj\Debug\IMS.frmSupplierAccount.resources
+F:\Joginder Nursery With DataGrid\IMS\obj\Debug\IMS.frmSupplierMaster.resources
+F:\Joginder Nursery With DataGrid\IMS\obj\Debug\IMS.frmTermsAndConditions.resources
+F:\Joginder Nursery With DataGrid\IMS\obj\Debug\IMS.LoginForm1.resources
+F:\Joginder Nursery With DataGrid\IMS\obj\Debug\IMS.frmMainMenu.resources
+F:\Joginder Nursery With DataGrid\IMS\obj\Debug\IMS.Resources.resources
+F:\Joginder Nursery With DataGrid\IMS\obj\Debug\IMS.vbproj.GenerateResource.Cache
+G:\Dinesh Demo Project\Plant Mang System Joginder Nursery\IMS\obj\Debug\IMS.vbproj.ResolveComReference.cache
+G:\Dinesh Demo Project\Plant Mang System Joginder Nursery\IMS\obj\Debug\IMS.exe
+G:\Dinesh Demo Project\Plant Mang System Joginder Nursery\IMS\obj\Debug\IMS.xml
+G:\Dinesh Demo Project\Plant Mang System Joginder Nursery\IMS\obj\Debug\IMS.pdb
+G:\Dinesh Demo Project\Plant Mang System Joginder Nursery\IMS\bin\Debug\IMS.exe
+G:\Dinesh Demo Project\Plant Mang System Joginder Nursery\IMS\bin\Debug\IMS.pdb
+G:\Dinesh Demo Project\Plant Mang System Joginder Nursery\IMS\bin\Debug\IMS.xml
+G:\Dinesh Demo Project\Plant Mang System Joginder Nursery\IMS\obj\Debug\ResolveAssemblyReference.cache
+G:\Dinesh Demo Project\Plant Mang System Joginder Nursery\IMS\obj\Debug\IMS.frmCompanyMaster.resources
+G:\Dinesh Demo Project\Plant Mang System Joginder Nursery\IMS\obj\Debug\IMS.frmAccountGroupReport.resources
+G:\Dinesh Demo Project\Plant Mang System Joginder Nursery\IMS\obj\Debug\IMS.frmActivityList.resources
+G:\Dinesh Demo Project\Plant Mang System Joginder Nursery\IMS\obj\Debug\IMS.frmBackup.resources
+G:\Dinesh Demo Project\Plant Mang System Joginder Nursery\IMS\obj\Debug\IMS.frmBankMaster.resources
+G:\Dinesh Demo Project\Plant Mang System Joginder Nursery\IMS\obj\Debug\IMS.frmBankVoucher.resources
+G:\Dinesh Demo Project\Plant Mang System Joginder Nursery\IMS\obj\Debug\IMS.frmChallanMaster.resources
+G:\Dinesh Demo Project\Plant Mang System Joginder Nursery\IMS\obj\Debug\IMS.frmCityMaster.resources
+G:\Dinesh Demo Project\Plant Mang System Joginder Nursery\IMS\obj\Debug\IMS.frmCurrencyMaster.resources
+G:\Dinesh Demo Project\Plant Mang System Joginder Nursery\IMS\obj\Debug\IMS.frmCustomerAccount.resources
+G:\Dinesh Demo Project\Plant Mang System Joginder Nursery\IMS\obj\Debug\IMS.frmCustomerMaster.resources
+G:\Dinesh Demo Project\Plant Mang System Joginder Nursery\IMS\obj\Debug\IMS.frmDayBook.resources
+G:\Dinesh Demo Project\Plant Mang System Joginder Nursery\IMS\obj\Debug\IMS.frmDescriptionMaster.resources
+G:\Dinesh Demo Project\Plant Mang System Joginder Nursery\IMS\obj\Debug\IMS.frmItemAccountStatement.resources
+G:\Dinesh Demo Project\Plant Mang System Joginder Nursery\IMS\obj\Debug\IMS.frmItemMaster.resources
+G:\Dinesh Demo Project\Plant Mang System Joginder Nursery\IMS\obj\Debug\IMS.frmJournalVoucher1.resources
+G:\Dinesh Demo Project\Plant Mang System Joginder Nursery\IMS\obj\Debug\IMS.frmLocalityMaster.resources
+G:\Dinesh Demo Project\Plant Mang System Joginder Nursery\IMS\obj\Debug\IMS.frmOverHeadMaster.resources
+G:\Dinesh Demo Project\Plant Mang System Joginder Nursery\IMS\obj\Debug\IMS.frmPayment.resources
+G:\Dinesh Demo Project\Plant Mang System Joginder Nursery\IMS\obj\Debug\IMS.frmPaymentSearch.resources
+G:\Dinesh Demo Project\Plant Mang System Joginder Nursery\IMS\obj\Debug\IMS.frmPaymentTerms.resources
+G:\Dinesh Demo Project\Plant Mang System Joginder Nursery\IMS\obj\Debug\IMS.frmPurchaseInvoice1.resources
+G:\Dinesh Demo Project\Plant Mang System Joginder Nursery\IMS\obj\Debug\IMS.frmPurchaseSearch.resources
+G:\Dinesh Demo Project\Plant Mang System Joginder Nursery\IMS\obj\Debug\IMS.frmQuotationMaster2.resources
+G:\Dinesh Demo Project\Plant Mang System Joginder Nursery\IMS\obj\Debug\IMS.frmReceipt.resources
+G:\Dinesh Demo Project\Plant Mang System Joginder Nursery\IMS\obj\Debug\IMS.frmReceiptSearch.resources
+G:\Dinesh Demo Project\Plant Mang System Joginder Nursery\IMS\obj\Debug\IMS.frmReportViewer.resources
+G:\Dinesh Demo Project\Plant Mang System Joginder Nursery\IMS\obj\Debug\IMS.frmSaleInvoice1.resources
+G:\Dinesh Demo Project\Plant Mang System Joginder Nursery\IMS\obj\Debug\IMS.frmSaleSearch.resources
+G:\Dinesh Demo Project\Plant Mang System Joginder Nursery\IMS\obj\Debug\IMS.frmStateMaster.resources
+G:\Dinesh Demo Project\Plant Mang System Joginder Nursery\IMS\obj\Debug\IMS.frmSupplierAccount.resources
+G:\Dinesh Demo Project\Plant Mang System Joginder Nursery\IMS\obj\Debug\IMS.frmSupplierMaster.resources
+G:\Dinesh Demo Project\Plant Mang System Joginder Nursery\IMS\obj\Debug\IMS.frmTermsAndConditions.resources
+G:\Dinesh Demo Project\Plant Mang System Joginder Nursery\IMS\obj\Debug\IMS.LoginForm1.resources
+G:\Dinesh Demo Project\Plant Mang System Joginder Nursery\IMS\obj\Debug\IMS.frmMainMenu.resources
+G:\Dinesh Demo Project\Plant Mang System Joginder Nursery\IMS\obj\Debug\IMS.Resources.resources
+G:\Dinesh Demo Project\Plant Mang System Joginder Nursery\IMS\obj\Debug\GenerateResource-ResGen.read.1.tlog
+G:\Dinesh Demo Project\Plant Mang System Joginder Nursery\IMS\obj\Debug\GenerateResource-ResGen.write.1.tlog
