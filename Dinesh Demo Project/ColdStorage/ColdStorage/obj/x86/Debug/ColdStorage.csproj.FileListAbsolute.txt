@@ -30,4 +30,4 @@ D:\My Projects\Dinesh Demo Project\ColdStorage\ColdStorage\obj\x86\Debug\ColdSto
 D:\My Projects\Dinesh Demo Project\ColdStorage\ColdStorage\obj\x86\Debug\RdlCompile.cache
 D:\My Projects\Dinesh Demo Project\ColdStorage\ColdStorage\obj\x86\Debug\RdlCompile.compiled
 D:\My Projects\Dinesh Demo Project\ColdStorage\ColdStorage\obj\x86\Debug\ColdStorage.csproj.GenerateResource.Cache
-D:\My Projects\Dinesh Demo Project\ColdStorage\ColdStorage\obj\x86\Debug\ColdStorage.csprojResolveAssemblyReference.cache
+D:\My Projects\Dinesh Demo Project\ColdStorage\ColdStorage\obj\x86\Debug\ColdStorage.frmInventory.resources

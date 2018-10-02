@@ -54,12 +54,14 @@
     <Compile Include="AppCode\Meeting.cs" />
     <Compile Include="AppCode\OleDBHelper.cs" />
     <Compile Include="AppCode\Transaction.cs" />
+    <Compile Include="BLL\Inventory.cs" />
     <Compile Include="BLL\PartyMaster.cs" />
     <Compile Include="BLL\TransactionOutDetails.cs" />
     <Compile Include="BLL\TransactionOutMaster.cs" />
     <Compile Include="BLL\TransactionInMaster.cs" />
     <Compile Include="BLL\TransactionInDetails.cs" />
     <Compile Include="BLL\ItemMaster.cs" />
+    <Compile Include="DAL\InventoryDAL.cs" />
     <Compile Include="DAL\PartyMasterDAL.cs" />
     <Compile Include="DAL\TransactionOutDetailsDAL.cs" />
     <Compile Include="DAL\TransactionOutMasterDAL.cs" />

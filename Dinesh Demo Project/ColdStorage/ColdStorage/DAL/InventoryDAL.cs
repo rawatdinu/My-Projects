@@ -2,10 +2,12 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using Library.BLL;
+using ColdStorage.BLL;
 using System.Data.OleDb;
 using System.Data;
-using Library.AppCode;
+using ColdStorage;
+using ColdStorage.AppCode;
+using ColdStorage.BLL;
 
 namespace Library.DAL
 {
@@ -25,9 +27,9 @@ namespace Library.DAL
                 {
                     parameters = new OleDbParameter[]
                     {
-                        new OleDbParameter("@ItemID", obj.ItemID),
+                        //new OleDbParameter("@ItemID", obj.ItemID),
                         new OleDbParameter("@UnitID", obj.UnitID),
-                        new OleDbParameter("@LastTranID", obj.LastTranID),                   
+                        //new OleDbParameter("@LastTranID", obj.LastTranID),                   
                         new OleDbParameter("@QtyIn", obj.QtyIn),
                         new OleDbParameter("@QtyOut", obj.QtyOut),
                         new OleDbParameter("@PrevBalance", obj.PrevBalance),                        
@@ -52,13 +54,13 @@ namespace Library.DAL
 
             OleDbParameter[] parameters = new OleDbParameter[]
             {
-                new OleDbParameter("@LastTranID", obj.LastTranID),                   
+                //new OleDbParameter("@LastTranID", obj.LastTranID),                   
                 new OleDbParameter("@QtyIn", obj.QtyIn),
                 new OleDbParameter("@QtyOut", obj.QtyOut),
                 new OleDbParameter("@PrevBalance", obj.PrevBalance),                        
                 new OleDbParameter("@CurrBalance", obj.CurrBalance),
-                new OleDbParameter("@UpdatedOn", GlobalFunction.GetDateTimeWithoutMiliSecond(DateTime.Now)),
-                new OleDbParameter("@ItemID", obj.ItemID)
+                //new OleDbParameter("@UpdatedOn", GlobalFunction.GetDateTimeWithoutMiliSecond(DateTime.Now)),
+                //new OleDbParameter("@ItemID", obj.ItemID)
                 //new OleDbParameter("@UnitID", obj.UnitID)
             };
 
@@ -87,7 +89,7 @@ namespace Library.DAL
 
             OleDbParameter[] parameters = new OleDbParameter[]
             {
-              new OleDbParameter("@ItemID", obj.ItemID)
+              //new OleDbParameter("@ItemID", obj.ItemID)
               //new OleDbParameter("@UnitID", obj.UnitID)
             };
 
@@ -99,9 +101,9 @@ namespace Library.DAL
                     //Lets go ahead and create the list of employees
                     objDetails = new Inventory();
 
-                    objDetails.ItemID = Convert.ToString(table.Rows[0]["ItemID"]);
+                    //objDetails.ItemID = Convert.ToString(table.Rows[0]["ItemID"]);
                     objDetails.UnitID = Convert.ToString(table.Rows[0]["UnitID"]);
-                    objDetails.LastTranID = Convert.ToString(table.Rows[0]["LastTranID"]);                    
+                    //objDetails.LastTranID = Convert.ToString(table.Rows[0]["LastTranID"]);                    
                     objDetails.QtyIn = Convert.IsDBNull(table.Rows[0]["QtyIn"])? 0 : Convert.ToInt32(table.Rows[0]["QtyIn"]);
                     objDetails.QtyOut = Convert.IsDBNull(table.Rows[0]["QtyOut"]) ? 0 : Convert.ToInt32(table.Rows[0]["QtyOut"]);
                     objDetails.PrevBalance = Convert.IsDBNull(table.Rows[0]["PrevBalance"]) ? 0 : Convert.ToInt32(table.Rows[0]["PrevBalance"]);
@@ -133,18 +135,21 @@ namespace Library.DAL
 
 
                     Inventory obj;
+                    ItemMaster objItemMaster;
                     //Now lets populate the employee details into the list of employees
                     foreach (DataRow row in table.Rows)
                     {
                         obj = new Inventory();
-                       
-                        obj.ItemID = Convert.ToString(row["ItemID"]);
-                        obj.UnitID = Convert.ToString(row["UnitID"]);                        
-                        obj.LastTranID = Convert.ToString(row["LastTranID"]);
-                        obj.QtyIn = Convert.IsDBNull(table.Rows[0]["QtyIn"]) ? 0 : Convert.ToInt32(table.Rows[0]["QtyIn"]);
-                        obj.QtyOut = Convert.IsDBNull(table.Rows[0]["QtyOut"]) ? 0 : Convert.ToInt32(table.Rows[0]["QtyOut"]);
-                        obj.PrevBalance = Convert.IsDBNull(table.Rows[0]["PrevBalance"]) ? 0 : Convert.ToInt32(table.Rows[0]["PrevBalance"]);
-                        obj.CurrBalance = Convert.IsDBNull(table.Rows[0]["CurrBalance"]) ? 0 : Convert.ToInt32(table.Rows[0]["CurrBalance"]);
+                        objItemMaster = new ItemMaster();
+
+
+                        objItemMaster.ItemID = Convert.ToString(row["ItemID"]);
+                        objItemMaster.ItemName = Convert.ToString(row["ItemName"]);                        
+                        //obj.LastTranID = Convert.ToString(row["LastTranID"]);
+                        obj.ItemMaster = objItemMaster;
+                        obj.QtyIn = Convert.IsDBNull(row["QtyIn"]) ? 0 : Convert.ToInt32(row["QtyIn"]);
+                        obj.QtyOut = Convert.IsDBNull(row["QtyOut"]) ? 0 : Convert.ToInt32(row["QtyOut"]);
+                        //obj.CurrBalance = Convert.IsDBNull(row["QtyBalance"]) ? 0 : Convert.ToInt32(row["QtyBalance"]);
 
                         list.Add(obj);
                     }
