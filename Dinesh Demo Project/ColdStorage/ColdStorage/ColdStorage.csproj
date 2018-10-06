@@ -109,6 +109,12 @@
     <Compile Include="frmPartyMaster.Designer.cs">
       <DependentUpon>frmPartyMaster.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmRateMasterDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRateMasterDetails.Designer.cs">
+      <DependentUpon>frmRateMasterDetails.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmReportViewer.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -136,6 +142,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmInventory.resx">
       <DependentUpon>frmInventory.cs</DependentUpon>
     </EmbeddedResource>
@@ -144,6 +153,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmPartyMaster.resx">
       <DependentUpon>frmPartyMaster.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRateMasterDetails.resx">
+      <DependentUpon>frmRateMasterDetails.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmReportViewer.resx">
       <DependentUpon>frmReportViewer.cs</DependentUpon>

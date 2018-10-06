@@ -20,7 +20,7 @@ namespace ColdStorage
         {
             InitializeComponent();
             this.AcceptButton = button1;
-            SetDefaultInterface();
+            //SetDefaultInterface();
         }
 
         private void button1_Click(object sender, EventArgs e)

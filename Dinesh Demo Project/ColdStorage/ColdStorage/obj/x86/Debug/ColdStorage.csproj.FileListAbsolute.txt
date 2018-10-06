@@ -31,3 +31,6 @@ D:\My Projects\Dinesh Demo Project\ColdStorage\ColdStorage\obj\x86\Debug\RdlComp
 D:\My Projects\Dinesh Demo Project\ColdStorage\ColdStorage\obj\x86\Debug\RdlCompile.compiled
 D:\My Projects\Dinesh Demo Project\ColdStorage\ColdStorage\obj\x86\Debug\ColdStorage.csproj.GenerateResource.Cache
 D:\My Projects\Dinesh Demo Project\ColdStorage\ColdStorage\obj\x86\Debug\ColdStorage.frmInventory.resources
+D:\My Projects\Dinesh Demo Project\ColdStorage\ColdStorage\obj\x86\Debug\ColdStorage.csprojResolveAssemblyReference.cache
+D:\My Projects\Dinesh Demo Project\ColdStorage\ColdStorage\obj\x86\Debug\ColdStorage.frmRateMasterDetails.resources
+D:\My Projects\Dinesh Demo Project\ColdStorage\ColdStorage\obj\x86\Debug\ColdStorage.Form1.resources
