@@ -13,6 +13,9 @@ namespace ColdStorage.BLL
         public string ItemName { get; set; }
         public string Remarks { get; set; }
 
+        public decimal AvgPurchaseRate { get; set; }
+        public decimal SaleRate { get; set; }
+
 
         ItemMasterDAL objDB = null;
 
@@ -43,7 +46,8 @@ namespace ColdStorage.BLL
         public bool DeleteItemMaster(ItemMaster obj)
         {
             return objDB.DeleteItemMaster(obj);
-        }  
+        }
+   
 
     }
 }
