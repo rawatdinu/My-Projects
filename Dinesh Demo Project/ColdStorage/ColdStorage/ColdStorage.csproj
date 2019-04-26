@@ -179,8 +179,12 @@
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Reports\rptCompany.rdlc" />
-    <EmbeddedResource Include="Reports\rptTransactionIn.rdlc" />
-    <EmbeddedResource Include="Reports\rptTransactionOut.rdlc" />
+    <EmbeddedResource Include="Reports\rptTransactionIn.rdlc">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rptTransactionOut.rdlc">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
     <None Include="App.config">
       <SubType>Designer</SubType>
     </None>

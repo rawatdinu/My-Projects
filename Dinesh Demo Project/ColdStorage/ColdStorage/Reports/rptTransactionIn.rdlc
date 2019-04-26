@@ -258,7 +258,7 @@
               </TablixCells>
             </TablixRow>
             <TablixRow>
-              <Height>0.2in</Height>
+              <Height>0.18in</Height>
               <TablixCells>
                 <TablixCell>
                   <CellContents>
@@ -282,10 +282,6 @@
                           <Color>LightGrey</Color>
                           <Style>None</Style>
                         </Border>
-                        <PaddingLeft>2pt</PaddingLeft>
-                        <PaddingRight>2pt</PaddingRight>
-                        <PaddingTop>2pt</PaddingTop>
-                        <PaddingBottom>2pt</PaddingBottom>
                       </Style>
                     </Textbox>
                   </CellContents>
@@ -312,10 +308,6 @@
                           <Color>LightGrey</Color>
                           <Style>None</Style>
                         </Border>
-                        <PaddingLeft>2pt</PaddingLeft>
-                        <PaddingRight>2pt</PaddingRight>
-                        <PaddingTop>2pt</PaddingTop>
-                        <PaddingBottom>2pt</PaddingBottom>
                       </Style>
                     </Textbox>
                   </CellContents>
@@ -344,10 +336,6 @@
                           <Color>LightGrey</Color>
                           <Style>None</Style>
                         </Border>
-                        <PaddingLeft>2pt</PaddingLeft>
-                        <PaddingRight>2pt</PaddingRight>
-                        <PaddingTop>2pt</PaddingTop>
-                        <PaddingBottom>2pt</PaddingBottom>
                       </Style>
                     </Textbox>
                   </CellContents>
@@ -376,10 +364,6 @@
                           <Color>LightGrey</Color>
                           <Style>None</Style>
                         </Border>
-                        <PaddingLeft>2pt</PaddingLeft>
-                        <PaddingRight>2pt</PaddingRight>
-                        <PaddingTop>2pt</PaddingTop>
-                        <PaddingBottom>2pt</PaddingBottom>
                       </Style>
                     </Textbox>
                   </CellContents>
@@ -408,10 +392,6 @@
                           <Color>LightGrey</Color>
                           <Style>None</Style>
                         </Border>
-                        <PaddingLeft>2pt</PaddingLeft>
-                        <PaddingRight>2pt</PaddingRight>
-                        <PaddingTop>2pt</PaddingTop>
-                        <PaddingBottom>2pt</PaddingBottom>
                       </Style>
                     </Textbox>
                   </CellContents>
@@ -441,9 +421,9 @@
         </TablixRowHierarchy>
         <KeepTogether>true</KeepTogether>
         <DataSetName>DataSet1</DataSetName>
-        <Top>1.63209in</Top>
+        <Top>1.38209in</Top>
         <Left>0.19097in</Left>
-        <Height>0.45in</Height>
+        <Height>0.43in</Height>
         <Width>6.56611in</Width>
         <Style>
           <Border>
@@ -471,7 +451,7 @@
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>Textbox1</rd:DefaultName>
-        <Top>2.60084in</Top>
+        <Top>2.22584in</Top>
         <Left>0.19097in</Left>
         <Height>0.25in</Height>
         <Width>0.65639in</Width>
@@ -503,7 +483,7 @@
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>Remarks</rd:DefaultName>
-        <Top>2.60084in</Top>
+        <Top>2.22584in</Top>
         <Left>0.9168in</Left>
         <Height>0.25in</Height>
         <Width>5.96528in</Width>
@@ -680,7 +660,7 @@
         </Style>
       </Textbox>
       <Line Name="Line1">
-        <Top>1.50709in</Top>
+        <Top>1.38209in</Top>
         <Height>0in</Height>
         <Width>6.88208in</Width>
         <ZIndex>8</ZIndex>
@@ -704,8 +684,7 @@
         </Style>
       </Subreport>
       <Line Name="Line2">
-        <Top>2.2275in</Top>
-        <Left>0.02437in</Left>
+        <Top>1.8525in</Top>
         <Height>0in</Height>
         <Width>6.85771in</Width>
         <ZIndex>10</ZIndex>
@@ -733,7 +712,7 @@
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>Textbox1</rd:DefaultName>
-        <Top>2.2814in</Top>
+        <Top>1.9064in</Top>
         <Left>2.98625in</Left>
         <Height>0.25in</Height>
         <Width>1.20124in</Width>
@@ -766,7 +745,7 @@
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>Textbox1</rd:DefaultName>
-        <Top>2.29694in</Top>
+        <Top>1.92194in</Top>
         <Left>5.29542in</Left>
         <Height>0.25in</Height>
         <Width>1.46166in</Width>
@@ -785,7 +764,7 @@
     <Height>2.99667in</Height>
     <Style />
   </Body>
-  <Width>7.48625in</Width>
+  <Width>7.05917in</Width>
   <Page>
     <PageHeight>11.69in</PageHeight>
     <PageWidth>8.27in</PageWidth>

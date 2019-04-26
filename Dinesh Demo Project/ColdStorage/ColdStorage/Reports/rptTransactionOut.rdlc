@@ -251,19 +251,22 @@
               </TablixCells>
             </TablixRow>
             <TablixRow>
-              <Height>0.25in</Height>
+              <Height>0.18in</Height>
               <TablixCells>
                 <TablixCell>
                   <CellContents>
                     <Textbox Name="ItemID">
                       <CanGrow>true</CanGrow>
+                      <CanShrink>true</CanShrink>
                       <KeepTogether>true</KeepTogether>
                       <Paragraphs>
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
                               <Value>=Fields!ItemID.Value</Value>
-                              <Style />
+                              <Style>
+                                <FontSize>9pt</FontSize>
+                              </Style>
                             </TextRun>
                           </TextRuns>
                           <Style />
@@ -275,10 +278,6 @@
                           <Color>LightGrey</Color>
                           <Style>None</Style>
                         </Border>
-                        <PaddingLeft>2pt</PaddingLeft>
-                        <PaddingRight>2pt</PaddingRight>
-                        <PaddingTop>2pt</PaddingTop>
-                        <PaddingBottom>2pt</PaddingBottom>
                       </Style>
                     </Textbox>
                   </CellContents>
@@ -287,13 +286,16 @@
                   <CellContents>
                     <Textbox Name="ItemName">
                       <CanGrow>true</CanGrow>
+                      <CanShrink>true</CanShrink>
                       <KeepTogether>true</KeepTogether>
                       <Paragraphs>
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
                               <Value>=Fields!ItemName.Value</Value>
-                              <Style />
+                              <Style>
+                                <FontSize>9pt</FontSize>
+                              </Style>
                             </TextRun>
                           </TextRuns>
                           <Style />
@@ -305,10 +307,6 @@
                           <Color>LightGrey</Color>
                           <Style>None</Style>
                         </Border>
-                        <PaddingLeft>2pt</PaddingLeft>
-                        <PaddingRight>2pt</PaddingRight>
-                        <PaddingTop>2pt</PaddingTop>
-                        <PaddingBottom>2pt</PaddingBottom>
                       </Style>
                     </Textbox>
                   </CellContents>
@@ -317,13 +315,16 @@
                   <CellContents>
                     <Textbox Name="Unit">
                       <CanGrow>true</CanGrow>
+                      <CanShrink>true</CanShrink>
                       <KeepTogether>true</KeepTogether>
                       <Paragraphs>
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
                               <Value>=Fields!Unit.Value</Value>
-                              <Style />
+                              <Style>
+                                <FontSize>9pt</FontSize>
+                              </Style>
                             </TextRun>
                           </TextRuns>
                           <Style>
@@ -337,10 +338,6 @@
                           <Color>LightGrey</Color>
                           <Style>None</Style>
                         </Border>
-                        <PaddingLeft>2pt</PaddingLeft>
-                        <PaddingRight>2pt</PaddingRight>
-                        <PaddingTop>2pt</PaddingTop>
-                        <PaddingBottom>2pt</PaddingBottom>
                       </Style>
                     </Textbox>
                   </CellContents>
@@ -349,13 +346,16 @@
                   <CellContents>
                     <Textbox Name="Rate">
                       <CanGrow>true</CanGrow>
+                      <CanShrink>true</CanShrink>
                       <KeepTogether>true</KeepTogether>
                       <Paragraphs>
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
                               <Value>=Fields!Rate.Value</Value>
-                              <Style />
+                              <Style>
+                                <FontSize>9pt</FontSize>
+                              </Style>
                             </TextRun>
                           </TextRuns>
                           <Style>
@@ -369,10 +369,6 @@
                           <Color>LightGrey</Color>
                           <Style>None</Style>
                         </Border>
-                        <PaddingLeft>2pt</PaddingLeft>
-                        <PaddingRight>2pt</PaddingRight>
-                        <PaddingTop>2pt</PaddingTop>
-                        <PaddingBottom>2pt</PaddingBottom>
                       </Style>
                     </Textbox>
                   </CellContents>
@@ -381,13 +377,16 @@
                   <CellContents>
                     <Textbox Name="Amount">
                       <CanGrow>true</CanGrow>
+                      <CanShrink>true</CanShrink>
                       <KeepTogether>true</KeepTogether>
                       <Paragraphs>
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
                               <Value>=Fields!Amount.Value</Value>
-                              <Style />
+                              <Style>
+                                <FontSize>9pt</FontSize>
+                              </Style>
                             </TextRun>
                           </TextRuns>
                           <Style>
@@ -401,10 +400,6 @@
                           <Color>LightGrey</Color>
                           <Style>None</Style>
                         </Border>
-                        <PaddingLeft>2pt</PaddingLeft>
-                        <PaddingRight>2pt</PaddingRight>
-                        <PaddingTop>2pt</PaddingTop>
-                        <PaddingBottom>2pt</PaddingBottom>
                       </Style>
                     </Textbox>
                   </CellContents>
@@ -433,10 +428,10 @@
           </TablixMembers>
         </TablixRowHierarchy>
         <DataSetName>DataSet1</DataSetName>
-        <Top>1.65285in</Top>
+        <Top>1.40285in</Top>
         <Left>0.07126in</Left>
-        <Height>0.5in</Height>
-        <Width>6.16874in</Width>
+        <Height>0.43924in</Height>
+        <Width>6.16875in</Width>
         <Style>
           <Border>
             <Color>White</Color>
@@ -459,7 +454,7 @@
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>Textbox1</rd:DefaultName>
-        <Top>2.75354in</Top>
+        <Top>2.25354in</Top>
         <Left>0.07126in</Left>
         <Height>0.25in</Height>
         <Width>0.7293in</Width>
@@ -489,7 +484,7 @@
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>Remarks</rd:DefaultName>
-        <Top>2.75354in</Top>
+        <Top>2.25354in</Top>
         <Left>0.87001in</Left>
         <Height>0.25in</Height>
         <Width>5.77624in</Width>
@@ -505,7 +500,7 @@
         </Style>
       </Textbox>
       <Line Name="Line2">
-        <Top>1.53479in</Top>
+        <Top>1.40979in</Top>
         <Height>0in</Height>
         <Width>6.69999in</Width>
         <ZIndex>3</ZIndex>
@@ -676,7 +671,7 @@
         </Style>
       </Textbox>
       <Line Name="Line1">
-        <Top>2.27959in</Top>
+        <Top>1.90459in</Top>
         <Height>0in</Height>
         <Width>6.71042in</Width>
         <ZIndex>9</ZIndex>
@@ -763,10 +758,10 @@
           </Textbox>
         </ReportItems>
         <KeepTogether>true</KeepTogether>
-        <Top>2.29875in</Top>
+        <Top>1.92375in</Top>
         <Left>2.35056in</Left>
         <Height>0.27423in</Height>
-        <Width>3.97944in</Width>
+        <Width>3.88945in</Width>
         <ZIndex>11</ZIndex>
         <Style>
           <Border>
@@ -775,10 +770,10 @@
         </Style>
       </Rectangle>
     </ReportItems>
-    <Height>3.42375in</Height>
+    <Height>2.59042in</Height>
     <Style />
   </Body>
-  <Width>7.14417in</Width>
+  <Width>7.01917in</Width>
   <Page>
     <PageHeight>11.69in</PageHeight>
     <PageWidth>8.27in</PageWidth>
