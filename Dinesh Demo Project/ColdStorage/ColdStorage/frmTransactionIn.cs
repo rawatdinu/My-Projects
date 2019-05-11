@@ -17,9 +17,11 @@ namespace ColdStorage
         private bool EditMode = false;
         private string _itemID = "";
 
+        private string PartyID = "";
+
         ItemMaster bookMasterItem;
         frmItemMaster frmInterface;
-
+        PartyMaster partyMaster;
 
         //Constant
         private const int SNo = 0;
@@ -677,6 +679,46 @@ namespace ColdStorage
             //GetReportTransactionIn
 
         }
+
+        private void cmdPartyLookup_Click(object sender, EventArgs e)
+        {
+            frmPartyMaster objLookup = new frmPartyMaster();
+            objLookup.IsLookUpMode = true;
+
+            DialogResult result;
+
+            result = objLookup.ShowDialog();
+            if (result == DialogResult.OK)
+            {
+                PartyID = objLookup.PartyID;
+            }
+            else
+            {
+                PartyID = "";
+            }
+
+
+            objLookup.Close();
+            objLookup = null;
+
+            if (AddMode || EditMode)
+            {
+                PartyMaster handler = new PartyMaster();
+                if (PartyID != null)
+                {
+                    partyMaster = handler.GetPartyMasterDetails(PartyID);
+                    if (partyMaster != null)
+                    {
+                        txtPartyName.Text = partyMaster.PartyName;
+                        txtContactNo.Text = partyMaster.ContactNo;
+                        txtAddress.Text = partyMaster.Address;                    
+                    }
+                    
+                }
+                
+            }
+        }
+
 
     }
 }

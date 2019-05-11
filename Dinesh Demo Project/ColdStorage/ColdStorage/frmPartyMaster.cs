@@ -22,7 +22,7 @@ namespace ColdStorage
         {
             get
             {
-                return _partyID;
+                return _itemID;
             }
         }
 
@@ -327,7 +327,6 @@ namespace ColdStorage
         }
 
 
-
-        public string _partyID { get; set; }
+        
     }
 }
