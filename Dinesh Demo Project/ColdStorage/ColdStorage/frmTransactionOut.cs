@@ -671,6 +671,20 @@ namespace ColdStorage
             obj.Show();
             //GetReportTransactionIn
         }
+
+        private void cmdPartyLookup_Click(object sender, EventArgs e)
+        {
+            PartyMaster partyMaster = (PartyMaster)GlobalFunction.ShowLookUpForm("frmPartyMaster");
+
+            if (partyMaster != null)
+            {
+                txtPartyName.Text = partyMaster.PartyName;
+                txtContactNo.Text = partyMaster.ContactNo;
+                txtAddress.Text = partyMaster.Address;
+            }
+        }
+
+
       
 
     }

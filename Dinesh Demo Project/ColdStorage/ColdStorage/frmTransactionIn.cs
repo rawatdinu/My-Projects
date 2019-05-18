@@ -83,7 +83,7 @@ namespace ColdStorage
 
         private void cmdGoToList_Click(object sender, EventArgs e)
         {
-            pnlList.BringToFront();  
+            pnlList.BringToFront();
         }
 
         private void cmdSave_Click(object sender, EventArgs e)
@@ -95,7 +95,7 @@ namespace ColdStorage
         {
             bool result = false;
 
-            
+
             TransactionInMaster objTransactionInMaster = GetTransactionInMasterInterface();
 
             TransactionInMaster masterhandler = new TransactionInMaster();
@@ -117,7 +117,7 @@ namespace ColdStorage
                     result = GlobalFunction.UpdateUniqueCode("TransactionInMaster");
                 }
 
-               // obj = new Inventory();
+                // obj = new Inventory();
                 //if (result)
                 //{
                 //    result = obj.AddInventory(objDetailsList);
@@ -125,7 +125,7 @@ namespace ColdStorage
             }
             else if (EditMode)
             {
-               // obj = new Inventory();
+                // obj = new Inventory();
 
                 result = masterhandler.UpdateTransactionIn(objTransactionInMaster);
 
@@ -173,6 +173,7 @@ namespace ColdStorage
             TransactionInMaster obj = new TransactionInMaster();
             obj.TransactionID = txtTranID.Text;
             obj.TransactionDate = GlobalFunction.GetDateTimeWithoutMiliSecond(dtpTranInDate.Value);
+            obj.PartyID = PartyID;
             obj.Amount = Convert.ToDecimal(txtAmount.Text);
             obj.Remarks = txtRemarks.Text;
             //book.Subject = txtSubject.Text;
@@ -202,7 +203,7 @@ namespace ColdStorage
 
                 objItemMaster = new ItemMaster();
                 objItemMaster.ItemID = Convert.ToString(dgvMain.Rows[rowIndex].Cells[ItemID].Value);
-                obj.ItemMaster  = objItemMaster;
+                obj.ItemMaster = objItemMaster;
 
                 objTrasList.Add(obj);
             }
@@ -356,7 +357,7 @@ namespace ColdStorage
             frmInterface.Close();
             frmInterface = null;
         }
-      
+
         private void dgvMain_CellEnter(object sender, DataGridViewCellEventArgs e)
         {
             int rowIndex = e.RowIndex;
@@ -385,11 +386,11 @@ namespace ColdStorage
                 if (colIndex == Unit || colIndex == Rate)
                 {
                     dgvMain.Rows[rowIndex].Cells[Amount].Value = Convert.ToDecimal(dgvMain.Rows[rowIndex].Cells[Unit].Value) * Convert.ToDecimal(dgvMain.Rows[rowIndex].Cells[Rate].Value);
-                    
+
                     CalculateTotalAmount();
                 }
 
-                if( colIndex== Amount)
+                if (colIndex == Amount)
                 {
                     CalculateTotalAmount();
                 }
@@ -406,7 +407,7 @@ namespace ColdStorage
                 amount = amount + Convert.ToDecimal(dgvMain.Rows[rowIndex].Cells[Amount].Value);
             }
 
-            txtAmount.Text = Convert.ToString(amount);            
+            txtAmount.Text = Convert.ToString(amount);
         }
 
 
@@ -419,6 +420,7 @@ namespace ColdStorage
             dtpTranInDate.Value = DateTime.Now;
             txtRemarks.Text = "";
             dgvMain.RowCount = 0;
+            PartyID = "";
         }
 
         private void ControlStatus(bool status)
@@ -426,15 +428,17 @@ namespace ColdStorage
 
             cmdNew.Enabled = status;
             cmdGoToList.Enabled = status;
+            
             cmdEdit.Enabled = status;
             cmdPrint.Enabled = status;
 
 
             cmdSave.Enabled = !(status);
+            cmdPartyLookup.Enabled = !(status);
             cmdAddItem.Enabled = !(status);
             cmdRemoveItem.Enabled = !(status);
             cmdCancel.Enabled = !(status);
-            
+
 
             txtTranID.ReadOnly = true;
 
@@ -490,10 +494,10 @@ namespace ColdStorage
 
                 List<TransactionInMaster> list = new List<TransactionInMaster>();
                 TransactionInMaster masterHandler = new TransactionInMaster();
-              
+
                 list = masterHandler.GetTransactionInMasterList();
                 ListViewItem lvi = new ListViewItem();
-                
+
                 if ((list != null))
                 {
                     if (list.Count > 0)
@@ -508,7 +512,7 @@ namespace ColdStorage
                         }
                     }
                 }
-                
+
 
             }
 
@@ -539,8 +543,26 @@ namespace ColdStorage
                     {
                         txtAmount.Text = Convert.ToString(objMaster.Amount);
                     }
-                    
+
                     txtRemarks.Text = objMaster.Remarks;
+
+                    PartyID = objMaster.PartyID;
+                    //Party details
+                    PartyMaster objPartyMaster = new PartyMaster();
+                    PartyMaster partyMaster = new PartyMaster();
+                    partyMaster = objPartyMaster.GetPartyMasterDetails(PartyID);
+                    if (partyMaster != null)
+                    {
+                        txtPartyName.Text = partyMaster.PartyName;
+                        txtContactNo.Text = partyMaster.ContactNo;
+                        txtAddress.Text = partyMaster.Address;
+                    }
+                    else
+                    {
+                        txtPartyName.Text = "";
+                        txtContactNo.Text = "";
+                        txtAddress.Text = "";                    
+                    }
 
                     //Transaction Data
                     TransactionInDetails tranDetailsHandler = new TransactionInDetails();
@@ -575,17 +597,17 @@ namespace ColdStorage
                                 {
                                     dgvMain.Rows[i].Cells[Amount].Value = obj.Amount;
                                 }
-                                
+
                             }
 
                         }
-                    }                    
-                    
-                
+                    }
+
+
                 }
 
                 ControlStatus(true);
-                
+
             }
 
             catch (Exception ex)
@@ -682,41 +704,16 @@ namespace ColdStorage
 
         private void cmdPartyLookup_Click(object sender, EventArgs e)
         {
-            frmPartyMaster objLookup = new frmPartyMaster();
-            objLookup.IsLookUpMode = true;
+            PartyMaster partyMaster = (PartyMaster)GlobalFunction.ShowLookUpForm("frmPartyMaster");
 
-            DialogResult result;
-
-            result = objLookup.ShowDialog();
-            if (result == DialogResult.OK)
+            if (partyMaster != null)
             {
-                PartyID = objLookup.PartyID;
-            }
-            else
-            {
-                PartyID = "";
+                PartyID = partyMaster.PartyID;
+                txtPartyName.Text = partyMaster.PartyName;
+                txtContactNo.Text = partyMaster.ContactNo;
+                txtAddress.Text = partyMaster.Address;
             }
 
-
-            objLookup.Close();
-            objLookup = null;
-
-            if (AddMode || EditMode)
-            {
-                PartyMaster handler = new PartyMaster();
-                if (PartyID != null)
-                {
-                    partyMaster = handler.GetPartyMasterDetails(PartyID);
-                    if (partyMaster != null)
-                    {
-                        txtPartyName.Text = partyMaster.PartyName;
-                        txtContactNo.Text = partyMaster.ContactNo;
-                        txtAddress.Text = partyMaster.Address;                    
-                    }
-                    
-                }
-                
-            }
         }
 
 

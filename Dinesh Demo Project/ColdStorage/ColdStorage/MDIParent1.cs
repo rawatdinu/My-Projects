@@ -71,29 +71,7 @@ namespace ColdStorage
             {
                 switch (formName)
                 {
-            //        case "UserRegistration":
-            //            if (frmUserRegistration == null)
-            //            {
-            //                frmUserRegistration = new frmUserRegistration();
-            //                frmUserRegistration.MdiParent = this;
-            //                frmUserRegistration.Show();
-            //                frmUserRegistration.BringToFront();
-            //            }
-            //            else if (frmUserRegistration.IsDisposed == true)
-            //            {
-            //                frmUserRegistration = new frmUserRegistration();
-            //                frmUserRegistration.MdiParent = this;
-            //                frmUserRegistration.Show();
-            //                frmUserRegistration.BringToFront();
-            //            }
-            //            else
-            //            {
-            //                frmUserRegistration.Activate();
-            //                frmUserRegistration.Show();
-            //                frmUserRegistration.BringToFront();
-            //            }
-            //            break;
-
+ 
 
                     case "frmItemMaster":
                         if (frmItemMaster == null)

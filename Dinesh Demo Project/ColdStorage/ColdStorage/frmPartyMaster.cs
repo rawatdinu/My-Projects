@@ -15,7 +15,7 @@ namespace ColdStorage
         private bool AddMode = false;
         private bool EditMode = false;
 
-        private string _itemID;
+        private string _itemID="";
         public bool IsLookUpMode = false;
 
         public string PartyID

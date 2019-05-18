@@ -11,6 +11,7 @@ namespace ColdStorage.BLL
     {
         public string TransactionID { get; set; }
         public DateTime TransactionDate { get; set; }
+        public string PartyID { get; set; }
         public decimal Amount { get; set; }
         public string Remarks { get; set; }
 
