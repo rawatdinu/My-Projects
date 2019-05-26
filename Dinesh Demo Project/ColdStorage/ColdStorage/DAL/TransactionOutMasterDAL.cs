@@ -17,6 +17,7 @@ namespace ColdStorage.DAL
             {
             new OleDbParameter("@TransactionID", obj.TransactionID),
             new OleDbParameter("@TransactionDate", obj.TransactionDate),
+            new OleDbParameter("@PartyID", obj.PartyID),
             new OleDbParameter("@Amount", obj.Amount),
             new OleDbParameter("@Remarks", obj.Remarks),
             new OleDbParameter("@CreatedOn", GlobalFunction.GetDateTimeWithoutMiliSecond(DateTime.Now))
@@ -32,6 +33,7 @@ namespace ColdStorage.DAL
             {
             
             new OleDbParameter("@TransactionDate", obj.TransactionDate),
+            new OleDbParameter("@PartyID", obj.PartyID),
             new OleDbParameter("@Amount", obj.Amount),
             new OleDbParameter("@Remarks", obj.Remarks),
             new OleDbParameter("@CreatedOn", GlobalFunction.GetDateTimeWithoutMiliSecond(DateTime.Now)),
@@ -68,6 +70,7 @@ namespace ColdStorage.DAL
 
                     obj.TransactionID = Convert.ToString(table.Rows[0]["TransactionID"]);
                     obj.TransactionDate = Convert.ToDateTime(table.Rows[0]["TransactionDate"]);
+                    obj.PartyID = Convert.ToString(table.Rows[0]["PartyID"]);
                     obj.Amount = Convert.ToDecimal(Convert.IsDBNull(table.Rows[0]["Amount"]) ? 0 : table.Rows[0]["Amount"]);
                     obj.Remarks = Convert.ToString(table.Rows[0]["Remarks"]);
                 }
@@ -97,6 +100,7 @@ namespace ColdStorage.DAL
                         TransactionOutMaster obj = new TransactionOutMaster();
                         obj.TransactionID = Convert.ToString(row["TransactionID"]);
                         obj.TransactionDate = Convert.ToDateTime(row["TransactionDate"]);
+                        obj.PartyID = Convert.ToString(row["PartyID"]);
                         obj.Amount = Convert.ToDecimal(Convert.IsDBNull(row["Amount"]) ? 0 : row["Amount"]);
                         obj.Remarks = Convert.ToString(row["Remarks"]);
 

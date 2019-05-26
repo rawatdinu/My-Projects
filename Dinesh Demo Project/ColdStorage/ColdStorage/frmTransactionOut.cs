@@ -18,6 +18,7 @@ namespace ColdStorage
 
         ItemMaster bookMasterItem;
         frmItemMaster frmInterface;
+        private string PartyID = "";
 
 
         //Constant
@@ -169,6 +170,7 @@ namespace ColdStorage
             TransactionOutMaster obj = new TransactionOutMaster();
             obj.TransactionID = txtTranID.Text;
             obj.TransactionDate = GlobalFunction.GetDateTimeWithoutMiliSecond(dtpTranInDate.Value);
+            obj.PartyID = PartyID;
             obj.Amount = Convert.ToDecimal(txtAmount.Text);
             obj.Remarks = txtRemarks.Text;
             //book.Subject = txtSubject.Text;
@@ -413,6 +415,7 @@ namespace ColdStorage
             dtpTranInDate.Value = DateTime.Now;
             txtRemarks.Text = "";
             dgvMain.RowCount = 0;
+            PartyID = "";
         }
 
         private void ControlStatus(bool status)
@@ -422,8 +425,8 @@ namespace ColdStorage
             cmdGoToList.Enabled = status;
             cmdEdit.Enabled = status;
             cmdPrint.Enabled = status;
-
-
+                           
+            cmdPartyLookup.Enabled = !(status);
             cmdSave.Enabled = !(status);
             cmdAddItem.Enabled = !(status);
             cmdRemoveItem.Enabled = !(status);
@@ -533,8 +536,24 @@ namespace ColdStorage
                     }
 
                     txtRemarks.Text = objMaster.Remarks;
-                    
-                    txtRemarks.Text = objMaster.Remarks;
+
+                    PartyID = objMaster.PartyID;
+                    //Party details
+                    PartyMaster objPartyMaster = new PartyMaster();
+                    PartyMaster partyMaster = new PartyMaster();
+                    partyMaster = objPartyMaster.GetPartyMasterDetails(PartyID);
+                    if (partyMaster != null)
+                    {
+                        txtPartyName.Text = partyMaster.PartyName;
+                        txtContactNo.Text = partyMaster.ContactNo;
+                        txtAddress.Text = partyMaster.Address;
+                    }
+                    else
+                    {
+                        txtPartyName.Text = "";
+                        txtContactNo.Text = "";
+                        txtAddress.Text = "";
+                    }
 
                     //Transaction Data
                     TransactionOutDetails tranDetailsHandler = new TransactionOutDetails();
@@ -678,14 +697,13 @@ namespace ColdStorage
 
             if (partyMaster != null)
             {
+                PartyID = partyMaster.PartyID;
                 txtPartyName.Text = partyMaster.PartyName;
                 txtContactNo.Text = partyMaster.ContactNo;
                 txtAddress.Text = partyMaster.Address;
             }
         }
 
-
-      
 
     }
 }

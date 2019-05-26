@@ -71,11 +71,6 @@
     <Compile Include="DAL\ItemMasterDAL.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Data\ReportDataSet.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>ReportDataSet.xsd</DependentUpon>
-    </Compile>
     <Compile Include="Data\TransactionInDataSet.cs">
       <DependentUpon>TransactionInDataSet.xsd</DependentUpon>
       <SubType>Component</SubType>
@@ -84,6 +79,11 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>TransactionInDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data\TransactionOutDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TransactionOutDataSet.xsd</DependentUpon>
     </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -188,17 +188,6 @@
     <None Include="App.config">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Data\ReportDataSet.xsc">
-      <DependentUpon>ReportDataSet.xsd</DependentUpon>
-    </None>
-    <None Include="Data\ReportDataSet.xsd">
-      <SubType>Designer</SubType>
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>ReportDataSet.Designer.cs</LastGenOutput>
-    </None>
-    <None Include="Data\ReportDataSet.xss">
-      <DependentUpon>ReportDataSet.xsd</DependentUpon>
-    </None>
     <None Include="Data\TransactionInDataSet.xsc">
       <DependentUpon>TransactionInDataSet.xsd</DependentUpon>
     </None>
@@ -210,7 +199,20 @@
     <None Include="Data\TransactionInDataSet.xss">
       <DependentUpon>TransactionInDataSet.xsd</DependentUpon>
     </None>
+    <None Include="Data\TransactionOutDataSet.xsc">
+      <DependentUpon>TransactionOutDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Data\TransactionOutDataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TransactionOutDataSet.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Data\TransactionOutDataSet.xss">
+      <DependentUpon>TransactionOutDataSet.xsd</DependentUpon>
+    </None>
     <None Include="Properties\DataSources\ColdStorage.Data.ReportDataSet.datasource" />
+    <None Include="Properties\DataSources\ColdStorage.Data.TransactionInDataSet.datasource" />
+    <None Include="Properties\DataSources\ColdStorage.Data.TransactionOutDataSet.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

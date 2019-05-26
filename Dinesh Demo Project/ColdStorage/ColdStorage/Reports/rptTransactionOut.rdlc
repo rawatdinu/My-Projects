@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Report xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner" xmlns="http://schemas.microsoft.com/sqlserver/reporting/2008/01/reportdefinition">
   <DataSources>
-    <DataSource Name="ReportDataSet">
+    <DataSource Name="ColdStorageData">
       <ConnectionProperties>
         <DataProvider>System.Data.DataSet</DataProvider>
         <ConnectString>/* Local Connection */</ConnectString>
       </ConnectionProperties>
-      <rd:DataSourceID>f5d83d7e-2a73-4bc8-a164-972cbff085dd</rd:DataSourceID>
+      <rd:DataSourceID>8b911788-4b2a-4b03-bec1-9b2c7bf118e4</rd:DataSourceID>
     </DataSource>
   </DataSources>
   <DataSets>
@@ -44,16 +44,28 @@
           <DataField>Remarks</DataField>
           <rd:TypeName>System.String</rd:TypeName>
         </Field>
+        <Field Name="PartyName">
+          <DataField>PartyName</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Address">
+          <DataField>Address</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ContactNo">
+          <DataField>ContactNo</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
       </Fields>
       <Query>
-        <DataSourceName>ReportDataSet</DataSourceName>
+        <DataSourceName>ColdStorageData</DataSourceName>
         <CommandText>/* Local Query */</CommandText>
       </Query>
       <rd:DataSetInfo>
         <rd:DataSetName>ColdStorage.Data</rd:DataSetName>
-        <rd:TableName>ReportDataSet</rd:TableName>
-        <rd:ObjectDataSourceSelectMethod>dtTransactionOut</rd:ObjectDataSourceSelectMethod>
-        <rd:ObjectDataSourceType>ColdStorage.Data.ReportDataSet, Data.ReportDataSet.Designer.cs, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</rd:ObjectDataSourceType>
+        <rd:TableName>TransactionOutDataSet</rd:TableName>
+        <rd:ObjectDataSourceSelectMethod>dtTransactionIn</rd:ObjectDataSourceSelectMethod>
+        <rd:ObjectDataSourceType>ColdStorage.Data.TransactionOutDataSet, Data.TransactionOutDataSet.Designer.cs, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</rd:ObjectDataSourceType>
       </rd:DataSetInfo>
     </DataSet>
   </DataSets>
@@ -430,7 +442,7 @@
         <DataSetName>DataSet1</DataSetName>
         <Top>1.40285in</Top>
         <Left>0.07126in</Left>
-        <Height>0.43924in</Height>
+        <Height>0.43in</Height>
         <Width>6.16875in</Width>
         <Style>
           <Border>

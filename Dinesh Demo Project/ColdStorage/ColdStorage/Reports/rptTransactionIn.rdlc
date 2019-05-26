@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Report xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner" xmlns="http://schemas.microsoft.com/sqlserver/reporting/2008/01/reportdefinition">
   <DataSources>
-    <DataSource Name="TransactionInDataSet">
+    <DataSource Name="ColdStorageData">
       <ConnectionProperties>
         <DataProvider>System.Data.DataSet</DataProvider>
         <ConnectString>/* Local Connection */</ConnectString>
       </ConnectionProperties>
-      <rd:DataSourceID>2a08746e-094b-4a9f-92d7-c6b7da6c2f8b</rd:DataSourceID>
+      <rd:DataSourceID>dc2df73e-2f84-41de-879b-b6e1378bbe22</rd:DataSourceID>
     </DataSource>
   </DataSources>
   <DataSets>
@@ -44,18 +44,28 @@
           <DataField>Remarks</DataField>
           <rd:TypeName>System.String</rd:TypeName>
         </Field>
+        <Field Name="PartyName">
+          <DataField>PartyName</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Address">
+          <DataField>Address</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ContactNo">
+          <DataField>ContactNo</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
       </Fields>
       <Query>
-        <DataSourceName>TransactionInDataSet</DataSourceName>
+        <DataSourceName>ColdStorageData</DataSourceName>
         <CommandText>/* Local Query */</CommandText>
       </Query>
       <rd:DataSetInfo>
-        <rd:DataSetName>TransactionInDataSet</rd:DataSetName>
-        <rd:SchemaPath>E:\Dinesh Demo Project\ColdStorage\ColdStorage\Data\TransactionInDataSet.xsd</rd:SchemaPath>
-        <rd:TableName>dtTransactionIn</rd:TableName>
-        <rd:TableAdapterFillMethod />
-        <rd:TableAdapterGetDataMethod />
-        <rd:TableAdapterName />
+        <rd:DataSetName>ColdStorage.Data</rd:DataSetName>
+        <rd:TableName>TransactionInDataSet</rd:TableName>
+        <rd:ObjectDataSourceSelectMethod>dtTransactionIn</rd:ObjectDataSourceSelectMethod>
+        <rd:ObjectDataSourceType>ColdStorage.Data.TransactionInDataSet, Data.TransactionInDataSet.Designer.cs, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</rd:ObjectDataSourceType>
       </rd:DataSetInfo>
     </DataSet>
   </DataSets>

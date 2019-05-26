@@ -85,7 +85,7 @@ namespace ColdStorage
                 reportViewer1.LocalReport.ReportPath = reportPath;
                 reportViewer1.LocalReport.DataSources.Clear();
 
-                ReportDataSet ds = new ReportDataSet();
+                TransactionOutDataSet ds = new TransactionOutDataSet();
 
                 TransactionOutDetails obj = new TransactionOutDetails();
                 DataTable datatable = obj.GetReportTransactionOut(transactionOutID);
