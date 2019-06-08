@@ -639,7 +639,7 @@ namespace ColdStorage
                     dgvMain.Rows.RemoveAt(dgvMain.CurrentCell.RowIndex);
 
                     SetDataGridViewSerialNo();
-                    //CalculateTotalAmount();
+                    CalculateTotalAmount();
                 }
 
                 catch (Exception ex)

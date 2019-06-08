@@ -38,6 +38,8 @@
             this.transactionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.iNToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.oUTToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.reportToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.inventoryToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.windowsMenu = new System.Windows.Forms.ToolStripMenuItem();
             this.newWindowToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cascadeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -53,8 +55,7 @@
             this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.statusStrip = new System.Windows.Forms.StatusStrip();
             this.toolStripStatusLabel = new System.Windows.Forms.ToolStripStatusLabel();
-            this.reportToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.inventoryToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.unitMasterToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip.SuspendLayout();
             this.statusStrip.SuspendLayout();
             this.SuspendLayout();
@@ -79,6 +80,7 @@
             this.masterToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.itemMasterToolStripMenuItem,
             this.partyMasterToolStripMenuItem,
+            this.unitMasterToolStripMenuItem,
             this.stateMasterToolStripMenuItem,
             this.cityMasterToolStripMenuItem});
             this.masterToolStripMenuItem.Name = "masterToolStripMenuItem";
@@ -123,16 +125,31 @@
             // iNToolStripMenuItem
             // 
             this.iNToolStripMenuItem.Name = "iNToolStripMenuItem";
-            this.iNToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.iNToolStripMenuItem.Size = new System.Drawing.Size(98, 22);
             this.iNToolStripMenuItem.Text = "IN";
             this.iNToolStripMenuItem.Click += new System.EventHandler(this.iNToolStripMenuItem_Click);
             // 
             // oUTToolStripMenuItem
             // 
             this.oUTToolStripMenuItem.Name = "oUTToolStripMenuItem";
-            this.oUTToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.oUTToolStripMenuItem.Size = new System.Drawing.Size(98, 22);
             this.oUTToolStripMenuItem.Text = "OUT";
             this.oUTToolStripMenuItem.Click += new System.EventHandler(this.oUTToolStripMenuItem_Click);
+            // 
+            // reportToolStripMenuItem
+            // 
+            this.reportToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.inventoryToolStripMenuItem});
+            this.reportToolStripMenuItem.Name = "reportToolStripMenuItem";
+            this.reportToolStripMenuItem.Size = new System.Drawing.Size(54, 20);
+            this.reportToolStripMenuItem.Text = "Report";
+            // 
+            // inventoryToolStripMenuItem
+            // 
+            this.inventoryToolStripMenuItem.Name = "inventoryToolStripMenuItem";
+            this.inventoryToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
+            this.inventoryToolStripMenuItem.Text = "Inventory";
+            this.inventoryToolStripMenuItem.Click += new System.EventHandler(this.inventoryToolStripMenuItem_Click);
             // 
             // windowsMenu
             // 
@@ -251,20 +268,12 @@
             this.toolStripStatusLabel.Size = new System.Drawing.Size(39, 17);
             this.toolStripStatusLabel.Text = "Status";
             // 
-            // reportToolStripMenuItem
+            // unitMasterToolStripMenuItem
             // 
-            this.reportToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.inventoryToolStripMenuItem});
-            this.reportToolStripMenuItem.Name = "reportToolStripMenuItem";
-            this.reportToolStripMenuItem.Size = new System.Drawing.Size(54, 20);
-            this.reportToolStripMenuItem.Text = "Report";
-            // 
-            // inventoryToolStripMenuItem
-            // 
-            this.inventoryToolStripMenuItem.Name = "inventoryToolStripMenuItem";
-            this.inventoryToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.inventoryToolStripMenuItem.Text = "Inventory";
-            this.inventoryToolStripMenuItem.Click += new System.EventHandler(this.inventoryToolStripMenuItem_Click);
+            this.unitMasterToolStripMenuItem.Name = "unitMasterToolStripMenuItem";
+            this.unitMasterToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.unitMasterToolStripMenuItem.Text = "Unit Master";
+            this.unitMasterToolStripMenuItem.Click += new System.EventHandler(this.unitMasterToolStripMenuItem_Click);
             // 
             // MDIParent1
             // 
@@ -317,6 +326,7 @@
         private System.Windows.Forms.ToolStripMenuItem oUTToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem reportToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem inventoryToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem unitMasterToolStripMenuItem;
     }
 }
 

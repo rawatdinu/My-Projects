@@ -61,6 +61,7 @@
     <Compile Include="BLL\TransactionInMaster.cs" />
     <Compile Include="BLL\TransactionInDetails.cs" />
     <Compile Include="BLL\ItemMaster.cs" />
+    <Compile Include="BLL\UnitMaster.cs" />
     <Compile Include="DAL\InventoryDAL.cs" />
     <Compile Include="DAL\PartyMasterDAL.cs" />
     <Compile Include="DAL\TransactionOutDetailsDAL.cs" />
@@ -71,6 +72,7 @@
     <Compile Include="DAL\ItemMasterDAL.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="DAL\UnitMasterDAL.cs" />
     <Compile Include="Data\TransactionInDataSet.cs">
       <DependentUpon>TransactionInDataSet.xsd</DependentUpon>
       <SubType>Component</SubType>
@@ -133,6 +135,12 @@
     <Compile Include="frmTransactionOut.Designer.cs">
       <DependentUpon>frmTransactionOut.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmUnitMaster.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUnitMaster.Designer.cs">
+      <DependentUpon>frmUnitMaster.cs</DependentUpon>
+    </Compile>
     <Compile Include="GlobalFunction.cs" />
     <Compile Include="MDIParent1.cs">
       <SubType>Form</SubType>
@@ -165,6 +173,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmTransactionOut.resx">
       <DependentUpon>frmTransactionOut.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUnitMaster.resx">
+      <DependentUpon>frmUnitMaster.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MDIParent1.resx">
       <DependentUpon>MDIParent1.cs</DependentUpon>

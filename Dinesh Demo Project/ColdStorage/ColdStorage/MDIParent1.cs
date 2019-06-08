@@ -15,6 +15,7 @@ namespace ColdStorage
         public frmTransactionIn frmTransactionIn;
         public frmTransactionOut frmTransactionOut;
         public frmPartyMaster frmPartyMaster;
+        public frmUnitMaster frmUnitMaster;
         public frmInventory frmInventory;
         
 
@@ -190,6 +191,28 @@ namespace ColdStorage
                             frmInventory.BringToFront();
                         }
                         break;
+                    case "frmUnitMaster":
+                        if (frmUnitMaster == null)
+                        {
+                            frmUnitMaster = new frmUnitMaster();
+                            frmUnitMaster.MdiParent = this;
+                            frmUnitMaster.Show();
+                            frmUnitMaster.BringToFront();
+                        }
+                        else if (frmUnitMaster.IsDisposed == true)
+                        {
+                            frmUnitMaster = new frmUnitMaster();
+                            frmUnitMaster.MdiParent = this;
+                            frmUnitMaster.Show();
+                            frmUnitMaster.BringToFront();
+                        }
+                        else
+                        {
+                            frmUnitMaster.Activate();
+                            frmUnitMaster.Show();
+                            frmUnitMaster.BringToFront();
+                        }
+                        break;
                 }
 
 
@@ -224,6 +247,11 @@ namespace ColdStorage
         private void inventoryToolStripMenuItem_Click(object sender, EventArgs e)
         {
             ShowForm("frmInventory");
+        }
+
+        private void unitMasterToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ShowForm("frmUnitMaster");
         }
 
     }
