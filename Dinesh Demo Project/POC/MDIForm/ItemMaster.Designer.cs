@@ -73,7 +73,7 @@
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.ClientSize = new System.Drawing.Size(614, 383);
+            this.ClientSize = new System.Drawing.Size(710, 439);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.cmdTrans);
             this.Controls.Add(this.label1);

@@ -261,8 +261,8 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(831, 376);
-            this.Controls.Add(this.pnlMaster);
             this.Controls.Add(this.pnlList);
+            this.Controls.Add(this.pnlMaster);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.MinimizeBox = false;

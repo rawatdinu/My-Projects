@@ -14,6 +14,7 @@ namespace ColdStorage
     {
         private bool AddMode = false;
         private bool EditMode = false;
+        frmItemMasterDetails frmItemMasterDetails;
 
         private string _itemID;
         public bool IsLookUpMode = false;
@@ -219,8 +220,30 @@ namespace ColdStorage
 
         private void cmdAddNewInList_Click(object sender, EventArgs e)
         {
-            pnlMaster.BringToFront();
-            ClickAdd();
+            //pnlMaster.BringToFront();
+            //ClickAdd();
+
+            frmItemMasterDetails = new frmItemMasterDetails();
+
+            frmItemMasterDetails.AddMode = true;
+            
+
+            DialogResult result;
+
+            result = frmItemMasterDetails.ShowDialog();
+            //if (result == DialogResult.OK)
+            //{
+            //    //retun party master ojnect
+            //    PartyMaster partyMaster = new PartyMaster();
+            //    obj = partyMaster.GetPartyMasterDetails(objLookup.PartyID);
+            //}
+            //else
+            //{
+            //    //retun null
+            //    obj = null;
+            //}
+            frmItemMasterDetails = null;
+
         }
 
         private void cmdGoToList_Click(object sender, EventArgs e)
