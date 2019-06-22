@@ -27,6 +27,13 @@ namespace ColdStorage
             }
         }
 
+
+        private const int SNoWidth = 40;
+        private const int ItemIDWidth = 80;
+        private const int ItemNameWidth = 250;
+        private const int RemarksWidth = 350;
+
+
         public frmItemMaster()
         {
             InitializeComponent();
@@ -34,6 +41,8 @@ namespace ColdStorage
 
         private void frmItemMaster_Load(object sender, EventArgs e)
         {
+            DesignMainGrid();
+            FillMainGrid();
             DesignListView();
             FillListView();
             ClearControl();
@@ -41,13 +50,50 @@ namespace ColdStorage
             pnlList.BringToFront();
         }
 
+        private void DesignMainGrid()
+        {
+            dgvMain.RowCount = 1;
+            dgvMain.ColumnCount = 4;
+
+            dgvMain.Columns[0].Name = "S.No";
+            dgvMain.Columns[0].Width = SNoWidth;
+            dgvMain.Columns[0].DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleRight;
+
+            dgvMain.Columns[1].Name = "Item ID";
+            dgvMain.Columns[1].Width = ItemIDWidth;
+
+            dgvMain.Columns[2].Name = "Item Name";
+            dgvMain.Columns[2].Width = ItemNameWidth;
+
+
+            dgvMain.Columns[3].Name = "Remarks";
+            dgvMain.Columns[3].Width = RemarksWidth;      //323
+
+
+
+
+
+            dgvMain.RowHeadersVisible = false;
+            dgvMain.AllowUserToDeleteRows = false;
+            dgvMain.AllowUserToAddRows = false;
+            dgvMain.AllowUserToResizeRows = false;
+            dgvMain.AllowUserToResizeColumns = true;
+            dgvMain.EditMode = DataGridViewEditMode.EditProgrammatically;
+            dgvMain.ScrollBars = ScrollBars.Both;
+            dgvMain.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
+
+            GlobalFunction.SetGridStyle(dgvMain);
+
+            //}
+        }
+
         private void DesignListView()
         {
             listView1.Columns.Add("Item ID", 100, HorizontalAlignment.Left);
             listView1.Columns.Add("ItemName", 200);
             listView1.Columns.Add("Remarks", 150);
-            
-         
+
+
 
             listView1.FullRowSelect = true;
             listView1.GridLines = true;
@@ -188,7 +234,7 @@ namespace ColdStorage
         {
             txtItemId.Text = obj.ItemID;
             txtItemName.Text = obj.ItemName;
-            txtRemarks.Text = obj.Remarks;            
+            txtRemarks.Text = obj.Remarks;
         }
 
 
@@ -199,22 +245,71 @@ namespace ColdStorage
             list = handler.GetItemMasterList();
             ListViewItem lvi = new ListViewItem();
 
-            if (list!=null)
+            if (list != null)
             {
-            if (list.Count > 0 )
-            {
-                foreach (ItemMaster obj in list)
+                if (list.Count > 0)
                 {
-                    lvi = new ListViewItem(obj.ItemID);
-                    lvi.SubItems.Add(obj.ItemName);
-                    lvi.SubItems.Add(obj.Remarks);
-                    
-                    listView1.Items.Add(lvi);
+                    foreach (ItemMaster obj in list)
+                    {
+                        lvi = new ListViewItem(obj.ItemID);
+                        lvi.SubItems.Add(obj.ItemName);
+                        lvi.SubItems.Add(obj.Remarks);
+
+                        listView1.Items.Add(lvi);
+                    }
+
+                }
+            }
+
+
+        }
+
+        private void FillMainGrid()
+        {
+            try
+            {
+
+
+                //Master Data
+                ItemMaster objMaster = new ItemMaster();
+
+                List<ItemMaster> list = objMaster.GetItemMasterList();
+
+
+
+
+                if ((list != null))
+                {
+                    if (list.Count > 0)
+                    {
+
+                        int i;
+
+                        foreach (ItemMaster obj in list)
+                        {
+                            i = dgvMain.RowCount;
+
+                            dgvMain.RowCount = i + 1;
+                            dgvMain.Rows[i].Cells[0].Value = i + 1;
+
+                            dgvMain.Rows[i].Cells[1].Value = obj.ItemID;
+                            dgvMain.Rows[i].Cells[2].Value = obj.ItemName;
+                            dgvMain.Rows[i].Cells[3].Value = obj.Remarks;
+
+                        }
+
+                    }
                 }
 
+
+
             }
+
+            catch (Exception ex)
+            {
+                MessageBox.Show(System.Reflection.MethodBase.GetCurrentMethod().Name + "\n" + ex.Message);
             }
-            
+
 
         }
 
@@ -226,7 +321,7 @@ namespace ColdStorage
             frmItemMasterDetails = new frmItemMasterDetails();
 
             frmItemMasterDetails.AddMode = true;
-            
+
 
             DialogResult result;
 
@@ -248,7 +343,7 @@ namespace ColdStorage
 
         private void cmdGoToList_Click(object sender, EventArgs e)
         {
-            pnlList.BringToFront(); 
+            pnlList.BringToFront();
         }
 
         private void cmdOK_Click(object sender, EventArgs e)
@@ -260,7 +355,7 @@ namespace ColdStorage
                     _itemID = item.SubItems[0].Text;
                 }
                 this.DialogResult = DialogResult.OK;
-            }        
+            }
         }
 
         private void cmdCancelSelection_Click(object sender, EventArgs e)
@@ -269,7 +364,7 @@ namespace ColdStorage
             {
                 this.DialogResult = DialogResult.Cancel;
             }
-            
+
         }
 
         private void cmdViewDetail_Click(object sender, EventArgs e)
@@ -281,9 +376,17 @@ namespace ColdStorage
             }
             if (itemID != "")
             {
-                DisplayData(itemID);
+                frmItemMasterDetails = new frmItemMasterDetails();
+
+                frmItemMasterDetails.AddMode = false;
+                frmItemMasterDetails.EditMode = true;
+                frmItemMasterDetails.ItemId = itemID;
+
+                DialogResult result;
+
+                result = frmItemMasterDetails.ShowDialog();
             }
-            pnlMaster.BringToFront();
+            //pnlMaster.BringToFront();
         }
 
         private void cmdEdit_Click(object sender, EventArgs e)

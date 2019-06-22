@@ -48,10 +48,12 @@
             this.cmdViewDetail = new System.Windows.Forms.Button();
             this.cmdAddNewInList = new System.Windows.Forms.Button();
             this.listView1 = new System.Windows.Forms.ListView();
+            this.dgvMain = new System.Windows.Forms.DataGridView();
             this.pnlMaster.SuspendLayout();
             this.panel1.SuspendLayout();
             this.pnlList.SuspendLayout();
             this.pnlControl.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvMain)).BeginInit();
             this.SuspendLayout();
             // 
             // pnlMaster
@@ -189,6 +191,7 @@
             // pnlList
             // 
             this.pnlList.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pnlList.Controls.Add(this.dgvMain);
             this.pnlList.Controls.Add(this.pnlControl);
             this.pnlList.Controls.Add(this.cmdViewDetail);
             this.pnlList.Controls.Add(this.cmdAddNewInList);
@@ -250,11 +253,20 @@
             // 
             // listView1
             // 
-            this.listView1.Location = new System.Drawing.Point(3, 54);
+            this.listView1.Location = new System.Drawing.Point(3, 185);
             this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(799, 221);
+            this.listView1.Size = new System.Drawing.Size(799, 90);
             this.listView1.TabIndex = 0;
             this.listView1.UseCompatibleStateImageBehavior = false;
+            // 
+            // dgvMain
+            // 
+            this.dgvMain.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.dgvMain.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvMain.Location = new System.Drawing.Point(3, 58);
+            this.dgvMain.Name = "dgvMain";
+            this.dgvMain.Size = new System.Drawing.Size(799, 109);
+            this.dgvMain.TabIndex = 18;
             // 
             // frmItemMaster
             // 
@@ -275,6 +287,7 @@
             this.panel1.ResumeLayout(false);
             this.pnlList.ResumeLayout(false);
             this.pnlControl.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dgvMain)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -301,6 +314,7 @@
         private System.Windows.Forms.Button cmdGoToList;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button cmdCancel;
+        private System.Windows.Forms.DataGridView dgvMain;
 
     }
 }

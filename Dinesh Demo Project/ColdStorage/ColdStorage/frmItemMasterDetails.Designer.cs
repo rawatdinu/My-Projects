@@ -30,6 +30,7 @@
         {
             this.pnlMaster = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.cmdClose = new System.Windows.Forms.Button();
             this.cmdCancel = new System.Windows.Forms.Button();
             this.cmdSave = new System.Windows.Forms.Button();
             this.txtRemarks = new System.Windows.Forms.TextBox();
@@ -38,7 +39,6 @@
             this.label9 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.lblID = new System.Windows.Forms.Label();
-            this.cmdClose = new System.Windows.Forms.Button();
             this.pnlMaster.SuspendLayout();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -53,10 +53,10 @@
             this.pnlMaster.Controls.Add(this.label9);
             this.pnlMaster.Controls.Add(this.label5);
             this.pnlMaster.Controls.Add(this.lblID);
-            this.pnlMaster.Location = new System.Drawing.Point(8, 8);
-            this.pnlMaster.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.pnlMaster.Location = new System.Drawing.Point(7, 6);
+            this.pnlMaster.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pnlMaster.Name = "pnlMaster";
-            this.pnlMaster.Size = new System.Drawing.Size(588, 234);
+            this.pnlMaster.Size = new System.Drawing.Size(523, 188);
             this.pnlMaster.TabIndex = 23;
             // 
             // panel1
@@ -65,112 +65,115 @@
             this.panel1.Controls.Add(this.cmdClose);
             this.panel1.Controls.Add(this.cmdCancel);
             this.panel1.Controls.Add(this.cmdSave);
-            this.panel1.Location = new System.Drawing.Point(122, 149);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.panel1.Location = new System.Drawing.Point(108, 119);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(419, 58);
+            this.panel1.Size = new System.Drawing.Size(373, 46);
             this.panel1.TabIndex = 44;
+            // 
+            // cmdClose
+            // 
+            this.cmdClose.Location = new System.Drawing.Point(252, 4);
+            this.cmdClose.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cmdClose.Name = "cmdClose";
+            this.cmdClose.Size = new System.Drawing.Size(108, 35);
+            this.cmdClose.TabIndex = 15;
+            this.cmdClose.Text = "Close";
+            this.cmdClose.UseVisualStyleBackColor = true;
+            this.cmdClose.Click += new System.EventHandler(this.cmdClose_Click);
             // 
             // cmdCancel
             // 
-            this.cmdCancel.Location = new System.Drawing.Point(143, 5);
-            this.cmdCancel.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.cmdCancel.Location = new System.Drawing.Point(127, 4);
+            this.cmdCancel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cmdCancel.Name = "cmdCancel";
-            this.cmdCancel.Size = new System.Drawing.Size(121, 43);
+            this.cmdCancel.Size = new System.Drawing.Size(108, 35);
             this.cmdCancel.TabIndex = 14;
             this.cmdCancel.Text = "Cancel";
             this.cmdCancel.UseVisualStyleBackColor = true;
+            this.cmdCancel.Click += new System.EventHandler(this.cmdCancel_Click);
             // 
             // cmdSave
             // 
-            this.cmdSave.Location = new System.Drawing.Point(5, 5);
-            this.cmdSave.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.cmdSave.Location = new System.Drawing.Point(4, 4);
+            this.cmdSave.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cmdSave.Name = "cmdSave";
-            this.cmdSave.Size = new System.Drawing.Size(121, 43);
+            this.cmdSave.Size = new System.Drawing.Size(108, 35);
             this.cmdSave.TabIndex = 11;
             this.cmdSave.Text = "Save";
             this.cmdSave.UseVisualStyleBackColor = true;
+            this.cmdSave.Click += new System.EventHandler(this.cmdSave_Click);
             // 
             // txtRemarks
             // 
             this.txtRemarks.BackColor = System.Drawing.Color.White;
             this.txtRemarks.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtRemarks.Location = new System.Drawing.Point(121, 106);
-            this.txtRemarks.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtRemarks.Location = new System.Drawing.Point(108, 84);
+            this.txtRemarks.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtRemarks.Name = "txtRemarks";
-            this.txtRemarks.Size = new System.Drawing.Size(444, 26);
+            this.txtRemarks.Size = new System.Drawing.Size(395, 22);
             this.txtRemarks.TabIndex = 10;
             // 
             // txtItemName
             // 
             this.txtItemName.BackColor = System.Drawing.Color.White;
             this.txtItemName.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtItemName.Location = new System.Drawing.Point(121, 63);
-            this.txtItemName.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtItemName.Location = new System.Drawing.Point(108, 51);
+            this.txtItemName.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtItemName.Name = "txtItemName";
-            this.txtItemName.Size = new System.Drawing.Size(238, 26);
+            this.txtItemName.Size = new System.Drawing.Size(212, 22);
             this.txtItemName.TabIndex = 2;
             // 
             // txtItemId
             // 
             this.txtItemId.BackColor = System.Drawing.Color.White;
             this.txtItemId.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtItemId.Location = new System.Drawing.Point(121, 17);
-            this.txtItemId.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtItemId.Location = new System.Drawing.Point(108, 13);
+            this.txtItemId.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtItemId.Name = "txtItemId";
-            this.txtItemId.Size = new System.Drawing.Size(238, 26);
+            this.txtItemId.ReadOnly = true;
+            this.txtItemId.Size = new System.Drawing.Size(212, 22);
             this.txtItemId.TabIndex = 1;
             // 
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(20, 108);
+            this.label9.Location = new System.Drawing.Point(18, 86);
             this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(73, 20);
+            this.label9.Size = new System.Drawing.Size(63, 16);
             this.label9.TabIndex = 30;
             this.label9.Text = "Remarks";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(20, 65);
+            this.label5.Location = new System.Drawing.Point(18, 52);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(87, 20);
+            this.label5.Size = new System.Drawing.Size(73, 16);
             this.label5.TabIndex = 26;
             this.label5.Text = "Item Name";
             // 
             // lblID
             // 
             this.lblID.AutoSize = true;
-            this.lblID.Location = new System.Drawing.Point(20, 19);
+            this.lblID.Location = new System.Drawing.Point(18, 15);
             this.lblID.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblID.Name = "lblID";
-            this.lblID.Size = new System.Drawing.Size(26, 20);
+            this.lblID.Size = new System.Drawing.Size(21, 16);
             this.lblID.TabIndex = 22;
             this.lblID.Text = "ID";
             // 
-            // cmdClose
-            // 
-            this.cmdClose.Location = new System.Drawing.Point(284, 5);
-            this.cmdClose.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.cmdClose.Name = "cmdClose";
-            this.cmdClose.Size = new System.Drawing.Size(121, 43);
-            this.cmdClose.TabIndex = 15;
-            this.cmdClose.Text = "Close";
-            this.cmdClose.UseVisualStyleBackColor = true;
-            this.cmdClose.Click += new System.EventHandler(this.cmdClose_Click);
-            // 
             // frmItemMasterDetails
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(606, 253);
+            this.ClientSize = new System.Drawing.Size(539, 203);
             this.Controls.Add(this.pnlMaster);
-            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "frmItemMasterDetails";

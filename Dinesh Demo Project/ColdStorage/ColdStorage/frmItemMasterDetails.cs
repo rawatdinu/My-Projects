@@ -17,6 +17,8 @@ namespace ColdStorage
         public string ItemId;
 
 
+
+
         public frmItemMasterDetails()
         {
             InitializeComponent();
@@ -28,10 +30,12 @@ namespace ColdStorage
 
             if (AddMode == true)
             {
+                cmdSave.Text = "Save";
                 DisplayData();
             }
             else if (EditMode == true)
             {
+                cmdSave.Text = "Update";
                 DisplayData(ItemId);
             }
         }
@@ -103,6 +107,69 @@ namespace ColdStorage
         private void cmdClose_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void cmdSave_Click(object sender, EventArgs e)
+        {
+            Save();
+        }
+
+        private void Save()
+        {
+            bool result = false;
+            ItemMaster item = GetItem();
+
+
+            ItemMaster handler = new ItemMaster();
+            if (AddMode)
+            {
+                result = handler.AddNewItemMaster(item);
+                if (result)
+                {
+                    result = GlobalFunction.UpdateUniqueCode("ItemMaster");
+                }
+            }
+            else if (EditMode)
+            {
+                result = handler.UpdateItemMaster(item);
+            }
+
+            if (result == true)
+            {
+                if (AddMode)
+                {
+                    MessageBox.Show("New Record added successfully");
+                }
+                else
+                {
+                    MessageBox.Show("Record updated successfully");
+                }
+
+                this.Close();
+                
+            }
+            else
+            {
+                MessageBox.Show("Errror Occurs!");
+            }
+        }
+
+        private void cmdCancel_Click(object sender, EventArgs e)
+        {
+            Cancel();
+        }
+        private void Cancel()
+        {
+            if (AddMode)
+            {
+                ClearControl();
+                DisplayData("-1");
+            }
+            else if (EditMode)
+            {
+                DisplayData(txtItemId.Text.Trim());
+            }
+
         }
 
     }
