@@ -1,7 +1,0 @@
-D:\My Projects\Dinesh Demo Project\POC\POC\bin\Debug\POC.exe
-D:\My Projects\Dinesh Demo Project\POC\POC\bin\Debug\POC.pdb
-D:\My Projects\Dinesh Demo Project\POC\POC\obj\x86\Debug\POC.Form1.resources
-D:\My Projects\Dinesh Demo Project\POC\POC\obj\x86\Debug\POC.Properties.Resources.resources
-D:\My Projects\Dinesh Demo Project\POC\POC\obj\x86\Debug\POC.csproj.GenerateResource.Cache
-D:\My Projects\Dinesh Demo Project\POC\POC\obj\x86\Debug\POC.exe
-D:\My Projects\Dinesh Demo Project\POC\POC\obj\x86\Debug\POC.pdb
