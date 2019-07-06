@@ -41,19 +41,19 @@
             this.label9 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.lblID = new System.Windows.Forms.Label();
-            this.pnlList = new System.Windows.Forms.Panel();
-            this.pnlControl = new System.Windows.Forms.Panel();
-            this.cmdCancelSelection = new System.Windows.Forms.Button();
-            this.cmdOK = new System.Windows.Forms.Button();
-            this.cmdViewDetail = new System.Windows.Forms.Button();
-            this.cmdAddNewInList = new System.Windows.Forms.Button();
             this.listView1 = new System.Windows.Forms.ListView();
+            this.cmdAddNewInList = new System.Windows.Forms.Button();
+            this.cmdViewDetail = new System.Windows.Forms.Button();
+            this.pnlControl = new System.Windows.Forms.Panel();
+            this.cmdOK = new System.Windows.Forms.Button();
+            this.cmdCancelSelection = new System.Windows.Forms.Button();
             this.dgvMain = new System.Windows.Forms.DataGridView();
+            this.pnlList = new System.Windows.Forms.Panel();
             this.pnlMaster.SuspendLayout();
             this.panel1.SuspendLayout();
-            this.pnlList.SuspendLayout();
             this.pnlControl.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvMain)).BeginInit();
+            this.pnlList.SuspendLayout();
             this.SuspendLayout();
             // 
             // pnlMaster
@@ -67,7 +67,7 @@
             this.pnlMaster.Controls.Add(this.label9);
             this.pnlMaster.Controls.Add(this.label5);
             this.pnlMaster.Controls.Add(this.lblID);
-            this.pnlMaster.Location = new System.Drawing.Point(12, 12);
+            this.pnlMaster.Location = new System.Drawing.Point(12, 153);
             this.pnlMaster.Name = "pnlMaster";
             this.pnlMaster.Size = new System.Drawing.Size(807, 352);
             this.pnlMaster.TabIndex = 22;
@@ -188,58 +188,13 @@
             this.lblID.TabIndex = 22;
             this.lblID.Text = "ID";
             // 
-            // pnlList
+            // listView1
             // 
-            this.pnlList.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pnlList.Controls.Add(this.dgvMain);
-            this.pnlList.Controls.Add(this.pnlControl);
-            this.pnlList.Controls.Add(this.cmdViewDetail);
-            this.pnlList.Controls.Add(this.cmdAddNewInList);
-            this.pnlList.Controls.Add(this.listView1);
-            this.pnlList.Location = new System.Drawing.Point(12, 12);
-            this.pnlList.Name = "pnlList";
-            this.pnlList.Size = new System.Drawing.Size(807, 352);
-            this.pnlList.TabIndex = 23;
-            // 
-            // pnlControl
-            // 
-            this.pnlControl.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pnlControl.Controls.Add(this.cmdCancelSelection);
-            this.pnlControl.Controls.Add(this.cmdOK);
-            this.pnlControl.Location = new System.Drawing.Point(184, 287);
-            this.pnlControl.Name = "pnlControl";
-            this.pnlControl.Size = new System.Drawing.Size(402, 52);
-            this.pnlControl.TabIndex = 17;
-            // 
-            // cmdCancelSelection
-            // 
-            this.cmdCancelSelection.Location = new System.Drawing.Point(213, 6);
-            this.cmdCancelSelection.Name = "cmdCancelSelection";
-            this.cmdCancelSelection.Size = new System.Drawing.Size(121, 39);
-            this.cmdCancelSelection.TabIndex = 18;
-            this.cmdCancelSelection.Text = "Cancel";
-            this.cmdCancelSelection.UseVisualStyleBackColor = true;
-            this.cmdCancelSelection.Click += new System.EventHandler(this.cmdCancelSelection_Click);
-            // 
-            // cmdOK
-            // 
-            this.cmdOK.Location = new System.Drawing.Point(67, 6);
-            this.cmdOK.Name = "cmdOK";
-            this.cmdOK.Size = new System.Drawing.Size(121, 39);
-            this.cmdOK.TabIndex = 17;
-            this.cmdOK.Text = "OK";
-            this.cmdOK.UseVisualStyleBackColor = true;
-            this.cmdOK.Click += new System.EventHandler(this.cmdOK_Click);
-            // 
-            // cmdViewDetail
-            // 
-            this.cmdViewDetail.Location = new System.Drawing.Point(398, 8);
-            this.cmdViewDetail.Name = "cmdViewDetail";
-            this.cmdViewDetail.Size = new System.Drawing.Size(121, 39);
-            this.cmdViewDetail.TabIndex = 16;
-            this.cmdViewDetail.Text = "View Details";
-            this.cmdViewDetail.UseVisualStyleBackColor = true;
-            this.cmdViewDetail.Click += new System.EventHandler(this.cmdViewDetail_Click);
+            this.listView1.Location = new System.Drawing.Point(3, 185);
+            this.listView1.Name = "listView1";
+            this.listView1.Size = new System.Drawing.Size(799, 90);
+            this.listView1.TabIndex = 0;
+            this.listView1.UseCompatibleStateImageBehavior = false;
             // 
             // cmdAddNewInList
             // 
@@ -251,13 +206,45 @@
             this.cmdAddNewInList.UseVisualStyleBackColor = true;
             this.cmdAddNewInList.Click += new System.EventHandler(this.cmdAddNewInList_Click);
             // 
-            // listView1
+            // cmdViewDetail
             // 
-            this.listView1.Location = new System.Drawing.Point(3, 185);
-            this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(799, 90);
-            this.listView1.TabIndex = 0;
-            this.listView1.UseCompatibleStateImageBehavior = false;
+            this.cmdViewDetail.Location = new System.Drawing.Point(398, 8);
+            this.cmdViewDetail.Name = "cmdViewDetail";
+            this.cmdViewDetail.Size = new System.Drawing.Size(121, 39);
+            this.cmdViewDetail.TabIndex = 16;
+            this.cmdViewDetail.Text = "View Details";
+            this.cmdViewDetail.UseVisualStyleBackColor = true;
+            this.cmdViewDetail.Click += new System.EventHandler(this.cmdViewDetail_Click);
+            // 
+            // pnlControl
+            // 
+            this.pnlControl.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pnlControl.Controls.Add(this.cmdCancelSelection);
+            this.pnlControl.Controls.Add(this.cmdOK);
+            this.pnlControl.Location = new System.Drawing.Point(184, 287);
+            this.pnlControl.Name = "pnlControl";
+            this.pnlControl.Size = new System.Drawing.Size(402, 52);
+            this.pnlControl.TabIndex = 17;
+            // 
+            // cmdOK
+            // 
+            this.cmdOK.Location = new System.Drawing.Point(67, 6);
+            this.cmdOK.Name = "cmdOK";
+            this.cmdOK.Size = new System.Drawing.Size(121, 39);
+            this.cmdOK.TabIndex = 17;
+            this.cmdOK.Text = "OK";
+            this.cmdOK.UseVisualStyleBackColor = true;
+            this.cmdOK.Click += new System.EventHandler(this.cmdOK_Click);
+            // 
+            // cmdCancelSelection
+            // 
+            this.cmdCancelSelection.Location = new System.Drawing.Point(213, 6);
+            this.cmdCancelSelection.Name = "cmdCancelSelection";
+            this.cmdCancelSelection.Size = new System.Drawing.Size(121, 39);
+            this.cmdCancelSelection.TabIndex = 18;
+            this.cmdCancelSelection.Text = "Cancel";
+            this.cmdCancelSelection.UseVisualStyleBackColor = true;
+            this.cmdCancelSelection.Click += new System.EventHandler(this.cmdCancelSelection_Click);
             // 
             // dgvMain
             // 
@@ -268,26 +255,38 @@
             this.dgvMain.Size = new System.Drawing.Size(799, 109);
             this.dgvMain.TabIndex = 18;
             // 
+            // pnlList
+            // 
+            this.pnlList.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pnlList.Controls.Add(this.dgvMain);
+            this.pnlList.Controls.Add(this.pnlControl);
+            this.pnlList.Controls.Add(this.cmdViewDetail);
+            this.pnlList.Controls.Add(this.cmdAddNewInList);
+            this.pnlList.Controls.Add(this.listView1);
+            this.pnlList.Location = new System.Drawing.Point(12, 153);
+            this.pnlList.Name = "pnlList";
+            this.pnlList.Size = new System.Drawing.Size(807, 352);
+            this.pnlList.TabIndex = 23;
+            // 
             // frmItemMaster
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(831, 376);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
+            this.BackColor = System.Drawing.Color.White;
+            this.ClientSize = new System.Drawing.Size(831, 588);
             this.Controls.Add(this.pnlList);
             this.Controls.Add(this.pnlMaster);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "frmItemMaster";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Books Master";
+            this.Text = "Item Master";
             this.Load += new System.EventHandler(this.frmItemMaster_Load);
             this.pnlMaster.ResumeLayout(false);
             this.pnlMaster.PerformLayout();
             this.panel1.ResumeLayout(false);
-            this.pnlList.ResumeLayout(false);
             this.pnlControl.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgvMain)).EndInit();
+            this.pnlList.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -304,17 +303,17 @@
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label lblID;
-        private System.Windows.Forms.Panel pnlList;
-        private System.Windows.Forms.Panel pnlControl;
-        private System.Windows.Forms.Button cmdCancelSelection;
-        private System.Windows.Forms.Button cmdOK;
-        private System.Windows.Forms.Button cmdViewDetail;
-        private System.Windows.Forms.Button cmdAddNewInList;
-        private System.Windows.Forms.ListView listView1;
         private System.Windows.Forms.Button cmdGoToList;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button cmdCancel;
+        private System.Windows.Forms.ListView listView1;
+        private System.Windows.Forms.Button cmdAddNewInList;
+        private System.Windows.Forms.Button cmdViewDetail;
+        private System.Windows.Forms.Panel pnlControl;
+        private System.Windows.Forms.Button cmdCancelSelection;
+        private System.Windows.Forms.Button cmdOK;
         private System.Windows.Forms.DataGridView dgvMain;
+        private System.Windows.Forms.Panel pnlList;
 
     }
 }

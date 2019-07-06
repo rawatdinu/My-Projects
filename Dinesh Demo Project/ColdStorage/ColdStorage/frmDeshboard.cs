@@ -6,20 +6,26 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
-using System.Resources;
 
-namespace POC
+namespace ColdStorage
 {
-    public partial class Form1 : Form
+    public partial class frmDeshboard : Form
     {
         private bool iscollapsedMaster = true;
         private bool iscollapsedTransaction = true;
 
 
         private string selectedMenu = "";
-        public Form1()
+
+        public frmDeshboard()
         {
             InitializeComponent();
+        }
+
+        private void cmdMenu_Click(object sender, EventArgs e)
+        {
+            selectedMenu = ((Button)sender).Text;
+            timer1.Start();
         }
 
         private void timer1_Tick(object sender, EventArgs e)
@@ -33,7 +39,7 @@ namespace POC
                     case "Master":
                         if (iscollapsedMaster)
                         {
-                            cmdMaster.Image = POC.Properties.Resources.down1;
+                            //cmdMaster.Image = POC.Properties.Resources.down1;
                             pnlddMaster.Height += 10;
                             if (pnlddMaster.Height == pnlddMaster.MaximumSize.Height)
                             {
@@ -43,7 +49,7 @@ namespace POC
                         }
                         else
                         {
-                            cmdMaster.Image = POC.Properties.Resources.up1;
+                            //cmdMaster.Image = POC.Properties.Resources.up1;
                             pnlddMaster.Height -= 10;
                             if (pnlddMaster.Height == pnlddMaster.MinimumSize.Height)
                             {
@@ -56,7 +62,7 @@ namespace POC
                     case "Transaction":
                         if (iscollapsedTransaction)
                         {
-                            cmdTransaction.Image = POC.Properties.Resources.down1;
+                            //cmdTransaction.Image = POC.Properties.Resources.down1;
                             pnlddTransaction.Height += 10;
                             if (pnlddTransaction.Height == pnlddTransaction.MaximumSize.Height)
                             {
@@ -66,7 +72,7 @@ namespace POC
                         }
                         else
                         {
-                            cmdTransaction.Image = POC.Properties.Resources.up1;
+                            //cmdTransaction.Image = POC.Properties.Resources.up1;
                             pnlddTransaction.Height -= 10;
                             if (pnlddTransaction.Height == pnlddTransaction.MinimumSize.Height)
                             {
@@ -87,30 +93,23 @@ namespace POC
                 MessageBox.Show(ex.Message);
             }
 
-
-
-
         }
 
-        private void cmdMaster_Click(object sender, EventArgs e)
+        private void cmdItemMaster_Click(object sender, EventArgs e)
         {
-            selectedMenu = ((Button)sender).Text;
-            timer1.Start();
-        }
+            frmItemMaster objForm = new frmItemMaster();
+            objForm.TopLevel = false;
+            this.pnlContainer.Controls.Add(objForm);
+            objForm.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            //objForm.Dock = DockStyle.Fill;
+            objForm.Show();
+        } 
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
+      
+       
 
-        }
 
-        private void button2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-
-        }
     }
+
+
 }

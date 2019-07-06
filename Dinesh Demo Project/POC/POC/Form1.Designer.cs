@@ -118,7 +118,7 @@
             this.pnlddTransaction.Controls.Add(this.button12);
             this.pnlddTransaction.Controls.Add(this.button13);
             this.pnlddTransaction.Controls.Add(this.cmdTransaction);
-            this.pnlddTransaction.Location = new System.Drawing.Point(0, 232);
+            this.pnlddTransaction.Location = new System.Drawing.Point(0, 48);
             this.pnlddTransaction.Margin = new System.Windows.Forms.Padding(0);
             this.pnlddTransaction.MaximumSize = new System.Drawing.Size(200, 256);
             this.pnlddTransaction.MinimumSize = new System.Drawing.Size(200, 46);
@@ -250,7 +250,7 @@
             this.pnlddMaster.Controls.Add(this.button7);
             this.pnlddMaster.Controls.Add(this.button6);
             this.pnlddMaster.Controls.Add(this.cmdMaster);
-            this.pnlddMaster.Location = new System.Drawing.Point(0, 138);
+            this.pnlddMaster.Location = new System.Drawing.Point(0, 0);
             this.pnlddMaster.Margin = new System.Windows.Forms.Padding(0);
             this.pnlddMaster.MaximumSize = new System.Drawing.Size(200, 256);
             this.pnlddMaster.MinimumSize = new System.Drawing.Size(200, 46);
@@ -384,6 +384,7 @@
             this.button3.TabIndex = 7;
             this.button3.Text = "button3";
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // timer1
             // 
@@ -393,12 +394,12 @@
             // flowLayoutPanel1
             // 
             this.flowLayoutPanel1.BackColor = System.Drawing.Color.White;
+            this.flowLayoutPanel1.Controls.Add(this.pnlddMaster);
+            this.flowLayoutPanel1.Controls.Add(this.pnlddTransaction);
             this.flowLayoutPanel1.Controls.Add(this.button14);
             this.flowLayoutPanel1.Controls.Add(this.button16);
             this.flowLayoutPanel1.Controls.Add(this.button15);
-            this.flowLayoutPanel1.Controls.Add(this.pnlddMaster);
             this.flowLayoutPanel1.Controls.Add(this.button17);
-            this.flowLayoutPanel1.Controls.Add(this.pnlddTransaction);
             this.flowLayoutPanel1.Controls.Add(this.button18);
             this.flowLayoutPanel1.Controls.Add(this.button19);
             this.flowLayoutPanel1.Location = new System.Drawing.Point(291, 12);
@@ -413,7 +414,7 @@
             this.button14.FlatAppearance.BorderSize = 0;
             this.button14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button14.ForeColor = System.Drawing.Color.White;
-            this.button14.Location = new System.Drawing.Point(0, 0);
+            this.button14.Location = new System.Drawing.Point(0, 94);
             this.button14.Margin = new System.Windows.Forms.Padding(0);
             this.button14.Name = "button14";
             this.button14.Size = new System.Drawing.Size(200, 46);
@@ -427,7 +428,7 @@
             this.button16.FlatAppearance.BorderSize = 0;
             this.button16.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button16.ForeColor = System.Drawing.Color.White;
-            this.button16.Location = new System.Drawing.Point(0, 46);
+            this.button16.Location = new System.Drawing.Point(0, 140);
             this.button16.Margin = new System.Windows.Forms.Padding(0);
             this.button16.Name = "button16";
             this.button16.Size = new System.Drawing.Size(200, 46);
@@ -441,7 +442,7 @@
             this.button15.FlatAppearance.BorderSize = 0;
             this.button15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button15.ForeColor = System.Drawing.Color.White;
-            this.button15.Location = new System.Drawing.Point(0, 92);
+            this.button15.Location = new System.Drawing.Point(0, 186);
             this.button15.Margin = new System.Windows.Forms.Padding(0);
             this.button15.Name = "button15";
             this.button15.Size = new System.Drawing.Size(200, 46);
@@ -455,7 +456,7 @@
             this.button17.FlatAppearance.BorderSize = 0;
             this.button17.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button17.ForeColor = System.Drawing.Color.White;
-            this.button17.Location = new System.Drawing.Point(0, 186);
+            this.button17.Location = new System.Drawing.Point(0, 232);
             this.button17.Margin = new System.Windows.Forms.Padding(0);
             this.button17.Name = "button17";
             this.button17.Size = new System.Drawing.Size(200, 46);

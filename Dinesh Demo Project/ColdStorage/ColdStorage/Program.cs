@@ -18,7 +18,8 @@ namespace ColdStorage
             if (frm1.ShowDialog() == DialogResult.OK)
             {
                 Application.EnableVisualStyles();
-                Application.Run(new MDIParent1());
+               //Application.Run(new MDIParent1());
+                Application.Run(new frmDeshboard());
 
             }
             else
