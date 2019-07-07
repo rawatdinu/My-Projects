@@ -72,7 +72,7 @@
             // 
             // panel3
             // 
-            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(58)))), ((int)(((byte)(183)))));
+            this.panel3.BackColor = System.Drawing.Color.White;
             this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel3.ForeColor = System.Drawing.Color.White;
             this.panel3.Location = new System.Drawing.Point(0, 50);

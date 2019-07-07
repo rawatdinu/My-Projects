@@ -45,15 +45,27 @@
             this.cmdAddNewInList = new System.Windows.Forms.Button();
             this.cmdViewDetail = new System.Windows.Forms.Button();
             this.pnlControl = new System.Windows.Forms.Panel();
-            this.cmdOK = new System.Windows.Forms.Button();
             this.cmdCancelSelection = new System.Windows.Forms.Button();
+            this.cmdOK = new System.Windows.Forms.Button();
             this.dgvMain = new System.Windows.Forms.DataGridView();
             this.pnlList = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.cmdTransaction = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
             this.pnlMaster.SuspendLayout();
             this.panel1.SuspendLayout();
             this.pnlControl.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvMain)).BeginInit();
             this.pnlList.SuspendLayout();
+            this.panel2.SuspendLayout();
+            this.panel3.SuspendLayout();
+            this.panel4.SuspendLayout();
             this.SuspendLayout();
             // 
             // pnlMaster
@@ -226,16 +238,6 @@
             this.pnlControl.Size = new System.Drawing.Size(402, 52);
             this.pnlControl.TabIndex = 17;
             // 
-            // cmdOK
-            // 
-            this.cmdOK.Location = new System.Drawing.Point(67, 6);
-            this.cmdOK.Name = "cmdOK";
-            this.cmdOK.Size = new System.Drawing.Size(121, 39);
-            this.cmdOK.TabIndex = 17;
-            this.cmdOK.Text = "OK";
-            this.cmdOK.UseVisualStyleBackColor = true;
-            this.cmdOK.Click += new System.EventHandler(this.cmdOK_Click);
-            // 
             // cmdCancelSelection
             // 
             this.cmdCancelSelection.Location = new System.Drawing.Point(213, 6);
@@ -245,6 +247,16 @@
             this.cmdCancelSelection.Text = "Cancel";
             this.cmdCancelSelection.UseVisualStyleBackColor = true;
             this.cmdCancelSelection.Click += new System.EventHandler(this.cmdCancelSelection_Click);
+            // 
+            // cmdOK
+            // 
+            this.cmdOK.Location = new System.Drawing.Point(67, 6);
+            this.cmdOK.Name = "cmdOK";
+            this.cmdOK.Size = new System.Drawing.Size(121, 39);
+            this.cmdOK.TabIndex = 17;
+            this.cmdOK.Text = "OK";
+            this.cmdOK.UseVisualStyleBackColor = true;
+            this.cmdOK.Click += new System.EventHandler(this.cmdOK_Click);
             // 
             // dgvMain
             // 
@@ -268,17 +280,136 @@
             this.pnlList.Size = new System.Drawing.Size(807, 352);
             this.pnlList.TabIndex = 23;
             // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(58)))), ((int)(((byte)(183)))));
+            this.panel2.Controls.Add(this.label1);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel2.ForeColor = System.Drawing.Color.White;
+            this.panel2.Location = new System.Drawing.Point(15, 0);
+            this.panel2.Margin = new System.Windows.Forms.Padding(0);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(816, 46);
+            this.panel2.TabIndex = 24;
+            // 
+            // label1
+            // 
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(0, 0);
+            this.label1.Margin = new System.Windows.Forms.Padding(0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(400, 46);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Item Master";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // panel3
+            // 
+            this.panel3.Controls.Add(this.cmdTransaction);
+            this.panel3.Controls.Add(this.textBox1);
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.panel3.Location = new System.Drawing.Point(15, 46);
+            this.panel3.Margin = new System.Windows.Forms.Padding(0);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(816, 50);
+            this.panel3.TabIndex = 25;
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(7, 12);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(253, 26);
+            this.textBox1.TabIndex = 0;
+            // 
+            // panel4
+            // 
+            this.panel4.Controls.Add(this.button3);
+            this.panel4.Controls.Add(this.button2);
+            this.panel4.Controls.Add(this.button1);
+            this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.panel4.Location = new System.Drawing.Point(15, 96);
+            this.panel4.Margin = new System.Windows.Forms.Padding(0);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(816, 50);
+            this.panel4.TabIndex = 26;
+            // 
+            // cmdTransaction
+            // 
+            this.cmdTransaction.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(58)))), ((int)(((byte)(183)))));
+            this.cmdTransaction.FlatAppearance.BorderSize = 0;
+            this.cmdTransaction.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.cmdTransaction.ForeColor = System.Drawing.Color.White;
+            this.cmdTransaction.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.cmdTransaction.Location = new System.Drawing.Point(273, 5);
+            this.cmdTransaction.Margin = new System.Windows.Forms.Padding(0);
+            this.cmdTransaction.Name = "cmdTransaction";
+            this.cmdTransaction.Size = new System.Drawing.Size(200, 35);
+            this.cmdTransaction.TabIndex = 7;
+            this.cmdTransaction.Text = "Search";
+            this.cmdTransaction.UseVisualStyleBackColor = false;
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(58)))), ((int)(((byte)(183)))));
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button1.Location = new System.Drawing.Point(210, 7);
+            this.button1.Margin = new System.Windows.Forms.Padding(0);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(200, 35);
+            this.button1.TabIndex = 8;
+            this.button1.Text = "View";
+            this.button1.UseVisualStyleBackColor = false;
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(58)))), ((int)(((byte)(183)))));
+            this.button2.FlatAppearance.BorderSize = 0;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.ForeColor = System.Drawing.Color.White;
+            this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button2.Location = new System.Drawing.Point(420, 7);
+            this.button2.Margin = new System.Windows.Forms.Padding(0);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(200, 35);
+            this.button2.TabIndex = 9;
+            this.button2.Text = "Print";
+            this.button2.UseVisualStyleBackColor = false;
+            // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(58)))), ((int)(((byte)(183)))));
+            this.button3.FlatAppearance.BorderSize = 0;
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.ForeColor = System.Drawing.Color.White;
+            this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button3.Location = new System.Drawing.Point(0, 7);
+            this.button3.Margin = new System.Windows.Forms.Padding(0);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(200, 35);
+            this.button3.TabIndex = 10;
+            this.button3.Text = "New";
+            this.button3.UseVisualStyleBackColor = false;
+            // 
             // frmItemMaster
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(831, 588);
+            this.Controls.Add(this.panel4);
+            this.Controls.Add(this.panel3);
+            this.Controls.Add(this.panel2);
             this.Controls.Add(this.pnlList);
             this.Controls.Add(this.pnlMaster);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "frmItemMaster";
+            this.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
             this.Text = "Item Master";
             this.Load += new System.EventHandler(this.frmItemMaster_Load);
             this.pnlMaster.ResumeLayout(false);
@@ -287,6 +418,10 @@
             this.pnlControl.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgvMain)).EndInit();
             this.pnlList.ResumeLayout(false);
+            this.panel2.ResumeLayout(false);
+            this.panel3.ResumeLayout(false);
+            this.panel3.PerformLayout();
+            this.panel4.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -314,6 +449,15 @@
         private System.Windows.Forms.Button cmdOK;
         private System.Windows.Forms.DataGridView dgvMain;
         private System.Windows.Forms.Panel pnlList;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Panel panel4;
+        private System.Windows.Forms.Button cmdTransaction;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button1;
 
     }
 }
