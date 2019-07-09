@@ -28,10 +28,10 @@ namespace ColdStorage
         }
 
 
-        private const int SNoWidth = 40;
-        private const int ItemIDWidth = 80;
-        private const int ItemNameWidth = 250;
-        private const int RemarksWidth = 350;
+        private const int SNoWidth = 60;
+        private const int ItemIDWidth = 120;
+        private const int ItemNameWidth = 300;
+        private const int RemarksWidth = 300;
 
 
         public frmItemMaster()
@@ -57,7 +57,7 @@ namespace ColdStorage
 
             dgvMain.Columns[0].Name = "S.No";
             dgvMain.Columns[0].Width = SNoWidth;
-            dgvMain.Columns[0].DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dgvMain.Columns[0].DefaultCellStyle.Alignment = DataGridViewContentAlignment.BottomLeft;
 
             dgvMain.Columns[1].Name = "Item ID";
             dgvMain.Columns[1].Width = ItemIDWidth;
@@ -82,7 +82,11 @@ namespace ColdStorage
             dgvMain.ScrollBars = ScrollBars.Both;
             dgvMain.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
 
-            GlobalFunction.SetGridStyle(dgvMain);
+            //GlobalFunction.SetGridStyle(dgvMain);
+
+            GlobalFunction.ApplyMasterGrid(dgvMain);
+            //
+           
 
             //}
         }
@@ -419,6 +423,8 @@ namespace ColdStorage
             }
 
         }
+
+       
 
 
     }

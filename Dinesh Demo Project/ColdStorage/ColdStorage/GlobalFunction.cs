@@ -150,6 +150,32 @@ namespace ColdStorage
             dgv.CellBorderStyle = DataGridViewCellBorderStyle.Single;
             dgv.GridColor = Color.Black;
         }
+
+
+        public static void ApplyMasterGrid(DataGridView dgv)
+        {
+            
+            dgv.EnableHeadersVisualStyles = false;
+            dgv.ForeColor = Color.Black;
+            DataGridViewCellStyle style =
+                dgv.ColumnHeadersDefaultCellStyle;
+            style.BackColor = Color.FromArgb(103, 58, 183);
+            style.ForeColor = Color.White;
+            style.Font = new Font(dgv.Font, FontStyle.Regular);
+
+            //dgv.ColumnHeadersDefaultCellStyle = style;
+                        
+            dgv.AutoSizeRowsMode =
+                DataGridViewAutoSizeRowsMode.DisplayedCellsExceptHeaders;
+            dgv.ColumnHeadersBorderStyle =
+                DataGridViewHeaderBorderStyle.None;
+            dgv.CellBorderStyle = DataGridViewCellBorderStyle.None;
+            dgv.GridColor = SystemColors.ActiveBorder;
+            dgv.BackgroundColor = Color.White;
+
+//            dgv.Dock = DockStyle.Fill;        
+        
+        }
         #endregion
 
 

@@ -8,3 +8,12 @@
 8. Text
 
 How to Add data in reports
+---
+Form Fore color
+103, 58, 183
+103, 58, 183
+
+Back color
+69, 39, 160
+
+
