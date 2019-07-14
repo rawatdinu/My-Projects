@@ -206,6 +206,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="Reports\rptCompany.rdlc" />
     <EmbeddedResource Include="Reports\rptTransactionIn.rdlc">
@@ -257,6 +258,9 @@
     <Content Include="Image\image1.png" />
     <Content Include="Image\image2.png" />
     <Content Include="Image\image3.png" />
+    <None Include="Resources\edit.jpg" />
+    <None Include="Resources\delete.jpg" />
+    <None Include="Resources\view.jpg" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

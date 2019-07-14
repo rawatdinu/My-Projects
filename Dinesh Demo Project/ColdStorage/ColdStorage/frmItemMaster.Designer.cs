@@ -31,7 +31,6 @@
             this.pnlMaster = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.cmdCancel = new System.Windows.Forms.Button();
-            this.cmdNew = new System.Windows.Forms.Button();
             this.cmdEdit = new System.Windows.Forms.Button();
             this.cmdSave = new System.Windows.Forms.Button();
             this.cmdGoToList = new System.Windows.Forms.Button();
@@ -52,12 +51,12 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.cmdTransaction = new System.Windows.Forms.Button();
+            this.txtSearch = new System.Windows.Forms.TextBox();
+            this.cmdSearch = new System.Windows.Forms.Button();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.txtUserName = new System.Windows.Forms.TextBox();
+            this.cmdNew = new System.Windows.Forms.Button();
+            this.cmdView = new System.Windows.Forms.Button();
+            this.cmdUpdate = new System.Windows.Forms.Button();
             this.panel5 = new System.Windows.Forms.Panel();
             this.pnlMaster.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -90,7 +89,6 @@
             // 
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel1.Controls.Add(this.cmdCancel);
-            this.panel1.Controls.Add(this.cmdNew);
             this.panel1.Controls.Add(this.cmdEdit);
             this.panel1.Controls.Add(this.cmdSave);
             this.panel1.Location = new System.Drawing.Point(24, 230);
@@ -107,16 +105,6 @@
             this.cmdCancel.Text = "Cancel";
             this.cmdCancel.UseVisualStyleBackColor = true;
             this.cmdCancel.Click += new System.EventHandler(this.cmdCancel_Click);
-            // 
-            // cmdNew
-            // 
-            this.cmdNew.Location = new System.Drawing.Point(14, 8);
-            this.cmdNew.Name = "cmdNew";
-            this.cmdNew.Size = new System.Drawing.Size(121, 39);
-            this.cmdNew.TabIndex = 12;
-            this.cmdNew.Text = "Add New";
-            this.cmdNew.UseVisualStyleBackColor = true;
-            this.cmdNew.Click += new System.EventHandler(this.cmdNew_Click);
             // 
             // cmdEdit
             // 
@@ -306,8 +294,8 @@
             // 
             // panel3
             // 
-            this.panel3.Controls.Add(this.txtUserName);
-            this.panel3.Controls.Add(this.cmdTransaction);
+            this.panel3.Controls.Add(this.txtSearch);
+            this.panel3.Controls.Add(this.cmdSearch);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panel3.Location = new System.Drawing.Point(15, 46);
@@ -316,26 +304,34 @@
             this.panel3.Size = new System.Drawing.Size(816, 50);
             this.panel3.TabIndex = 25;
             // 
-            // cmdTransaction
+            // txtSearch
             // 
-            this.cmdTransaction.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(58)))), ((int)(((byte)(183)))));
-            this.cmdTransaction.FlatAppearance.BorderSize = 0;
-            this.cmdTransaction.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.cmdTransaction.ForeColor = System.Drawing.Color.White;
-            this.cmdTransaction.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.cmdTransaction.Location = new System.Drawing.Point(303, 5);
-            this.cmdTransaction.Margin = new System.Windows.Forms.Padding(0);
-            this.cmdTransaction.Name = "cmdTransaction";
-            this.cmdTransaction.Size = new System.Drawing.Size(200, 35);
-            this.cmdTransaction.TabIndex = 7;
-            this.cmdTransaction.Text = "Search";
-            this.cmdTransaction.UseVisualStyleBackColor = false;
+            this.txtSearch.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtSearch.Location = new System.Drawing.Point(9, 12);
+            this.txtSearch.Name = "txtSearch";
+            this.txtSearch.Size = new System.Drawing.Size(285, 26);
+            this.txtSearch.TabIndex = 8;
+            // 
+            // cmdSearch
+            // 
+            this.cmdSearch.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(58)))), ((int)(((byte)(183)))));
+            this.cmdSearch.FlatAppearance.BorderSize = 0;
+            this.cmdSearch.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.cmdSearch.ForeColor = System.Drawing.Color.White;
+            this.cmdSearch.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.cmdSearch.Location = new System.Drawing.Point(303, 5);
+            this.cmdSearch.Margin = new System.Windows.Forms.Padding(0);
+            this.cmdSearch.Name = "cmdSearch";
+            this.cmdSearch.Size = new System.Drawing.Size(200, 35);
+            this.cmdSearch.TabIndex = 7;
+            this.cmdSearch.Text = "Search";
+            this.cmdSearch.UseVisualStyleBackColor = false;
             // 
             // panel4
             // 
-            this.panel4.Controls.Add(this.button3);
-            this.panel4.Controls.Add(this.button2);
-            this.panel4.Controls.Add(this.button1);
+            this.panel4.Controls.Add(this.cmdNew);
+            this.panel4.Controls.Add(this.cmdView);
+            this.panel4.Controls.Add(this.cmdUpdate);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panel4.Location = new System.Drawing.Point(15, 96);
@@ -344,58 +340,51 @@
             this.panel4.Size = new System.Drawing.Size(816, 50);
             this.panel4.TabIndex = 26;
             // 
-            // button3
+            // cmdNew
             // 
-            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(58)))), ((int)(((byte)(183)))));
-            this.button3.FlatAppearance.BorderSize = 0;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button3.Location = new System.Drawing.Point(0, 7);
-            this.button3.Margin = new System.Windows.Forms.Padding(0);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(200, 35);
-            this.button3.TabIndex = 10;
-            this.button3.Text = "New";
-            this.button3.UseVisualStyleBackColor = false;
+            this.cmdNew.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(58)))), ((int)(((byte)(183)))));
+            this.cmdNew.FlatAppearance.BorderSize = 0;
+            this.cmdNew.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.cmdNew.ForeColor = System.Drawing.Color.White;
+            this.cmdNew.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.cmdNew.Location = new System.Drawing.Point(0, 7);
+            this.cmdNew.Margin = new System.Windows.Forms.Padding(0);
+            this.cmdNew.Name = "cmdNew";
+            this.cmdNew.Size = new System.Drawing.Size(200, 35);
+            this.cmdNew.TabIndex = 10;
+            this.cmdNew.Text = "New";
+            this.cmdNew.UseVisualStyleBackColor = false;
+            this.cmdNew.Click += new System.EventHandler(this.cmdNew_Click);
             // 
-            // button2
+            // cmdView
             // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(58)))), ((int)(((byte)(183)))));
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button2.Location = new System.Drawing.Point(420, 7);
-            this.button2.Margin = new System.Windows.Forms.Padding(0);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(200, 35);
-            this.button2.TabIndex = 9;
-            this.button2.Text = "Print";
-            this.button2.UseVisualStyleBackColor = false;
+            this.cmdView.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(58)))), ((int)(((byte)(183)))));
+            this.cmdView.FlatAppearance.BorderSize = 0;
+            this.cmdView.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.cmdView.ForeColor = System.Drawing.Color.White;
+            this.cmdView.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.cmdView.Location = new System.Drawing.Point(420, 7);
+            this.cmdView.Margin = new System.Windows.Forms.Padding(0);
+            this.cmdView.Name = "cmdView";
+            this.cmdView.Size = new System.Drawing.Size(200, 35);
+            this.cmdView.TabIndex = 9;
+            this.cmdView.Text = "View";
+            this.cmdView.UseVisualStyleBackColor = false;
             // 
-            // button1
+            // cmdUpdate
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(58)))), ((int)(((byte)(183)))));
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button1.Location = new System.Drawing.Point(210, 7);
-            this.button1.Margin = new System.Windows.Forms.Padding(0);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(200, 35);
-            this.button1.TabIndex = 8;
-            this.button1.Text = "View";
-            this.button1.UseVisualStyleBackColor = false;
-            // 
-            // txtUserName
-            // 
-            this.txtUserName.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtUserName.Location = new System.Drawing.Point(9, 12);
-            this.txtUserName.Name = "txtUserName";
-            this.txtUserName.Size = new System.Drawing.Size(285, 26);
-            this.txtUserName.TabIndex = 8;
+            this.cmdUpdate.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(58)))), ((int)(((byte)(183)))));
+            this.cmdUpdate.FlatAppearance.BorderSize = 0;
+            this.cmdUpdate.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.cmdUpdate.ForeColor = System.Drawing.Color.White;
+            this.cmdUpdate.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.cmdUpdate.Location = new System.Drawing.Point(210, 7);
+            this.cmdUpdate.Margin = new System.Windows.Forms.Padding(0);
+            this.cmdUpdate.Name = "cmdUpdate";
+            this.cmdUpdate.Size = new System.Drawing.Size(200, 35);
+            this.cmdUpdate.TabIndex = 8;
+            this.cmdUpdate.Text = "Update";
+            this.cmdUpdate.UseVisualStyleBackColor = false;
             // 
             // panel5
             // 
@@ -446,7 +435,6 @@
         private System.Windows.Forms.Panel pnlMaster;
         private System.Windows.Forms.Button cmdEdit;
         private System.Windows.Forms.Button cmdSave;
-        private System.Windows.Forms.Button cmdNew;
         private System.Windows.Forms.TextBox txtRemarks;
         private System.Windows.Forms.TextBox txtItemName;
         private System.Windows.Forms.TextBox txtItemId;
@@ -468,11 +456,11 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Panel panel4;
-        private System.Windows.Forms.Button cmdTransaction;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox txtUserName;
+        private System.Windows.Forms.Button cmdSearch;
+        private System.Windows.Forms.Button cmdNew;
+        private System.Windows.Forms.Button cmdView;
+        private System.Windows.Forms.Button cmdUpdate;
+        private System.Windows.Forms.TextBox txtSearch;
         private System.Windows.Forms.Panel panel5;
 
     }

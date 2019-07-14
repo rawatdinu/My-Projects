@@ -83,12 +83,53 @@ namespace ColdStorage
             dgvMain.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
 
             //GlobalFunction.SetGridStyle(dgvMain);
-
+            AddActionButtonToGrid(dgvMain);
             GlobalFunction.ApplyMasterGrid(dgvMain);
             //
            
 
             //}
+        }
+
+        private void AddActionButtonToGrid(DataGridView dgv)
+        {
+            //Edit
+            DataGridViewImageColumn colEdit = new DataGridViewImageColumn();
+            Image imgEdit = Properties.Resources.edit;
+            //imgView.Width = 32;
+            //imgView.Height = 32;
+            colEdit.Image = imgEdit;
+            dgv.Columns.Add(colEdit);
+            colEdit.HeaderText = "Edit";
+            colEdit.Name = "Edit";
+            colEdit.ImageLayout = DataGridViewImageCellLayout.Normal;
+            colEdit.Width = 60;
+
+            //View
+            DataGridViewImageColumn colView = new DataGridViewImageColumn();
+            Image imgView = Properties.Resources.view;
+            //imgView.Width = 32;
+            //imgView.Height = 32;
+            colView.Image = imgView;
+            dgv.Columns.Add(colView);
+            colView.HeaderText = "View";
+            colView.Name = "View";
+            colView.ImageLayout = DataGridViewImageCellLayout.Normal;
+            colView.Width = 60;
+
+            //View
+            DataGridViewImageColumn colDelete = new DataGridViewImageColumn();
+            Image imgDelete = Properties.Resources.delete;
+            //imgView.Width = 32;
+            //imgView.Height = 32;
+            colDelete.Image = imgDelete;
+            dgv.Columns.Add(colDelete);
+            colDelete.HeaderText = "Delete";
+            colDelete.Name = "Delete";
+            colDelete.ImageLayout = DataGridViewImageCellLayout.Normal;
+            colDelete.Width = 60;
+
+            
         }
 
         private void DesignListView()

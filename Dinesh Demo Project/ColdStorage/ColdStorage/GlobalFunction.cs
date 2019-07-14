@@ -156,6 +156,7 @@ namespace ColdStorage
         {
             
             dgv.EnableHeadersVisualStyles = false;
+            dgv.BorderStyle = BorderStyle.None;
             dgv.ForeColor = Color.Black;
             DataGridViewCellStyle style =
                 dgv.ColumnHeadersDefaultCellStyle;
