@@ -16,6 +16,8 @@ namespace ColdStorage
         public bool EditMode = false;
         public string ItemId;
 
+        public bool ViewMode = false;
+        
 
 
 
@@ -36,6 +38,11 @@ namespace ColdStorage
             else if (EditMode == true)
             {
                 cmdSave.Text = "Update";
+                DisplayData(ItemId);
+            }
+            else if (ViewMode == true)
+            {
+                pnlControl.Enabled = false;
                 DisplayData(ItemId);
             }
         }

@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.pnlMaster = new System.Windows.Forms.Panel();
-            this.panel1 = new System.Windows.Forms.Panel();
+            this.pnlControl = new System.Windows.Forms.Panel();
             this.cmdClose = new System.Windows.Forms.Button();
             this.cmdCancel = new System.Windows.Forms.Button();
             this.cmdSave = new System.Windows.Forms.Button();
@@ -40,13 +40,13 @@
             this.label5 = new System.Windows.Forms.Label();
             this.lblID = new System.Windows.Forms.Label();
             this.pnlMaster.SuspendLayout();
-            this.panel1.SuspendLayout();
+            this.pnlControl.SuspendLayout();
             this.SuspendLayout();
             // 
             // pnlMaster
             // 
             this.pnlMaster.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pnlMaster.Controls.Add(this.panel1);
+            this.pnlMaster.Controls.Add(this.pnlControl);
             this.pnlMaster.Controls.Add(this.txtRemarks);
             this.pnlMaster.Controls.Add(this.txtItemName);
             this.pnlMaster.Controls.Add(this.txtItemId);
@@ -54,27 +54,27 @@
             this.pnlMaster.Controls.Add(this.label5);
             this.pnlMaster.Controls.Add(this.lblID);
             this.pnlMaster.Location = new System.Drawing.Point(7, 6);
-            this.pnlMaster.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pnlMaster.Margin = new System.Windows.Forms.Padding(4);
             this.pnlMaster.Name = "pnlMaster";
             this.pnlMaster.Size = new System.Drawing.Size(523, 188);
             this.pnlMaster.TabIndex = 23;
             // 
-            // panel1
+            // pnlControl
             // 
-            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel1.Controls.Add(this.cmdClose);
-            this.panel1.Controls.Add(this.cmdCancel);
-            this.panel1.Controls.Add(this.cmdSave);
-            this.panel1.Location = new System.Drawing.Point(108, 119);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(373, 46);
-            this.panel1.TabIndex = 44;
+            this.pnlControl.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pnlControl.Controls.Add(this.cmdClose);
+            this.pnlControl.Controls.Add(this.cmdCancel);
+            this.pnlControl.Controls.Add(this.cmdSave);
+            this.pnlControl.Location = new System.Drawing.Point(108, 119);
+            this.pnlControl.Margin = new System.Windows.Forms.Padding(4);
+            this.pnlControl.Name = "pnlControl";
+            this.pnlControl.Size = new System.Drawing.Size(373, 46);
+            this.pnlControl.TabIndex = 44;
             // 
             // cmdClose
             // 
             this.cmdClose.Location = new System.Drawing.Point(252, 4);
-            this.cmdClose.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cmdClose.Margin = new System.Windows.Forms.Padding(4);
             this.cmdClose.Name = "cmdClose";
             this.cmdClose.Size = new System.Drawing.Size(108, 35);
             this.cmdClose.TabIndex = 15;
@@ -85,7 +85,7 @@
             // cmdCancel
             // 
             this.cmdCancel.Location = new System.Drawing.Point(127, 4);
-            this.cmdCancel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cmdCancel.Margin = new System.Windows.Forms.Padding(4);
             this.cmdCancel.Name = "cmdCancel";
             this.cmdCancel.Size = new System.Drawing.Size(108, 35);
             this.cmdCancel.TabIndex = 14;
@@ -96,7 +96,7 @@
             // cmdSave
             // 
             this.cmdSave.Location = new System.Drawing.Point(4, 4);
-            this.cmdSave.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cmdSave.Margin = new System.Windows.Forms.Padding(4);
             this.cmdSave.Name = "cmdSave";
             this.cmdSave.Size = new System.Drawing.Size(108, 35);
             this.cmdSave.TabIndex = 11;
@@ -109,7 +109,7 @@
             this.txtRemarks.BackColor = System.Drawing.Color.White;
             this.txtRemarks.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtRemarks.Location = new System.Drawing.Point(108, 84);
-            this.txtRemarks.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtRemarks.Margin = new System.Windows.Forms.Padding(4);
             this.txtRemarks.Name = "txtRemarks";
             this.txtRemarks.Size = new System.Drawing.Size(395, 22);
             this.txtRemarks.TabIndex = 10;
@@ -119,7 +119,7 @@
             this.txtItemName.BackColor = System.Drawing.Color.White;
             this.txtItemName.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtItemName.Location = new System.Drawing.Point(108, 51);
-            this.txtItemName.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtItemName.Margin = new System.Windows.Forms.Padding(4);
             this.txtItemName.Name = "txtItemName";
             this.txtItemName.Size = new System.Drawing.Size(212, 22);
             this.txtItemName.TabIndex = 2;
@@ -129,7 +129,7 @@
             this.txtItemId.BackColor = System.Drawing.Color.White;
             this.txtItemId.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtItemId.Location = new System.Drawing.Point(108, 13);
-            this.txtItemId.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtItemId.Margin = new System.Windows.Forms.Padding(4);
             this.txtItemId.Name = "txtItemId";
             this.txtItemId.ReadOnly = true;
             this.txtItemId.Size = new System.Drawing.Size(212, 22);
@@ -173,7 +173,7 @@
             this.Controls.Add(this.pnlMaster);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "frmItemMasterDetails";
@@ -182,7 +182,7 @@
             this.Load += new System.EventHandler(this.frmItemMasterDetails_Load);
             this.pnlMaster.ResumeLayout(false);
             this.pnlMaster.PerformLayout();
-            this.panel1.ResumeLayout(false);
+            this.pnlControl.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -190,7 +190,7 @@
         #endregion
 
         private System.Windows.Forms.Panel pnlMaster;
-        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel pnlControl;
         private System.Windows.Forms.Button cmdCancel;
         private System.Windows.Forms.Button cmdSave;
         private System.Windows.Forms.TextBox txtRemarks;

@@ -151,7 +151,6 @@ namespace ColdStorage
             dgv.GridColor = Color.Black;
         }
 
-
         public static void ApplyMasterGrid(DataGridView dgv)
         {
             
@@ -177,6 +176,51 @@ namespace ColdStorage
 //            dgv.Dock = DockStyle.Fill;        
         
         }
+
+        public static void AddActionButtonToGrid(DataGridView dgv)
+        {
+            //Edit
+            DataGridViewImageColumn colEdit = new DataGridViewImageColumn();
+            Image imgEdit = Properties.Resources.edit;
+            //imgView.Width = 32;
+            //imgView.Height = 32;
+            colEdit.Image = imgEdit;
+            dgv.Columns.Insert(0,colEdit); // insert at 0 index
+            //dgv.Columns.Add(colEdit);  
+            colEdit.HeaderText = "";
+            colEdit.Name = "Edit";
+            colEdit.ImageLayout = DataGridViewImageCellLayout.Normal;
+            colEdit.Width = 40;
+
+            //View
+            DataGridViewImageColumn colView = new DataGridViewImageColumn();
+            Image imgView = Properties.Resources.view;
+            //imgView.Width = 32;
+            //imgView.Height = 32;
+            colView.Image = imgView;
+            dgv.Columns.Insert(1,colView);
+
+            //dgv.Columns.Add(colView);
+            colView.HeaderText = "";
+            colView.Name = "View";
+            colView.ImageLayout = DataGridViewImageCellLayout.Normal;
+            colView.Width = 40;
+
+            //View
+            DataGridViewImageColumn colDelete = new DataGridViewImageColumn();
+            Image imgDelete = Properties.Resources.delete;
+            //imgView.Width = 32;
+            //imgView.Height = 32;
+            colDelete.Image = imgDelete;
+            dgv.Columns.Insert(2,colDelete);
+            //dgv.Columns.Add(colDelete);
+            colDelete.HeaderText = "";
+            colDelete.Name = "Delete";
+            colDelete.ImageLayout = DataGridViewImageCellLayout.Normal;
+            colDelete.Width = 40;
+
+
+        }        
         #endregion
 
 

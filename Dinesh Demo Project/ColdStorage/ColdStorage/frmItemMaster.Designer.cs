@@ -55,8 +55,6 @@
             this.cmdSearch = new System.Windows.Forms.Button();
             this.panel4 = new System.Windows.Forms.Panel();
             this.cmdNew = new System.Windows.Forms.Button();
-            this.cmdView = new System.Windows.Forms.Button();
-            this.cmdUpdate = new System.Windows.Forms.Button();
             this.panel5 = new System.Windows.Forms.Panel();
             this.pnlMaster.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -256,6 +254,7 @@
             this.dgvMain.Name = "dgvMain";
             this.dgvMain.Size = new System.Drawing.Size(799, 165);
             this.dgvMain.TabIndex = 18;
+            this.dgvMain.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvMain_CellClick);
             // 
             // pnlList
             // 
@@ -330,8 +329,6 @@
             // panel4
             // 
             this.panel4.Controls.Add(this.cmdNew);
-            this.panel4.Controls.Add(this.cmdView);
-            this.panel4.Controls.Add(this.cmdUpdate);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panel4.Location = new System.Drawing.Point(15, 96);
@@ -355,36 +352,6 @@
             this.cmdNew.Text = "New";
             this.cmdNew.UseVisualStyleBackColor = false;
             this.cmdNew.Click += new System.EventHandler(this.cmdNew_Click);
-            // 
-            // cmdView
-            // 
-            this.cmdView.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(58)))), ((int)(((byte)(183)))));
-            this.cmdView.FlatAppearance.BorderSize = 0;
-            this.cmdView.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.cmdView.ForeColor = System.Drawing.Color.White;
-            this.cmdView.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.cmdView.Location = new System.Drawing.Point(420, 7);
-            this.cmdView.Margin = new System.Windows.Forms.Padding(0);
-            this.cmdView.Name = "cmdView";
-            this.cmdView.Size = new System.Drawing.Size(200, 35);
-            this.cmdView.TabIndex = 9;
-            this.cmdView.Text = "View";
-            this.cmdView.UseVisualStyleBackColor = false;
-            // 
-            // cmdUpdate
-            // 
-            this.cmdUpdate.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(58)))), ((int)(((byte)(183)))));
-            this.cmdUpdate.FlatAppearance.BorderSize = 0;
-            this.cmdUpdate.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.cmdUpdate.ForeColor = System.Drawing.Color.White;
-            this.cmdUpdate.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.cmdUpdate.Location = new System.Drawing.Point(210, 7);
-            this.cmdUpdate.Margin = new System.Windows.Forms.Padding(0);
-            this.cmdUpdate.Name = "cmdUpdate";
-            this.cmdUpdate.Size = new System.Drawing.Size(200, 35);
-            this.cmdUpdate.TabIndex = 8;
-            this.cmdUpdate.Text = "Update";
-            this.cmdUpdate.UseVisualStyleBackColor = false;
             // 
             // panel5
             // 
@@ -458,8 +425,6 @@
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Button cmdSearch;
         private System.Windows.Forms.Button cmdNew;
-        private System.Windows.Forms.Button cmdView;
-        private System.Windows.Forms.Button cmdUpdate;
         private System.Windows.Forms.TextBox txtSearch;
         private System.Windows.Forms.Panel panel5;
 

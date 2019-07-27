@@ -33,6 +33,15 @@ namespace ColdStorage
         private const int ItemNameWidth = 300;
         private const int RemarksWidth = 300;
 
+        private const int EditColumIndex=0;
+        private const int ViewColumIndex = 1;
+        private const int DeleteColumIndex = 2;
+
+        private const int SNoIndex = 3;
+        private const int ItemIDIndex = 4;
+
+        private const int ItemNameIndex = 5;
+        private const int RemarksIndex = 6;
 
         public frmItemMaster()
         {
@@ -83,7 +92,7 @@ namespace ColdStorage
             dgvMain.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
 
             //GlobalFunction.SetGridStyle(dgvMain);
-            AddActionButtonToGrid(dgvMain);
+            GlobalFunction.AddActionButtonToGrid(dgvMain);
             GlobalFunction.ApplyMasterGrid(dgvMain);
             //
            
@@ -91,46 +100,7 @@ namespace ColdStorage
             //}
         }
 
-        private void AddActionButtonToGrid(DataGridView dgv)
-        {
-            //Edit
-            DataGridViewImageColumn colEdit = new DataGridViewImageColumn();
-            Image imgEdit = Properties.Resources.edit;
-            //imgView.Width = 32;
-            //imgView.Height = 32;
-            colEdit.Image = imgEdit;
-            dgv.Columns.Add(colEdit);
-            colEdit.HeaderText = "Edit";
-            colEdit.Name = "Edit";
-            colEdit.ImageLayout = DataGridViewImageCellLayout.Normal;
-            colEdit.Width = 60;
-
-            //View
-            DataGridViewImageColumn colView = new DataGridViewImageColumn();
-            Image imgView = Properties.Resources.view;
-            //imgView.Width = 32;
-            //imgView.Height = 32;
-            colView.Image = imgView;
-            dgv.Columns.Add(colView);
-            colView.HeaderText = "View";
-            colView.Name = "View";
-            colView.ImageLayout = DataGridViewImageCellLayout.Normal;
-            colView.Width = 60;
-
-            //View
-            DataGridViewImageColumn colDelete = new DataGridViewImageColumn();
-            Image imgDelete = Properties.Resources.delete;
-            //imgView.Width = 32;
-            //imgView.Height = 32;
-            colDelete.Image = imgDelete;
-            dgv.Columns.Add(colDelete);
-            colDelete.HeaderText = "Delete";
-            colDelete.Name = "Delete";
-            colDelete.ImageLayout = DataGridViewImageCellLayout.Normal;
-            colDelete.Width = 60;
-
-            
-        }
+       
 
         private void DesignListView()
         {
@@ -153,7 +123,7 @@ namespace ColdStorage
 
         private void cmdNew_Click(object sender, EventArgs e)
         {
-            ClickAdd();
+            AddNewItem();
         }
         private void ClickAdd()
         {
@@ -335,11 +305,11 @@ namespace ColdStorage
                             i = dgvMain.RowCount;
 
                             dgvMain.RowCount = i + 1;
-                            dgvMain.Rows[i].Cells[0].Value = i + 1;
+                            dgvMain.Rows[i].Cells[SNoIndex].Value = i + 1;
 
-                            dgvMain.Rows[i].Cells[1].Value = obj.ItemID;
-                            dgvMain.Rows[i].Cells[2].Value = obj.ItemName;
-                            dgvMain.Rows[i].Cells[3].Value = obj.Remarks;
+                            dgvMain.Rows[i].Cells[ItemIDIndex].Value = obj.ItemID;
+                            dgvMain.Rows[i].Cells[ItemNameIndex].Value = obj.ItemName;
+                            dgvMain.Rows[i].Cells[RemarksIndex].Value = obj.Remarks;
 
                         }
 
@@ -359,6 +329,12 @@ namespace ColdStorage
         }
 
         private void cmdAddNewInList_Click(object sender, EventArgs e)
+        {
+
+            AddNewItem();
+        }
+
+        private void AddNewItem()
         {
             //pnlMaster.BringToFront();
             //ClickAdd();
@@ -382,8 +358,8 @@ namespace ColdStorage
             //    //retun null
             //    obj = null;
             //}
-            frmItemMasterDetails = null;
-
+            frmItemMasterDetails = null;      
+        
         }
 
         private void cmdGoToList_Click(object sender, EventArgs e)
@@ -462,6 +438,54 @@ namespace ColdStorage
                 EditMode = false;
                 ControlStatus(true);
             }
+
+        }
+
+        private void dgvMain_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            int rowIndex = e.RowIndex;
+            int colIndex = e.ColumnIndex;
+
+            string itemId = "";
+
+
+            if (rowIndex >= 0)
+            {
+                DialogResult result;
+                frmItemMasterDetails = new frmItemMasterDetails();
+
+                if (colIndex == EditColumIndex)
+                {
+                    itemId = Convert.ToString(dgvMain.Rows[rowIndex].Cells[ItemIDIndex].Value);
+
+                    frmItemMasterDetails.EditMode = true;
+                    frmItemMasterDetails.ItemId = itemId;
+
+                }
+                else if (colIndex == ViewColumIndex)
+                {
+                    itemId = Convert.ToString(dgvMain.Rows[rowIndex].Cells[ItemIDIndex].Value);
+                    frmItemMasterDetails.ViewMode = true;
+                    frmItemMasterDetails.ItemId = itemId;
+
+                }
+                else if (colIndex == DeleteColumIndex)
+                {
+
+                }
+
+                if (itemId != "")
+                {
+                    result = frmItemMasterDetails.ShowDialog();
+                }
+                else
+                {
+                    frmItemMasterDetails = null;
+                }
+
+            }
+            
+
 
         }
 
