@@ -15,5 +15,10 @@ namespace ColdStorage
         {
             InitializeComponent();
         }
+
+        private void frmRateMasterDetails_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

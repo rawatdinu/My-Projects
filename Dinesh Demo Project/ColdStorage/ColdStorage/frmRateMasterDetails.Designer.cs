@@ -273,6 +273,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "frmRateMasterDetails";
             this.Text = "frmRateMasterDetails";
+            this.Load += new System.EventHandler(this.frmRateMasterDetails_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

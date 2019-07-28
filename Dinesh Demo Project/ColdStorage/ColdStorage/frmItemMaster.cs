@@ -43,6 +43,13 @@ namespace ColdStorage
         private const int ItemNameIndex = 5;
         private const int RemarksIndex = 6;
 
+        //
+        private const int AddItem=0;
+        private const int UpdateItem = 1;
+        private const int ViewItem = 2;
+
+
+
         public frmItemMaster()
         {
             InitializeComponent();
@@ -52,11 +59,7 @@ namespace ColdStorage
         {
             DesignMainGrid();
             FillMainGrid();
-            DesignListView();
-            FillListView();
-            ClearControl();
-            ControlStatus(true);
-            pnlList.BringToFront();
+            
         }
 
         private void DesignMainGrid()
@@ -99,199 +102,31 @@ namespace ColdStorage
 
             //}
         }
-
        
-
-        private void DesignListView()
-        {
-            listView1.Columns.Add("Item ID", 100, HorizontalAlignment.Left);
-            listView1.Columns.Add("ItemName", 200);
-            listView1.Columns.Add("Remarks", 150);
-
-
-
-            listView1.FullRowSelect = true;
-            listView1.GridLines = true;
-            listView1.MultiSelect = false;
-            listView1.View = View.Details;
-
-            //listView1.StateImageList = _mediumImageList;
-
-
-        }
 
 
         private void cmdNew_Click(object sender, EventArgs e)
         {
-            AddNewItem();
+            AddUpdateViewItem("", AddItem);
         }
-        private void ClickAdd()
-        {
-            //get new id for book
-            AddMode = true;
-            EditMode = false;
-            ClearControl();
-            ControlStatus(false);
-            txtItemId.Text = GlobalFunction.GetUniqueCode("ItemMaster");
 
-        }
         private void ClearControl()
         {
-
-            txtItemId.Text = "";
-            txtItemName.Text = "";
-            txtRemarks.Text = "";
-            //dgvMain.RowCount = 0;
+           
+            dgvMain.RowCount = 0;
         }
-
-        private void ControlStatus(bool status)
-        {
-
-            cmdNew.Enabled = status;
-            cmdGoToList.Enabled = status;
-            cmdEdit.Enabled = status;
-
-
-            cmdSave.Enabled = !(status);
-            cmdCancel.Enabled = !(status);
-
-
-            txtItemId.ReadOnly = true;
-
-            txtRemarks.ReadOnly = status;
-
-        }
-
-        private void cmdSave_Click(object sender, EventArgs e)
-        {
-            Save();
-        }
-        private void Save()
-        {
-            bool result = false;
-            ItemMaster item = GetItem();
-
-
-            ItemMaster handler = new ItemMaster();
-            if (AddMode)
-            {
-                result = handler.AddNewItemMaster(item);
-                if (result)
-                {
-                    result = GlobalFunction.UpdateUniqueCode("ItemMaster");
-                }
-            }
-            else if (EditMode)
-            {
-                result = handler.UpdateItemMaster(item);
-            }
-
-            if (result == true)
-            {
-                if (AddMode)
-                {
-                    MessageBox.Show("New Record added successfully");
-                }
-                else
-                {
-                    MessageBox.Show("Record updated successfully");
-                }
-
-                ControlStatus(true);
-            }
-            else
-            {
-                MessageBox.Show("Errror Occurs!");
-            }
-        }
-
-        public void DisplayData(string itemID = "-1")
-        {
-
-
-            try
-            {
-
-
-                //Master Data
-                ItemMaster objHandler = new ItemMaster();
-                ItemMaster obj = objHandler.GetItemMasterDetails(itemID);
-                if (obj != null)
-                {
-                    ClearControl();
-                    SetItem(obj);
-                    ControlStatus(true);
-                }
-                else
-                {
-                    MessageBox.Show("No record exist");
-                }
-
-            }
-
-            catch (Exception ex)
-            {
-                MessageBox.Show(System.Reflection.MethodBase.GetCurrentMethod().Name + "\n" + ex.Message);
-            }
-        }
-
-        private ItemMaster GetItem()
-        {
-            ItemMaster obj = new ItemMaster();
-            obj.ItemID = txtItemId.Text;
-            obj.ItemName = txtItemName.Text;
-            obj.Remarks = txtRemarks.Text;
-
-            return obj;
-        }
-
-        private void SetItem(ItemMaster obj)
-        {
-            txtItemId.Text = obj.ItemID;
-            txtItemName.Text = obj.ItemName;
-            txtRemarks.Text = obj.Remarks;
-        }
-
-
-        private void FillListView()
-        {
-            List<ItemMaster> list = new List<ItemMaster>();
-            ItemMaster handler = new ItemMaster();
-            list = handler.GetItemMasterList();
-            ListViewItem lvi = new ListViewItem();
-
-            if (list != null)
-            {
-                if (list.Count > 0)
-                {
-                    foreach (ItemMaster obj in list)
-                    {
-                        lvi = new ListViewItem(obj.ItemID);
-                        lvi.SubItems.Add(obj.ItemName);
-                        lvi.SubItems.Add(obj.Remarks);
-
-                        listView1.Items.Add(lvi);
-                    }
-
-                }
-            }
-
-
-        }
-
+          
         private void FillMainGrid()
         {
             try
             {
 
-
+                //
+                ClearControl();
                 //Master Data
                 ItemMaster objMaster = new ItemMaster();
 
                 List<ItemMaster> list = objMaster.GetItemMasterList();
-
-
-
 
                 if ((list != null))
                 {
@@ -328,24 +163,31 @@ namespace ColdStorage
 
         }
 
-        private void cmdAddNewInList_Click(object sender, EventArgs e)
-        {
 
-            AddNewItem();
-        }
-
-        private void AddNewItem()
+        private void AddUpdateViewItem(string itemID, int action)
         {
             //pnlMaster.BringToFront();
             //ClickAdd();
 
             frmItemMasterDetails = new frmItemMasterDetails();
 
-            frmItemMasterDetails.AddMode = true;
+            if (action == AddItem)
+            {
+                frmItemMasterDetails.AddMode = true;
+            }
+            else if (action == UpdateItem)
+            {
+                frmItemMasterDetails.EditMode = true;
+                frmItemMasterDetails.ItemId = itemID;
+            }
 
+            else if (action == ViewItem)
+            {
+                frmItemMasterDetails.ViewMode = true;
+                frmItemMasterDetails.ItemId = itemID;
+            }
 
             DialogResult result;
-
             result = frmItemMasterDetails.ShowDialog();
             //if (result == DialogResult.OK)
             //{
@@ -358,88 +200,30 @@ namespace ColdStorage
             //    //retun null
             //    obj = null;
             //}
-            frmItemMasterDetails = null;      
+            frmItemMasterDetails = null;
+
+            if (action == AddItem || action == UpdateItem)
+            {
+                FillMainGrid();
+            }
+
         
         }
 
-        private void cmdGoToList_Click(object sender, EventArgs e)
-        {
-            pnlList.BringToFront();
-        }
 
-        private void cmdOK_Click(object sender, EventArgs e)
-        {
-            if (IsLookUpMode)
-            {
-                foreach (ListViewItem item in listView1.SelectedItems)
-                {
-                    _itemID = item.SubItems[0].Text;
-                }
-                this.DialogResult = DialogResult.OK;
-            }
-        }
 
-        private void cmdCancelSelection_Click(object sender, EventArgs e)
-        {
-            if (IsLookUpMode)
-            {
-                this.DialogResult = DialogResult.Cancel;
-            }
+        //private void cmdOK_Click(object sender, EventArgs e)
+        //{
+        //    if (IsLookUpMode)
+        //    {
+        //        foreach (ListViewItem item in listView1.SelectedItems)
+        //        {
+        //            _itemID = item.SubItems[0].Text;
+        //        }
+        //        this.DialogResult = DialogResult.OK;
+        //    }
+        //}
 
-        }
-
-        private void cmdViewDetail_Click(object sender, EventArgs e)
-        {
-            string itemID = "";
-            foreach (ListViewItem item in listView1.SelectedItems)
-            {
-                itemID = item.SubItems[0].Text;
-            }
-            if (itemID != "")
-            {
-                frmItemMasterDetails = new frmItemMasterDetails();
-
-                frmItemMasterDetails.AddMode = false;
-                frmItemMasterDetails.EditMode = true;
-                frmItemMasterDetails.ItemId = itemID;
-
-                DialogResult result;
-
-                result = frmItemMasterDetails.ShowDialog();
-            }
-            //pnlMaster.BringToFront();
-        }
-
-        private void cmdEdit_Click(object sender, EventArgs e)
-        {
-            AddMode = false;
-            EditMode = true;
-            ControlStatus(false);
-        }
-
-        private void cmdCancel_Click(object sender, EventArgs e)
-        {
-            Cancel();
-        }
-
-        private void Cancel()
-        {
-            if (AddMode)
-            {
-                pnlList.BringToFront();
-            }
-            else if (EditMode)
-            {
-                DisplayData(txtItemId.Text.Trim());
-            }
-            else
-            {
-                AddMode = false;
-                EditMode = false;
-                ControlStatus(true);
-            }
-
-        }
 
         private void dgvMain_CellClick(object sender, DataGridViewCellEventArgs e)
         {
@@ -451,36 +235,20 @@ namespace ColdStorage
 
             if (rowIndex >= 0)
             {
-                DialogResult result;
-                frmItemMasterDetails = new frmItemMasterDetails();
 
                 if (colIndex == EditColumIndex)
                 {
                     itemId = Convert.ToString(dgvMain.Rows[rowIndex].Cells[ItemIDIndex].Value);
-
-                    frmItemMasterDetails.EditMode = true;
-                    frmItemMasterDetails.ItemId = itemId;
-
+                    AddUpdateViewItem(itemId, UpdateItem);
                 }
                 else if (colIndex == ViewColumIndex)
                 {
                     itemId = Convert.ToString(dgvMain.Rows[rowIndex].Cells[ItemIDIndex].Value);
-                    frmItemMasterDetails.ViewMode = true;
-                    frmItemMasterDetails.ItemId = itemId;
-
+                    AddUpdateViewItem(itemId, ViewItem);
                 }
                 else if (colIndex == DeleteColumIndex)
                 {
-
-                }
-
-                if (itemId != "")
-                {
-                    result = frmItemMasterDetails.ShowDialog();
-                }
-                else
-                {
-                    frmItemMasterDetails = null;
+                    //delete operation
                 }
 
             }

@@ -163,7 +163,8 @@ namespace ColdStorage
 
         private void cmdCancel_Click(object sender, EventArgs e)
         {
-            Cancel();
+            this.Close();
+            //Cancel();
         }
         private void Cancel()
         {
@@ -178,6 +179,8 @@ namespace ColdStorage
             }
 
         }
+
+      
 
     }
 }
