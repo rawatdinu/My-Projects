@@ -81,8 +81,65 @@ namespace ColdStorage
                             }
                         }
                         break;
+                }
 
 
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+
+        }
+
+
+        private void cmdMenuItem_Click(object sender, EventArgs e)
+        {
+
+            string selectedMenu = ((Button)sender).Text;
+            ShowFormOnDeshBorad(selectedMenu);
+
+
+        }
+
+        public void ShowFormOnDeshBorad(string formName)
+        {
+            this.pnlContainer.Controls.Clear();
+
+
+
+            try
+            {
+                switch (formName)
+                {
+
+
+                    case "Item Master":
+                        frmItemMaster frmItemMaster = new frmItemMaster();
+                        frmItemMaster.TopLevel = false;
+                        this.pnlContainer.Controls.Add(frmItemMaster);
+                        frmItemMaster.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+                        //objForm.Dock = DockStyle.Fill;
+                        frmItemMaster.Show();
+                        break;
+
+                    case "Party Master":
+                        frmPartyMaster frmPartyMaster = new frmPartyMaster();
+                        frmPartyMaster.TopLevel = false;
+                        this.pnlContainer.Controls.Add(frmPartyMaster);
+                        frmPartyMaster.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+                        //objForm.Dock = DockStyle.Fill;
+                        frmPartyMaster.Show();
+                        break;
+
+                    case "Transaction In":
+                        frmTransactionIn frmTransactionIn = new frmTransactionIn();
+                        frmTransactionIn.TopLevel = false;
+                        this.pnlContainer.Controls.Add(frmTransactionIn);
+                        frmTransactionIn.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+                        //objForm.Dock = DockStyle.Fill;
+                        frmTransactionIn.Show();
+                        break;
 
                 }
 
@@ -95,18 +152,8 @@ namespace ColdStorage
 
         }
 
-        private void cmdItemMaster_Click(object sender, EventArgs e)
-        {
-            frmItemMaster objForm = new frmItemMaster();
-            objForm.TopLevel = false;
-            this.pnlContainer.Controls.Add(objForm);
-            objForm.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            //objForm.Dock = DockStyle.Fill;
-            objForm.Show();
-        } 
 
-      
-       
+
 
 
     }

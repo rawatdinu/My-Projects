@@ -190,7 +190,7 @@
             this.cmdItemMaster.TabIndex = 8;
             this.cmdItemMaster.Text = "Item Master";
             this.cmdItemMaster.UseVisualStyleBackColor = false;
-            this.cmdItemMaster.Click += new System.EventHandler(this.cmdItemMaster_Click);
+            this.cmdItemMaster.Click += new System.EventHandler(this.cmdMenuItem_Click);
             // 
             // cmdPartyMaster
             // 
@@ -207,6 +207,7 @@
             this.cmdPartyMaster.TabIndex = 7;
             this.cmdPartyMaster.Text = "Party Master";
             this.cmdPartyMaster.UseVisualStyleBackColor = false;
+            this.cmdPartyMaster.Click += new System.EventHandler(this.cmdMenuItem_Click);
             // 
             // cmdMaster
             // 
@@ -267,8 +268,9 @@
             this.cmdTransactionIn.Name = "cmdTransactionIn";
             this.cmdTransactionIn.Size = new System.Drawing.Size(200, 35);
             this.cmdTransactionIn.TabIndex = 7;
-            this.cmdTransactionIn.Text = "Transation In";
+            this.cmdTransactionIn.Text = "Transaction In";
             this.cmdTransactionIn.UseVisualStyleBackColor = false;
+            this.cmdTransactionIn.Click += new System.EventHandler(this.cmdMenuItem_Click);
             // 
             // cmdTransaction
             // 
