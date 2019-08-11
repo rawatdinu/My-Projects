@@ -220,7 +220,37 @@ namespace ColdStorage
             colDelete.Width = 40;
 
 
-        }        
+        }
+
+        public static void AddCheckBoxToGrid(DataGridView dgv, CheckBox checkbox)
+        {
+            DataGridViewCheckBoxColumn chkCol = new DataGridViewCheckBoxColumn();
+            chkCol.HeaderText = "";            
+            chkCol.Width = 40;
+            chkCol.SortMode = DataGridViewColumnSortMode.NotSortable;
+            dgv.Columns.Insert(0, chkCol);
+
+            
+            checkbox.Size = new System.Drawing.Size(15, 15);
+            checkbox.BackColor = Color.Transparent;
+
+            // Reset properties
+            checkbox.Padding = new Padding(0);
+            checkbox.Margin = new Padding(0);
+            checkbox.Text = "";
+
+            // Add checkbox to datagrid cell
+            dgv.Controls.Add(checkbox);
+            DataGridViewHeaderCell header = dgv.Columns[chkCol.Index].HeaderCell;
+            ////checkbox.Location = new Point(
+            ////    header.ContentBounds.Left + (header.ContentBounds.Right - header.ContentBounds.Left + checkbox.Size.Width) / 2,
+            ////    header.ContentBounds.Top + (header.ContentBounds.Bottom - header.ContentBounds.Top + checkbox.Size.Height) / 2
+            ////);
+            checkbox.Location = new Point(
+                header.ContentBounds.Left + (header.ContentBounds.Right - header.ContentBounds.Left + (chkCol.HeaderCell.Size.Width - checkbox.Size.Width)) / 2,
+                header.ContentBounds.Top + (header.ContentBounds.Bottom - header.ContentBounds.Top + (chkCol.HeaderCell.Size.Height - checkbox.Size.Height)) / 2
+            );
+        }                
         #endregion
 
 

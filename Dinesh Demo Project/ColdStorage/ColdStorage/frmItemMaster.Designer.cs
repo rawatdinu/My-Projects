@@ -121,7 +121,7 @@
             this.panel4.Margin = new System.Windows.Forms.Padding(0);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(997, 50);
-            this.panel4.TabIndex = 26;
+            this.panel4.TabIndex = 26;            
             // 
             // cmdNew
             // 

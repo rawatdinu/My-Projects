@@ -338,12 +338,30 @@ namespace ColdStorage
 
         private void ProcessInterface()
         {
-            frmInterface = new frmItemMaster();
-            frmInterface.IsLookUpMode = true;
+            //frmInterface = new frmItemMaster();
+            //frmInterface.IsLookUpMode = true;
+
+            //DialogResult result;
+
+            //result = frmInterface.ShowDialog();
+            //if (result == DialogResult.OK)
+            //{
+            //    _itemID = frmInterface.ItemID;
+            //}
+            //else
+            //{
+            //    _itemID = "";
+            //}
+
+
+            //frmInterface.Close();
+            //frmInterface = null;
+
+            frmItemMasterLookup objLookup = new frmItemMasterLookup();
 
             DialogResult result;
 
-            result = frmInterface.ShowDialog();
+            result = objLookup.ShowDialog();
             if (result == DialogResult.OK)
             {
                 _itemID = frmInterface.ItemID;
@@ -354,8 +372,9 @@ namespace ColdStorage
             }
 
 
-            frmInterface.Close();
-            frmInterface = null;
+            objLookup.Close();
+            objLookup = null;
+
         }
 
         private void dgvMain_CellEnter(object sender, DataGridViewCellEventArgs e)

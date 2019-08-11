@@ -117,6 +117,12 @@
     <Compile Include="frmItemMasterDetails.Designer.cs">
       <DependentUpon>frmItemMasterDetails.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmItemMasterLookup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmItemMasterLookup.Designer.cs">
+      <DependentUpon>frmItemMasterLookup.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmPartyMaster.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -176,6 +182,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmItemMasterDetails.resx">
       <DependentUpon>frmItemMasterDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmItemMasterLookup.resx">
+      <DependentUpon>frmItemMasterLookup.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmPartyMaster.resx">
       <DependentUpon>frmPartyMaster.cs</DependentUpon>

@@ -59,3 +59,15 @@ E:\Dinesh Demo Project\Shrikant Demo Project\VillageMeeting\VillageMeeting\obj\D
 E:\Dinesh Demo Project\Shrikant Demo Project\VillageMeeting\VillageMeeting\obj\Debug\GenerateResource-ResGen.write.1.tlog
 E:\Dinesh Demo Project\VillageMeeting\VillageMeeting\obj\Debug\VillageMeeting.exe
 E:\Dinesh Demo Project\VillageMeeting\VillageMeeting\obj\Debug\VillageMeeting.pdb
+D:\My Projects\Dinesh Demo Project\VillageMeeting\VillageMeeting\obj\Debug\VillageMeeting.exe
+D:\My Projects\Dinesh Demo Project\VillageMeeting\VillageMeeting\obj\Debug\VillageMeeting.pdb
+D:\My Projects\Dinesh Demo Project\VillageMeeting\VillageMeeting\bin\Debug\VillageMeeting.exe
+D:\My Projects\Dinesh Demo Project\VillageMeeting\VillageMeeting\bin\Debug\VillageMeeting.pdb
+D:\My Projects\Dinesh Demo Project\VillageMeeting\VillageMeeting\obj\Debug\VillageMeeting.csprojResolveAssemblyReference.cache
+D:\My Projects\Dinesh Demo Project\VillageMeeting\VillageMeeting\obj\Debug\VillageMeeting.Form1.resources
+D:\My Projects\Dinesh Demo Project\VillageMeeting\VillageMeeting\obj\Debug\VillageMeeting.frmCapitalLoanSetting.resources
+D:\My Projects\Dinesh Demo Project\VillageMeeting\VillageMeeting\obj\Debug\VillageMeeting.frmMeetingFile.resources
+D:\My Projects\Dinesh Demo Project\VillageMeeting\VillageMeeting\obj\Debug\VillageMeeting.frmShareManagement.resources
+D:\My Projects\Dinesh Demo Project\VillageMeeting\VillageMeeting\obj\Debug\VillageMeeting.MainForm.resources
+D:\My Projects\Dinesh Demo Project\VillageMeeting\VillageMeeting\obj\Debug\VillageMeeting.Properties.Resources.resources
+D:\My Projects\Dinesh Demo Project\VillageMeeting\VillageMeeting\obj\Debug\VillageMeeting.csproj.GenerateResource.Cache
