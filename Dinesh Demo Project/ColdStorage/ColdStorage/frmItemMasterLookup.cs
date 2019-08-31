@@ -24,6 +24,8 @@ namespace ColdStorage
         private const int ItemNameIndex = 3;
         private const int RemarksIndex = 4;
 
+        public List<ItemMaster> SelectedItemList;
+
         public frmItemMasterLookup()
         {
             InitializeComponent();
@@ -78,6 +80,7 @@ namespace ColdStorage
 
             CheckBox chk = (CheckBox)sender;
             SelectUnSelectAllSearchGrid(chk.Checked);
+
                 
         }
 
@@ -127,11 +130,34 @@ namespace ColdStorage
 
         private void cmdCancel_Click(object sender, EventArgs e)
         {
+            
             this.DialogResult = DialogResult.Cancel;
         }
 
         private void cmdOK_Click(object sender, EventArgs e)
         {
+            SelectedItemList = new List<ItemMaster>();
+
+            ItemMaster itemMaster;
+
+            int rowcount = dgvSelected.RowCount;
+            string itemCode;
+
+            if (rowcount > 0)
+            {
+                for (int i = 0; i < rowcount; i++)
+                {
+                    itemCode = Convert.ToString(dgvSelected.Rows[i].Cells[ItemIDIndex].Value);
+                    itemMaster = new ItemMaster();
+                    SelectedItemList.Add(itemMaster.GetItemMasterDetails(itemCode));
+                }
+            }
+            else
+            {
+                SelectedItemList = null;
+            }
+            
+
             this.DialogResult = DialogResult.OK;
         }
 
@@ -187,6 +213,7 @@ namespace ColdStorage
             int rowIndex = e.RowIndex;
             DataGridViewCheckBoxCell chk = new DataGridViewCheckBoxCell();
 
+            DataGridViewCheckBoxCell chkSelected = new DataGridViewCheckBoxCell();
             int newRowIndex;
 
             try
@@ -201,11 +228,19 @@ namespace ColdStorage
                     }
                     else
                     {
+                        
+
                         chk.Value = true;
+
 
                         dgvSelected.RowCount = dgvSelected.RowCount + 1;
                         newRowIndex = dgvSelected.RowCount - 1 ;
-                        dgvSelected.Rows[newRowIndex].Cells[SNoIndex].Value = newRowIndex;
+                        chkSelected = (DataGridViewCheckBoxCell)dgvSelected.Rows[newRowIndex].Cells[CheckBoxIndex];
+
+                        chkSelected.Value = true;
+
+
+                        dgvSelected.Rows[newRowIndex].Cells[SNoIndex].Value = dgvSelected.RowCount;
 
                         dgvSelected.Rows[newRowIndex].Cells[ItemIDIndex].Value = dgvSearch.Rows[rowIndex].Cells[ItemIDIndex].Value;
                         dgvSelected.Rows[newRowIndex].Cells[ItemNameIndex].Value = dgvSearch.Rows[rowIndex].Cells[ItemNameIndex].Value;
@@ -257,6 +292,11 @@ namespace ColdStorage
             {
                 MessageBox.Show(ex.Message);
             }
+        }
+
+        private void cmdClose_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
 
 

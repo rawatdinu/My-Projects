@@ -169,6 +169,7 @@
             this.cmdClose.TabIndex = 5;
             this.cmdClose.Text = "X";
             this.cmdClose.UseVisualStyleBackColor = false;
+            this.cmdClose.Click += new System.EventHandler(this.cmdClose_Click);
             // 
             // label6
             // 

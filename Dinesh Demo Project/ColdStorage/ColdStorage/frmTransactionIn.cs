@@ -356,6 +356,7 @@ namespace ColdStorage
 
             //frmInterface.Close();
             //frmInterface = null;
+            List<ItemMaster> selectedItem = new List<ItemMaster>();
 
             frmItemMasterLookup objLookup = new frmItemMasterLookup();
 
@@ -364,17 +365,30 @@ namespace ColdStorage
             result = objLookup.ShowDialog();
             if (result == DialogResult.OK)
             {
-                _itemID = frmInterface.ItemID;
+                selectedItem = objLookup.SelectedItemList;
+                ShowSelectedItemToGrid(selectedItem);
             }
             else
             {
-                _itemID = "";
+                selectedItem = null;
             }
-
 
             objLookup.Close();
             objLookup = null;
 
+        }
+
+        private void ShowSelectedItemToGrid(List<ItemMaster> list)
+        {
+            
+            if (list.Count > 0 )
+            {
+                foreach (ItemMaster item in list)
+                {
+                    AddItemToGrid(item);
+                }
+
+            }
         }
 
         private void dgvMain_CellEnter(object sender, DataGridViewCellEventArgs e)
