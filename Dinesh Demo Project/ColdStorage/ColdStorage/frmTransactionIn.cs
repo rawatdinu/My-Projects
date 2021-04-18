@@ -17,11 +17,11 @@ namespace ColdStorage
         private bool EditMode = false;
         private string _itemID = "";
 
-        private string PartyID = "";
+
 
         ItemMaster bookMasterItem;
-        frmItemMaster frmInterface;
-        PartyMaster partyMaster;
+        private string PartyID="";
+        private PartyMaster _partyMaster;
 
         //Constant
         private const int SNo = 0;
@@ -338,24 +338,7 @@ namespace ColdStorage
 
         private void ProcessInterface()
         {
-            //frmInterface = new frmItemMaster();
-            //frmInterface.IsLookUpMode = true;
-
-            //DialogResult result;
-
-            //result = frmInterface.ShowDialog();
-            //if (result == DialogResult.OK)
-            //{
-            //    _itemID = frmInterface.ItemID;
-            //}
-            //else
-            //{
-            //    _itemID = "";
-            //}
-
-
-            //frmInterface.Close();
-            //frmInterface = null;
+           
             List<ItemMaster> selectedItem = new List<ItemMaster>();
 
             frmItemMasterLookup objLookup = new frmItemMasterLookup();
@@ -380,14 +363,56 @@ namespace ColdStorage
 
         private void ShowSelectedItemToGrid(List<ItemMaster> list)
         {
-            
-            if (list.Count > 0 )
+
+            if (list.Count > 0)
             {
                 foreach (ItemMaster item in list)
                 {
                     AddItemToGrid(item);
                 }
 
+            }
+        }
+
+        private void ProcessPartyMasterLookupInterface()
+        {
+            
+            PartyMaster selectedParty = new PartyMaster();
+
+            frmPartyMasterLookup objLookup = new frmPartyMasterLookup();
+
+            DialogResult result;
+
+            result = objLookup.ShowDialog();
+            if (result == DialogResult.OK)
+            {
+                selectedParty = objLookup.PartyMasterSelected;
+                if (selectedParty != null)
+                {
+                    _partyMaster = selectedParty;
+                }
+
+
+                FillParty(_partyMaster);
+            }
+            else
+            {
+                selectedParty = null;
+            }
+
+            objLookup.Close();
+            objLookup = null;
+
+        }
+
+        private void FillParty(PartyMaster obj)
+        {
+            
+            if (obj!=null)
+            {
+                txtPartyName.Text = obj.PartyName;
+                txtAddress.Text = obj.Address;
+                txtContactNo.Text = obj.ContactNo;
             }
         }
 
@@ -737,15 +762,13 @@ namespace ColdStorage
 
         private void cmdPartyLookup_Click(object sender, EventArgs e)
         {
-            PartyMaster partyMaster = (PartyMaster)GlobalFunction.ShowLookUpForm("frmPartyMaster");
+            
 
-            if (partyMaster != null)
+            if (AddMode || EditMode)
             {
-                PartyID = partyMaster.PartyID;
-                txtPartyName.Text = partyMaster.PartyName;
-                txtContactNo.Text = partyMaster.ContactNo;
-                txtAddress.Text = partyMaster.Address;
+                ProcessPartyMasterLookupInterface();                
             }
+
 
         }
 

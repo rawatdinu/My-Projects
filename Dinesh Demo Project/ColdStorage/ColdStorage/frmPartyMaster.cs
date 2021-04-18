@@ -14,10 +14,11 @@ namespace ColdStorage
     {
         private bool AddMode = false;
         private bool EditMode = false;
+        frmPartyDetails frmPartyDetails;
 
-        private string _itemID="";
+        private string _itemID;
         public bool IsLookUpMode = false;
-
+        
         public string PartyID
         {
             get
@@ -26,159 +27,159 @@ namespace ColdStorage
             }
         }
 
+        public PartyMaster PartyMasterSelected;
+
+
+        private const int SNoWidth = 60;
+        private const int PartyIDWidth = 60;
+        private const int PartyNameWidth = 250;
+        private const int PersonNameWidth = 150;
+        private const int AddressWidth = 400;
+
+        private const int EditColumIndex = 0;
+        private const int ViewColumIndex = 1;
+        private const int DeleteColumIndex = 2;
+
+        private const int SNoIndex = 3;
+        private const int PartyIDIndex = 4;
+        private const int PartyNameIndex = 5;
+        private const int PersonNameIndex = 6;
+        private const int AddressIndex = 7;
+        private const int ContactNoIndex = 8;
+        private const int MobileIndex = 9;
+        private const int EmailIndex = 10;
+        private const int RemarksIndex = 11;
+
+    
+
+        //Flags
+        private const int AddItem = 0;
+        private const int UpdateItem = 1;
+        private const int ViewItem = 2;
+
+
+
         public frmPartyMaster()
         {
             InitializeComponent();
+            if (IsLookUpMode)
+            { 
+            GlobalFunction.SetLookupFormStyle(this);
+            }
+            pnlLookupControl.Visible = IsLookUpMode;
         }
 
         private void frmPartyMaster_Load(object sender, EventArgs e)
         {
-            DesignListView();
-            FillListView();
-            ClearControl();
-            ControlStatus(true);
-            pnlList.BringToFront();
+            DesignMainGrid();
+            FillMainGrid();
+
         }
 
-        private void DesignListView()
+        private void DesignMainGrid()
         {
-            listView1.Columns.Add("Party ID", 100, HorizontalAlignment.Left);
-            listView1.Columns.Add("Party Name", 100);
-            listView1.Columns.Add("Person Name", 100);
-            listView1.Columns.Add("Address", 100);
-            listView1.Columns.Add("Contact No", 100);
-            listView1.Columns.Add("Mobile", 100);
-            listView1.Columns.Add("Email", 150);
-            listView1.Columns.Add("Remarks", 150);
+            dgvMain.RowCount = 1;
+            dgvMain.ColumnCount = 5;
+
+            dgvMain.Columns[0].Name = "S.No";
+            dgvMain.Columns[0].Width = SNoWidth;
+            dgvMain.Columns[0].DefaultCellStyle.Alignment = DataGridViewContentAlignment.BottomLeft;
+
+            dgvMain.Columns[1].Name = "Party ID";
+            dgvMain.Columns[1].Width = PartyIDWidth;
+
+            dgvMain.Columns[2].Name = "Party Name";
+            dgvMain.Columns[2].Width = PartyNameWidth;
+
+            dgvMain.Columns[3].Name = "Person Name";
+            dgvMain.Columns[3].Width = PersonNameWidth;
+
+            dgvMain.Columns[4].Name = "Address";
+            dgvMain.Columns[4].Width = AddressWidth;
 
 
-            listView1.FullRowSelect = true;
-            listView1.GridLines = true;
-            listView1.MultiSelect = false;
-            listView1.View = View.Details;
-
-            //listView1.StateImageList = _mediumImageList;
 
 
+
+
+            dgvMain.RowHeadersVisible = false;
+            dgvMain.AllowUserToDeleteRows = false;
+            dgvMain.AllowUserToAddRows = false;
+            dgvMain.AllowUserToResizeRows = false;
+            dgvMain.AllowUserToResizeColumns = true;
+            dgvMain.EditMode = DataGridViewEditMode.EditProgrammatically;
+            dgvMain.ScrollBars = ScrollBars.Both;
+            dgvMain.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
+
+            //GlobalFunction.SetGridStyle(dgvMain);
+           
+            GlobalFunction.AddActionButtonToGrid(dgvMain);
+            //
+            if (IsLookUpMode)
+            {
+                GlobalFunction.HideActionButtonFromGrid(dgvMain);                
+
+            }
+            
+
+            GlobalFunction.ApplyMasterGrid(dgvMain);
+            //
+
+
+            //}
         }
 
-
+        
         private void cmdNew_Click(object sender, EventArgs e)
         {
-            ClickAdd();
+            AddUpdateViewItem("", AddItem);
         }
-        private void ClickAdd()
-        {
-            //get new id for book
-            AddMode = true;
-            EditMode = false;
-            ClearControl();
-            ControlStatus(false);
-            txtPartyID.Text = GlobalFunction.GetUniqueCode("PartyMaster");
 
-        }
         private void ClearControl()
         {
 
-            txtPartyID.Text = "";
-            txtPartyName.Text = "";
-            txtPersonName.Text = "";
-            txtAddress.Text = "";
-            txtContactNo.Text = "";
-            txtMobile.Text = "";
-            txtEmail.Text = "";
-            txtRemarks.Text = "";
-            //dgvMain.RowCount = 0;
+            dgvMain.RowCount = 0;
         }
 
-        private void ControlStatus(bool status)
+        private void FillMainGrid()
         {
-            //buttons
-            cmdNew.Enabled = status;
-            cmdGoToList.Enabled = status;
-            cmdEdit.Enabled = status;
-
-
-            cmdSave.Enabled = !(status);
-            cmdCancel.Enabled = !(status);
-
-            //texxt box
-            txtPartyID.ReadOnly = true;
-
-            txtPartyName.ReadOnly = status;
-            txtPersonName.ReadOnly = status;
-            txtAddress.ReadOnly = status;
-            txtContactNo.ReadOnly = status;
-            txtMobile.ReadOnly = status;
-            txtEmail.ReadOnly = status;
-            txtRemarks.ReadOnly = status;
-
-        }
-
-        private void cmdSave_Click(object sender, EventArgs e)
-        {
-            Save();
-        }
-        private void Save()
-        {
-            bool result = false;
-            PartyMaster item = GetItem();
-
-
-            PartyMaster handler = new PartyMaster();
-            if (AddMode)
-            {
-                result = handler.AddNewPartyMaster(item);
-                if (result)
-                {
-                    result = GlobalFunction.UpdateUniqueCode("PartyMaster");
-                }
-            }
-            else if (EditMode)
-            {
-                result = handler.UpdatePartyMaster(item);
-            }
-
-            if (result == true)
-            {
-                if (AddMode)
-                {
-                    MessageBox.Show("New Record added successfully");
-                }
-                else
-                {
-                    MessageBox.Show("Record updated successfully");
-                }
-
-                ControlStatus(true);
-            }
-            else
-            {
-                MessageBox.Show("Errror Occurs!");
-            }
-        }
-
-        public void DisplayData(string itemID = "-1")
-        {
-
-
             try
             {
 
-
+                //
+                ClearControl();
                 //Master Data
-                PartyMaster objHandler = new PartyMaster();
-                PartyMaster obj = objHandler.GetPartyMasterDetails(itemID);
-                if (obj != null)
+                PartyMaster objMaster = new PartyMaster();
+
+                List<PartyMaster> list = objMaster.GetPartyMasterList();
+
+                if ((list != null))
                 {
-                    ClearControl();
-                    SetItem(obj);
-                    ControlStatus(true);
+                    if (list.Count > 0)
+                    {
+
+                        int i;
+
+                        foreach (PartyMaster obj in list)
+                        {
+                            i = dgvMain.RowCount;
+
+                            dgvMain.RowCount = i + 1;
+                            dgvMain.Rows[i].Cells[SNoIndex].Value = i + 1;
+
+                            dgvMain.Rows[i].Cells[PartyIDIndex].Value = obj.PartyID;
+                            dgvMain.Rows[i].Cells[PartyNameIndex].Value = obj.PartyName;
+                            dgvMain.Rows[i].Cells[PersonNameIndex].Value = obj.PersonName;
+                            dgvMain.Rows[i].Cells[AddressIndex].Value = obj.Address;
+
+                           
+
+    }
+
+                    }
                 }
-                else
-                {
-                    MessageBox.Show("No record exist");
-                }
+
+
 
             }
 
@@ -186,147 +187,147 @@ namespace ColdStorage
             {
                 MessageBox.Show(System.Reflection.MethodBase.GetCurrentMethod().Name + "\n" + ex.Message);
             }
-        }
 
-        private PartyMaster GetItem()
-        {
-            PartyMaster obj = new PartyMaster();
-            
-            obj.Remarks = txtRemarks.Text;
-            obj.PartyID = txtPartyID.Text;
-            obj.PartyName = txtPartyName.Text;
-            obj.PersonName = txtPersonName.Text;
-            obj.Address = txtAddress.Text;
-            obj.ContactNo = txtContactNo.Text;
-            obj.Mobile = txtMobile.Text;
-            obj.EamilAddress = txtEmail.Text;
-            obj.Remarks = txtRemarks.Text;
 
-            return obj;
-        }
-
-        private void SetItem(PartyMaster obj)
-        {
-            txtRemarks.Text = obj.Remarks;
-            txtPartyID.Text = obj.PartyID;
-            txtPartyName.Text = obj.PartyName;
-            txtPersonName.Text = obj.PersonName;
-            txtAddress.Text = obj.Address;
-            txtContactNo.Text = obj.ContactNo;
-            txtMobile.Text = obj.Mobile;
-            txtEmail.Text = obj.EamilAddress;
-            txtRemarks.Text = obj.Remarks;
         }
 
 
-        private void FillListView()
+        private void AddUpdateViewItem(string itemID, int action)
         {
-            List<PartyMaster> list = new List<PartyMaster>();
-            PartyMaster handler = new PartyMaster();
-            list = handler.GetPartyMasterList();
-            ListViewItem lvi = new ListViewItem();
+            //pnlMaster.BringToFront();
+            //ClickAdd();
 
-            if (list != null)
+            frmPartyDetails = new frmPartyDetails();
+
+            if (action == AddItem)
             {
-                if (list.Count > 0)
+                frmPartyDetails.AddMode = true;
+            }
+            else if (action == UpdateItem)
+            {
+                frmPartyDetails.EditMode = true;
+                frmPartyDetails.ItemId = itemID;
+            }
+
+            else if (action == ViewItem)
+            {
+                frmPartyDetails.ViewMode = true;
+                frmPartyDetails.ItemId = itemID;
+            }
+
+            DialogResult result;
+            result = frmPartyDetails.ShowDialog();
+            //if (result == DialogResult.OK)
+            //{
+            //    //retun party master ojnect
+            //    PartyMaster partyMaster = new PartyMaster();
+            //    obj = partyMaster.GetPartyMasterDetails(objLookup.PartyID);
+            //}
+            //else
+            //{
+            //    //retun null
+            //    obj = null;
+            //}
+            frmPartyDetails = null;
+
+            if (action == AddItem || action == UpdateItem)
+            {
+                FillMainGrid();
+            }
+
+
+        }
+
+
+
+        //private void cmdOK_Click(object sender, EventArgs e)
+        //{
+        //    if (IsLookUpMode)
+        //    {
+        //        foreach (ListViewItem item in listView1.SelectedItems)
+        //        {
+        //            _itemID = item.SubItems[0].Text;
+        //        }
+        //        this.DialogResult = DialogResult.OK;
+        //    }
+        //}
+
+
+        private void dgvMain_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            int rowIndex = e.RowIndex;
+            int colIndex = e.ColumnIndex;
+
+            string itemId = "";
+
+
+            if (rowIndex >= 0)
+            {
+
+                if (colIndex == EditColumIndex)
                 {
-                    foreach (PartyMaster obj in list)
-                    {
-                        lvi = new ListViewItem(obj.PartyID);
-                        lvi.SubItems.Add(obj.PartyName);
-                        lvi.SubItems.Add(obj.PersonName);
-                        lvi.SubItems.Add(obj.Address);
-                        lvi.SubItems.Add(obj.ContactNo);
-                        lvi.SubItems.Add(obj.Mobile); 
-                        lvi.SubItems.Add(obj.EamilAddress);                         
-                        lvi.SubItems.Add(obj.Remarks);
-                        listView1.Items.Add(lvi);
-                    }
-
+                    itemId = Convert.ToString(dgvMain.Rows[rowIndex].Cells[PartyIDIndex].Value);
+                    AddUpdateViewItem(itemId, UpdateItem);
                 }
-            }
-
-
-        }
-
-        private void cmdAddNewInList_Click(object sender, EventArgs e)
-        {
-            pnlMaster.BringToFront();
-            ClickAdd();
-        }
-
-        private void cmdGoToList_Click(object sender, EventArgs e)
-        {
-            pnlList.BringToFront();
-        }
-
-        private void cmdOK_Click(object sender, EventArgs e)
-        {
-            if (IsLookUpMode)
-            {
-                foreach (ListViewItem item in listView1.SelectedItems)
+                else if (colIndex == ViewColumIndex)
                 {
-                    _itemID = item.SubItems[0].Text;
+                    itemId = Convert.ToString(dgvMain.Rows[rowIndex].Cells[PartyIDIndex].Value);
+                    AddUpdateViewItem(itemId, ViewItem);
                 }
-                this.DialogResult = DialogResult.OK;
-            }
-        }
+                else if (colIndex == DeleteColumIndex)
+                {
+                    //delete operation
+                }
 
-        private void cmdCancelSelection_Click(object sender, EventArgs e)
-        {
-            if (IsLookUpMode)
-            {
-                this.DialogResult = DialogResult.Cancel;
             }
+
 
         }
 
-        private void cmdViewDetail_Click(object sender, EventArgs e)
+        private void cmdOKLookup_Click(object sender, EventArgs e)
         {
-            string itemID = "";
-            foreach (ListViewItem item in listView1.SelectedItems)
-            {
-                itemID = item.SubItems[0].Text;
-            }
-            if (itemID != "")
-            {
-                DisplayData(itemID);
-            }
-            pnlMaster.BringToFront();
+            ProcessLookUpOK();
+           
         }
 
-        private void cmdEdit_Click(object sender, EventArgs e)
+        private  void ProcessLookUpOK()
         {
-            AddMode = false;
-            EditMode = true;
-            ControlStatus(false);
-        }
+            PartyMasterSelected = new PartyMaster();
+            int selectedIndex = dgvMain.SelectedRows[0].Index;
 
-        private void cmdCancel_Click(object sender, EventArgs e)
-        {
-            Cancel();
-        }
+            if (selectedIndex != -1)
+            {
 
-        private void Cancel()
-        {
-            if (AddMode)
-            {
-                pnlList.BringToFront();
-            }
-            else if (EditMode)
-            {
-                DisplayData(txtPartyID.Text.Trim());
+                PartyMasterSelected.PartyID = Convert.ToString(dgvMain.Rows[selectedIndex].Cells[PartyIDIndex].Value);
+                PartyMasterSelected.PartyName = Convert.ToString(dgvMain.Rows[selectedIndex].Cells[PartyNameIndex].Value);
+                PartyMasterSelected.PersonName = Convert.ToString(dgvMain.Rows[selectedIndex].Cells[PersonNameIndex].Value);
+                PartyMasterSelected.Address = Convert.ToString(dgvMain.Rows[selectedIndex].Cells[AddressIndex].Value);
+
+
             }
             else
             {
-                AddMode = false;
-                EditMode = false;
-                ControlStatus(true);
+                PartyMasterSelected = null;
             }
+
+            this.DialogResult = DialogResult.OK;
 
         }
 
+        private void cmdCancelLookup_Click(object sender, EventArgs e)
+        {
+            this.DialogResult = DialogResult.Cancel;
+        }
 
         
+
+        private void dgvMain_CellContentDoubleClick(object sender, DataGridViewCellEventArgs e)
+        {
+            if (IsLookUpMode)
+            {
+                ProcessLookUpOK();
+            }
+        }
     }
+    
 }

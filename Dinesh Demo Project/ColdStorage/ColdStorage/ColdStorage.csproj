@@ -75,7 +75,6 @@
     <Compile Include="DAL\UnitMasterDAL.cs" />
     <Compile Include="Data\TransactionInDataSet.cs">
       <DependentUpon>TransactionInDataSet.xsd</DependentUpon>
-      <SubType>Component</SubType>
     </Compile>
     <Compile Include="Data\TransactionInDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -122,6 +121,18 @@
     </Compile>
     <Compile Include="frmItemMasterLookup.Designer.cs">
       <DependentUpon>frmItemMasterLookup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPartyMasterLookup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPartyMasterLookup.Designer.cs">
+      <DependentUpon>frmPartyMasterLookup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPartyDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPartyDetails.Designer.cs">
+      <DependentUpon>frmPartyDetails.cs</DependentUpon>
     </Compile>
     <Compile Include="frmPartyMaster.cs">
       <SubType>Form</SubType>
@@ -186,8 +197,14 @@
     <EmbeddedResource Include="frmItemMasterLookup.resx">
       <DependentUpon>frmItemMasterLookup.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmPartyDetails.resx">
+      <DependentUpon>frmPartyDetails.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmPartyMaster.resx">
       <DependentUpon>frmPartyMaster.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPartyMasterLookup.resx">
+      <DependentUpon>frmPartyMasterLookup.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmRateMasterDetails.resx">
       <DependentUpon>frmRateMasterDetails.cs</DependentUpon>

@@ -96,7 +96,7 @@ namespace ColdStorage
         private void cmdMenuItem_Click(object sender, EventArgs e)
         {
 
-            string selectedMenu = ((Button)sender).Text;
+            string selectedMenu = ((Button)sender).Name;
             ShowFormOnDeshBorad(selectedMenu);
 
 
@@ -114,7 +114,7 @@ namespace ColdStorage
                 {
 
 
-                    case "Item Master":
+                    case "cmdItemMaster":
                         frmItemMaster frmItemMaster = new frmItemMaster();
                         frmItemMaster.TopLevel = false;
                         this.pnlContainer.Controls.Add(frmItemMaster);
@@ -123,7 +123,7 @@ namespace ColdStorage
                         frmItemMaster.Show();
                         break;
 
-                    case "Party Master":
+                    case "cmdPartyMaster":
                         frmPartyMaster frmPartyMaster = new frmPartyMaster();
                         frmPartyMaster.TopLevel = false;
                         this.pnlContainer.Controls.Add(frmPartyMaster);
@@ -132,7 +132,7 @@ namespace ColdStorage
                         frmPartyMaster.Show();
                         break;
 
-                    case "Transaction In":
+                    case "cmdTransactionIn":
                         frmTransactionIn frmTransactionIn = new frmTransactionIn();
                         frmTransactionIn.TopLevel = false;
                         this.pnlContainer.Controls.Add(frmTransactionIn);

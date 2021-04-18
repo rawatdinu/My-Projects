@@ -176,7 +176,7 @@ namespace ColdStorage
 //            dgv.Dock = DockStyle.Fill;        
         
         }
-
+       
         public static void AddActionButtonToGrid(DataGridView dgv)
         {
             //Edit
@@ -220,6 +220,25 @@ namespace ColdStorage
             colDelete.Width = 40;
 
 
+        }
+
+        public static void HideActionButtonFromGrid(DataGridView dgv)
+        {
+            //Edit
+            dgv.Columns[0].Visible = false;
+            //View
+            dgv.Columns[1].Visible = false;
+            //Delete
+            dgv.Columns[2].Visible = false;
+           
+        }
+
+        public static void SetLookupFormStyle(Form objForm)
+        {
+            objForm.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            objForm.MaximizeBox = false;
+            objForm.MinimizeBox = false;
+            objForm.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
         }
 
         public static void AddCheckBoxToGrid(DataGridView dgv, CheckBox checkbox)
