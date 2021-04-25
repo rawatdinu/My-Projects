@@ -20,7 +20,7 @@ namespace ColdStorage
 
 
         ItemMaster bookMasterItem;
-        private string PartyID="";
+        
         private PartyMaster _partyMaster;
 
         //Constant
@@ -173,7 +173,7 @@ namespace ColdStorage
             TransactionInMaster obj = new TransactionInMaster();
             obj.TransactionID = txtTranID.Text;
             obj.TransactionDate = GlobalFunction.GetDateTimeWithoutMiliSecond(dtpTranInDate.Value);
-            obj.PartyID = PartyID;
+            obj.PartyID = _partyMaster.PartyID;
             obj.Amount = Convert.ToDecimal(txtAmount.Text);
             obj.Remarks = txtRemarks.Text;
             //book.Subject = txtSubject.Text;
@@ -407,12 +407,16 @@ namespace ColdStorage
 
         private void FillParty(PartyMaster obj)
         {
-            
+            string newLine = Environment.NewLine;
+
             if (obj!=null)
             {
                 txtPartyName.Text = obj.PartyName;
-                txtAddress.Text = obj.Address;
-                txtContactNo.Text = obj.ContactNo;
+                txtAddress.Text = obj.Address + newLine
+                    + "Phone: " + obj.ContactNo??"";
+                txtContactNo.Text = obj.PersonName + newLine
+                    + "Mobile" + obj.Mobile??""
+                    + "Email" + obj.EamilAddress ?? "";
             }
         }
 
@@ -478,7 +482,7 @@ namespace ColdStorage
             dtpTranInDate.Value = DateTime.Now;
             txtRemarks.Text = "";
             dgvMain.RowCount = 0;
-            PartyID = "";
+            
         }
 
         private void ControlStatus(bool status)
@@ -604,11 +608,11 @@ namespace ColdStorage
 
                     txtRemarks.Text = objMaster.Remarks;
 
-                    PartyID = objMaster.PartyID;
+                    
                     //Party details
                     PartyMaster objPartyMaster = new PartyMaster();
                     PartyMaster partyMaster = new PartyMaster();
-                    partyMaster = objPartyMaster.GetPartyMasterDetails(PartyID);
+                    partyMaster = objPartyMaster.GetPartyMasterDetails(objMaster.PartyID);
                     if (partyMaster != null)
                     {
                         txtPartyName.Text = partyMaster.PartyName;
